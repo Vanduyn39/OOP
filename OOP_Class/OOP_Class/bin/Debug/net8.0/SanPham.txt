@@ -1,0 +1,19 @@
+{
+  "SanPhams": [
+    {
+      "TenSP": "",
+      "GiaSP": 0,
+      "Mota": ""
+    },
+    {
+      "TenSP": "",
+      "GiaSP": 0,
+      "Mota": ""
+    },
+    {
+      "TenSP": "",
+      "GiaSP": 0,
+      "Mota": ""
+    }
+  ]
+}
