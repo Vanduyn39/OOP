@@ -92,10 +92,11 @@ namespace Class_OOP
             SanPhamList deserializedSanPhamList = JsonSerializer.Deserialize<SanPhamList>(json);
             //Thêm dữ liệu từ file vào mãng 
             //PlayerList playerList = ReadFile("Player.txt");
-            Player[] array = new Player[];
+            //Player[] array = new Player[];
             //string[] array = ReadDataFromFile("Player.txt");
             //Tạo 1 file mới 
             string filePathPlayer = "Player.txt";
+            PlayerList playerList = new PlayerList();
             WriteFile(filePathPlayer, playerList);
 
             //Thêm dữ liệu từ mãng vào file
