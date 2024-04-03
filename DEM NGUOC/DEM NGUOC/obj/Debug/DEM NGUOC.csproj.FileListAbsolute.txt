@@ -1,0 +1,29 @@
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe.config
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.pdb
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Properties.Resources.resources
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.GenerateResource.cache
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.exe
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.pdb
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\bin\Debug\Guna.UI2.dll
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.Up2Date
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Main_DN.resources
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.SanPham_DN.resources
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.ChucMung_DN.resources
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe.config
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.pdb
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\Guna.UI2.dll
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.ChucMung_DN.resources
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Main_DN.resources
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.SanPham_DN.resources
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Properties.Resources.resources
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CopyComplete
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.exe
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.pdb
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Thua.resources
