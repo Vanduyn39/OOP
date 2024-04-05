@@ -1,0 +1,12 @@
+{
+  "Players": [
+    {
+      "Ten": "nn",
+      "Vongchoidachoi": {
+        "TenVongChoi": "LuaChonThongMinh",
+        "TienThuong": 500
+      },
+      "TienThuong": 1400
+    }
+  ]
+}

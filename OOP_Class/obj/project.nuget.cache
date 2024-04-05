@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N+2TPsYo7M6q8pkwYTmt5PbgGj2Y1WPzRtPaDFq23K7I5DPKjC25KAfWLsi1UTvh9KwMwAeF4DSLTEXcEavDLg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dell\\Downloads\\OOP_Class\\OOP_Class.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dell\\.nuget\\packages\\audiosoundrecorder.trial\\11.0.0\\audiosoundrecorder.trial.11.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
