@@ -77,7 +77,9 @@ namespace OOP_Class
                     }
                     else
                          Console.WriteLine(" Sai rồi, mời bạn chọn lại!!!"); 
+                         break;
                 }
+                Console.ReadLine();
             }
         }
     }
