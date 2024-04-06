@@ -1,4 +1,2 @@
-Viết code vào các class vòng chơi có sẳn. 
-Thêm sản phẩm vòng chơi của mình vào Program.cs và không chỉnh gì thêm 
-(Chú ý: Kông chỉnh sửa các class còn lại, class chưa sử dụng được 
-nên không gọi phương thức ra mà hãy command phương thức vào chổ cần và chỉnh sau)
+T không up file lên được nên up file nén mn thông cảm
+ở trong hàm Play() của mỗi vòng chơi để gán tiền thưởng thì mọi người dùng ' this.TienThuong=...; '  bằng gì thì tùy mọi người thêm vào nha 
