@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OOP_CLASS_1
 {
-    public class SanPham : ISerializable
+    public class SanPham : ISerializabl, IComparable<SanPham>
     {
         public string TenSP { get; set; }
         public decimal GiaSP { get; set; }
@@ -30,6 +30,9 @@ namespace OOP_CLASS_1
         {
             return $"San Pham: Ten SP: {TenSP}, Gia SP: {GiaSP}, Mo ta: {Mota}, Anh: {Anh}";
         }
-
+        public int CompareTo(SanPham other)
+        {
+            return GiaSP.CompareTo(other.GiaSP);
+        }
     }
 }
