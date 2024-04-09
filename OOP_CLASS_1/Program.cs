@@ -60,6 +60,28 @@ namespace OOP_CLASS_1
                 sanPhamList.Add(new SanPham { TenSP = "Máy lọc không khí Samsung AX32BG3100GBSV 41W ", GiaSP = 4695, Mota = "Phạm vi lọc hiệu quả: Phòng 41m²\nLượng gió thổi ra: 320 m³/h\nCông suất: 41W\nĐộ ồn cao nhất: 51 dB\nBộ lọc bụi cho máy: Màng lọc thô-Màng lọc than hoạt tính-Màng lọc bụi siêu mịn" });
                 sanPhamList.Add(new SanPham { TenSP = "Máy giặt Panasonic 8.2 kg NA-F82Y01DRV", GiaSP = 5990, Mota = "Loại máy: Cửa trênLồng đứng\nKhối lượng giặt: 8.2 Kg\nChất liệu lồng giặt: Thép không gỉ\nKích thước - Khối lượng: Cao 95.2 cm - Ngang 55.4 cm - Sâu 58.2 cm - Nặng 34 kg" });
                 sanPhamList.Add(new SanPham { TenSP = "AirPods Pro", GiaSP = 6199, Mota = "AirPods Pro (thế hệ thứ 2) với Hộp Sạc MagSafe (USB-C)" });
+                            // Thêm các sản phẩm vào danh sách
+
+            // 1. Đồ điện tử
+            sanPhamList.Add(new SanPham { TenSP = "Tivi Samsung 43 inch", GiaSP = 1000, Mota = "Tivi Samsung 43 inch UHD 4K Smart TV UA43T5300AF" });
+            sanPhamList.Add(new SanPham { TenSP = "Điện thoại iPhone 14 Pro Max", GiaSP = 1010, Mota = "Điện thoại iPhone 14 Pro Max 128GB VN/A" });
+            sanPhamList.Add(new SanPham { TenSP = "Laptop Dell XPS 13", GiaSP = 1012, Mota = "Laptop Dell XPS 13 9310 i5-1135G7/16GB/512GB/FHD+ IPS" });
+            sanPhamList.Add(new SanPham { TenSP = "Máy giặt Samsung 8kg", GiaSP = 1032, Mota = "Máy giặt Samsung Inverter 8kg WW80T554DAW/SV" });
+            sanPhamList.Add(new SanPham { TenSP = "Tủ lạnh Panasonic 2 cánh", GiaSP = 3000, Mota = "Tủ lạnh Panasonic Inverter 2 cánh NR-BV320QGVN" });
+            sanPhamList.Add(new SanPham { TenSP = "Máy lọc nước Kangaroo", GiaSP = 3030, Mota = "Máy lọc nước Kangaroo KG10A3" });
+            sanPhamList.Add(new SanPham { TenSP = "Máy sấy tóc Philips", GiaSP = 4000, Mota = "Máy sấy tóc Philips BHD007/00" });
+            sanPhamList.Add(new SanPham { TenSP = "Bàn ủi hơi nước Tefal", GiaSP = 4060, Mota = "Bàn ủi hơi nước Tefal FV1710E0" });
+            sanPhamList.Add(new SanPham { TenSP = "Nồi cơm điện Sharp", GiaSP = 5000, Mota = "Nồi cơm điện Sharp KS-R181STV" });
+            sanPhamList.Add(new SanPham { TenSP = "Máy xay sinh tố BlueStone", GiaSP = 5070, Mota = "Máy xay sinh tố BlueStone BLB-5325W" });
+
+            // 2. Đồ gia dụng
+            sanPhamList.Add(new SanPham { TenSP = "Bộ chén dĩa Bát Tràng", GiaSP = 400, Mota = "Bộ chén dĩa Bát Tràng men lam 6 người" });
+            sanPhamList.Add(new SanPham { TenSP = "Bộ nồi inox Sunhouse", GiaSP = 600, Mota = "Bộ nồi inox Sunhouse SHD5364" });
+            sanPhamList.Add(new SanPham { TenSP = "Chảo chống dính Tefal", GiaSP = 450, Mota = "Chảo chống dính Tefal Daily Chef 24cm" });
+            sanPhamList.Add(new SanPham { TenSP = "Bình thủy tinh Lock&Lock", GiaSP = 500, Mota = "Bình thủy tinh Lock&Lock LHC4161BLK 1.8L" });
+            sanPhamList.Add(new SanPham { TenSP = "Bình giữ nhiệt Thermos", GiaSP = 550, Mota = "Bình giữ nhiệt Thermos FHH-1000 1L" });
+            sanPhamList.Add(new SanPham { TenSP = "Bộ dao thớt Zwilling", GiaSP = 650, Mota = "Bộ dao thớt Zwilling J.A. Henckels 4 món" });
+
                 string json = JsonSerializer.Serialize(sanPhamList, new JsonSerializerOptions { WriteIndented = true });
                 File.WriteAllText(filePathSanPham, json);
                 string jsonFromFile = File.ReadAllText(filePathSanPham);
