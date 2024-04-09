@@ -62,6 +62,15 @@ namespace OOP_CLASS_1
                 sanPhamList.Add(new SanPham { TenSP = "AirPods Pro", GiaSP = 6199, Mota = "AirPods Pro (thế hệ thứ 2) với Hộp Sạc MagSafe (USB-C)" });
                             // Thêm các sản phẩm vào danh sách
 
+            
+            sanPhamList.Add(new SanPham { TenSP = "Máy Lọc Nước Aqua", GiaSP = 5800, Mota = "Công nghệ lọc RO loạt bộ 99,9% tạp chất Tiết kiệm diện tích với thiết kế nhỏ gọn" });
+            sanPhamList.Add(new SanPham { TenSP = "Smart Tivi LG 4K 65 inch 65UQ8000PSC", GiaSP = 6500, Mota = "Tivi có kích thước màn hình 65 inch dùng đẹp cho phòng khách lớn, phòng họp, sảnh chờ vừa và nhỏ Chân đế tivi chất liệu nhựa lõi kim loại chắc chắn và bền tốt, nâng đỡ an toàn cho màn hình " });
+            sanPhamList.Add(new SanPham { TenSP = "MacBook Air 13 inch M2 2022 8CPU 8GPU 8GB/256GB", GiaSP = 7900, Mota = "MacBook Air M2 2022 còn chứa đựng nguồn sức mạnh lớn lao với chip M2 siêu mạnh, thời lượng pin chạm  ngưỡng 18 giờ, màn hình Liquid Retina tuyệt đẹp và hệ thống camera kết hợp cùng âm thanh tân tiến." });
+            sanPhamList.Add(new SanPham { TenSP = "Tủ lạnh Samsung side by side Inverter 616 lít RS64T5F01B4/SV", GiaSP = 9999, Mota = "Dung tích sử dụng 616 lít phù hợp với gia đình có 5 - 7 thành viên.\r\n\r\nỨng dụng công nghệ SpaceMax giúp mở rộng không gian lưu trữ.\r\n\r\nCó thể kết nối với Bluetooth, điều khiển bằng giọng nói." });
+            sanPhamList.Add(new SanPham { TenSP = "Điện thoại Apple iPhone 15 Pro Max 512GB VN/A", GiaSP = 8500, Mota = "Thiết kế sang trọng với 4 màu sắc,Cổng sạc USB-C 3 10Gbps, Hiển thị sắc nét, sống động,Bộ vi xử lý A17 Pro mạnh mẽ,Hệ thống camera sắc nét" });
+            sanPhamList.Add(new SanPham { TenSP = "Laptop ASUS ROG Strix G16 G614JU-N3135W", GiaSP = 7500, Mota = "Laptop Asus ROG Strix G16 mang đến một thiết kế cực kỳ ấn tượng, đậm chất Gaming cho các game thủ chính hiệu. Với hiệu năng cực đỉnh cùng cấu hình máy mạnh mẽ, giúp bạn có thể trải nghiệm chơi game ấn tượng. Màn hình laptop Asus Gaming này sắc nét cho từng chi tiết." });
+
+                
             // 1. Đồ điện tử
             sanPhamList.Add(new SanPham { TenSP = "Tivi Samsung 43 inch", GiaSP = 1000, Mota = "Tivi Samsung 43 inch UHD 4K Smart TV UA43T5300AF" });
             sanPhamList.Add(new SanPham { TenSP = "Điện thoại iPhone 14 Pro Max", GiaSP = 1010, Mota = "Điện thoại iPhone 14 Pro Max 128GB VN/A" });
