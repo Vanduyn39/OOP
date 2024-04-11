@@ -9,8 +9,10 @@ namespace OOP_CLASS_1
 {
     public class Vong_LuaChonThongMinh : VongChoi
     {
-        private SanPhamList SanPhamList;
-        private decimal bonusReward;
+        public SanPhamList SanPhamList;
+        public decimal bonusReward;
+        // Tạo phương thức GetSanPhamList để trả về giá trị của thuộc tính SanPhamList
+        
         public Vong_LuaChonThongMinh( SanPhamList sanPhamList) : base("LuaChonThongMinh")
         {
             SanPhamList = sanPhamList;
@@ -20,9 +22,6 @@ namespace OOP_CLASS_1
 
             // Lấy ra tất cả các bộ 3 sản phẩm có giá cách nhau ít nhất 50
             List<List<SanPham>> allValidTriplets = GetFilteredSanPhams(sortedSanPhams);
-
-            
-
             // Lấy ngẫu nhiên một bộ 3 sản phẩm từ tất cả các bộ 3 đã tìm được
             List<SanPham> randomTriplet = null;
             if (allValidTriplets.Count > 0)
@@ -46,9 +45,10 @@ namespace OOP_CLASS_1
             // Lưu danh sách sản phẩm đã lọc
             SanPhamList.SanPhams = randomTriplet;
 
-            // In ra danh sách sản phẩm đã lọc
-            //foreach (SanPham sp in randomTriplet)
+            //// In ra danh sách sản phẩm đã lọc
+            //for (int i = 0; i < SanPhamList.SanPhams.Count; i++)
             //{
+            //    SanPham sp = GetSanPham(i);
             //    Console.WriteLine(sp.ToString());
             //}
 
@@ -57,7 +57,7 @@ namespace OOP_CLASS_1
         }
 
         // Hàm swap để hoán đổi vị trí giữa hai phần tử trong một List
-        private void Swap<T>(List<T> list, int indexA, int indexB)
+        public void Swap<T>(List<T> list, int indexA, int indexB)
         {
             T temp = list[indexA];
             list[indexA] = list[indexB];
@@ -71,13 +71,13 @@ namespace OOP_CLASS_1
         //    list[index2] = temp;
         //}
         // Phương thức so sánh dựa trên thuộc tính GiaSP
-        private int CompareSanPhamByGiaSP(SanPham sp1, SanPham sp2)
+        public int CompareSanPhamByGiaSP(SanPham sp1, SanPham sp2)
         {
             return sp1.GiaSP.CompareTo(sp2.GiaSP);
         }
 
         // Modified method to find all valid triplets with price difference between 1 and 50
-        private List<List<SanPham>> GetFilteredSanPhams(List<SanPham> sortedSanPhams)
+        public List<List<SanPham>> GetFilteredSanPhams(List<SanPham> sortedSanPhams)
         {
             List<List<SanPham>> allValidTriplets = new List<List<SanPham>>();
 
@@ -133,7 +133,7 @@ namespace OOP_CLASS_1
         }
 
         // Phương thức giả lập lấy giá sản phẩm cao nhất
-        private decimal GetMaxPrice()
+        public decimal GetMaxPrice()
         {
             decimal maxPrice = 0;
             foreach (SanPham sp in SanPhamList.SanPhams)
@@ -145,5 +145,23 @@ namespace OOP_CLASS_1
             }
             return maxPrice;
         }
+        public SanPham GetSanPham(int index)
+        {
+            // Kiểm tra xem chỉ mục có nằm trong phạm vi hợp lệ không
+            if (index >= 0 && index < SanPhamList.SanPhams.Count)
+            {
+                // Nhận sản phẩm tại chỉ mục được chỉ định
+                SanPham product = SanPhamList.SanPhams[index];
+
+                // Trả lại sản phẩm
+                return product;
+            }
+            else
+            {
+                // Nếu chỉ mục không hợp lệ, hãy ném ArgumentOutOfRangeException
+                throw new ArgumentOutOfRangeException("index", "Invalid index provided.");
+            }
+        }
+
     }
 }
