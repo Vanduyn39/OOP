@@ -1,8 +1,9 @@
-﻿using OOP_CLASS_1;
+using OOP_CLASS_1;
 using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.ComponentModel;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace OOP_CLASS_1
@@ -10,20 +11,79 @@ namespace OOP_CLASS_1
     public class Vong_DemNguoc : VongChoi
     {
         private SanPhamList SanPhamList;
-        public Vong_DemNguoc(SanPhamList sanPhamList ) : base("Đếm Ngược")
+        private Random random = new Random();
+        private int[] giasai = new int[4];
+        private int j;
+        public Vong_DemNguoc(SanPhamList sanPhamList) : base("Đếm Ngược")
         {
             SanPhamList = sanPhamList;
+        }
+        private void HienGiaSai(int[] giasai)
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                giasai[i] = random.Next(1, 9);
+            }
+            Console.WriteLine($"Giá sai của sản phẩm: {giasai[0]} - {giasai[1]} - {giasai[2]} - {giasai[3]}");
+        }
+        private void DemNguocTime()
+        {
+            int i;
+            for (i = 60; i >= 0; i--)
+            {
+                Thread.Sleep(1000);
+                if (i == 0)
+                {
+                    Console.Write("Đã hết thời gian, Chúc bạn may mắn làn sau !!!");
+                    TienThuong = 0;
+                    return;
+                }
+            }
+        }
+        private bool Kiemtra(int[] giasai, int[] giatri)
+        {
+            AmThanh amThanh= new AmThanh();
+            Thread demnguoc = new Thread(DemNguocTime);
+            demnguoc.Start();
+            while (!demnguoc.Join(0))
+            {
+                string[] doangia = new string[4];
+                Console.Write("Hàng triệu: ");
+                doangia[0] = Console.ReadLine();
+                Console.Write("Hàng trăm nghìn: ");
+                doangia[1] = Console.ReadLine();
+                Console.Write("Hàng chục nghìn: ");
+                doangia[2] = Console.ReadLine();
+                Console.Write("Hàng nghìn: ");
+                doangia[3] = Console.ReadLine();
+                j = 0;
+                for (int i = 0; i < 4; i++)
+                {
+                    if ((giatri[i] >= giasai[i] && doangia[i].Equals(">", StringComparison.OrdinalIgnoreCase)) || (giatri[i] < giasai[i] && doangia[i].Equals("<", StringComparison.OrdinalIgnoreCase)))
+                    { j += 0; }
+                    else
+                    { j += 1; }
+                }
+                if (j != 0)
+                {
+                    Console.WriteLine(" Sai rồi, mời bạn chọn lại!!!");
+                    this.TienThuong = 0;
+                    amThanh.PlayIncorrectSound();
+                }
+                else
+                {
+                    Console.WriteLine(" Chúc mừng bạn đã vượt qua vòng Đếm Ngược!!!");
+                    return true;
+                    break;
+                }
+            }
+            return false;
         }
         public override void Play()
         {
             Console.OutputEncoding = Encoding.UTF8;
-            Random random = new Random();
-            int hangtrieu = random.Next(1, 9);
-            int hangtramnghin = random.Next(1, 9);
-            int hangchucnghin = random.Next(1, 9);
-            int hangnghin = random.Next(1, 9);
             List<SanPham> sanPhams = new List<SanPham>();
-            foreach (var sanPham in SanPhamList.SanPhams)
+            foreach (SanPham sanPham in SanPhamList.SanPhams)
             {
                 if (sanPham.GiaSP >= 1000 && sanPham.GiaSP <= 9999)
                 {
@@ -32,6 +92,7 @@ namespace OOP_CLASS_1
             }
             if (sanPhams.Count > 0)
             {
+                Console.WriteLine("Bạn hãy đoán giá của sản phẩm bằng cách lựa chọn lớn hơn hoặc nhỏ hơn (>/<)\n để so sánh từng đơn vị trong giá của sản phẩm lớn hơn hay nhỏ hơn giá sai mà chương trình đưa ra");
                 // Chọn một sản phẩm ngẫu nhiên từ danh sách sản phẩm thỏa mãn điều kiện
                 int index = random.Next(0, sanPhams.Count);
                 SanPham sanPhamNgauNhien = sanPhams[index];
@@ -40,47 +101,13 @@ namespace OOP_CLASS_1
                 int b = ((int)sanPhamNgauNhien.GiaSP - a * 1000) / 100;
                 int c = ((int)sanPhamNgauNhien.GiaSP - a * 1000 - b * 100) / 10;
                 int d = (int)sanPhamNgauNhien.GiaSP - a * 1000 - b * 100 - c * 10;
-                Console.WriteLine($"Giá sai của sản phẩm: {hangtrieu} - {hangtramnghin} - {hangchucnghin} - {hangnghin}");
-                Console.WriteLine("Bạn hãy đoán giá của sản phẩm bằng cách lựa chọn lớn hơn hoặc nhỏ hơn (>/<)\n để so sánh từng đơn vị trong giá của sản phẩm lớn hơn hay nhỏ hơn giá sai mà chương trình đưa ra");
-                int i = 0;
-                while (true)
+                int[] giatri = { a, b, c, d };
+                HienGiaSai(giasai);
+                if (Kiemtra(giasai, giatri))
                 {
-                    Console.Write("Hàng triệu: ");
-                    string ht = Console.ReadLine();
-                    Console.Write("Hàng trăm nghìn: ");
-                    string htn = Console.ReadLine();
-                    Console.Write("Hàng chục nghìn: ");
-                    string hcn = Console.ReadLine();
-                    Console.Write("Hàng nghìn: ");
-                    string hn = Console.ReadLine();
-                    if ((a > hangtrieu && ht.Equals(">", StringComparison.OrdinalIgnoreCase)) || (a < hangtrieu && ht.Equals("<", StringComparison.OrdinalIgnoreCase)))
-                    { i += 0; }
-                    else
-                    { i += 1; }
-                    if ((b > hangtramnghin && htn.Equals(">", StringComparison.OrdinalIgnoreCase)) || (b < hangtramnghin && htn.Equals("<", StringComparison.OrdinalIgnoreCase)))
-                    { i += 0; }
-                    else
-                    { i += 1; }
-                    if ((c > hangchucnghin && hcn.Equals(">", StringComparison.OrdinalIgnoreCase)) || (c <hangchucnghin && hcn.Equals("<", StringComparison.OrdinalIgnoreCase)))
-                    { i += 0; }
-                    else
-                    { i += 1; }
-                    if ((d > hangnghin && hn.Equals(">", StringComparison.OrdinalIgnoreCase)) || (d <hangnghin && hn.Equals("<", StringComparison.OrdinalIgnoreCase)))
-                    { i += 0; }
-                    else
-                    { i += 1; }
-                    if (i == 0)
-                    {
-                        Console.WriteLine("Chúc mừng bạn đã vượt qua vòng Đếm Ngược!!!");
-                       this.TienThuong=(int)sanPhamNgauNhien.GiaSP;
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine(" Sai rồi, mời bạn chọn lại!!!");
-                        this.TienThuong = 0;
-                    }
+                    this.TienThuong = (int)sanPhamNgauNhien.GiaSP;
                 }
+                else { this.TienThuong = 0; }
             }
         }
     }
