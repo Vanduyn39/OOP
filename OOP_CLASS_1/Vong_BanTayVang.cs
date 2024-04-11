@@ -35,13 +35,14 @@ namespace OOP_CLASS_1
                 Console.WriteLine($"Có {numberOfProducts} sản phẩm được trưng bày cho bạn.");
 
                 // Random giá cho sản phẩm
-                decimal hiddenPrice = Math.Round(random.Next(1000000, 90000000) * 1m / 1000000) * 1000000;
+                decimal hiddenPrice = Math.Round(random.Next(100, 9000) * 1m / 100) * 100;
 
                 if (hiddenPrice != guessedPrice)
                 {
                     Console.WriteLine($"Sản phẩm: {sanPham.TenSP}");
                     Console.WriteLine($"Mô tả: {sanPham.Mota}");
                     Console.WriteLine($"Giá đưa ra: {hiddenPrice}");
+                        displayedProducts++;
 
                     Console.Write("Đoán giá cao hơn (h) hay thấp hơn (l) giá đưa ra: ");
                     string guess = Console.ReadLine();
