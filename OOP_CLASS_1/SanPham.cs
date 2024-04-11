@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OOP_CLASS_1
 {
-    public class SanPham : ISerializabl, IComparable<SanPham>
+    public class SanPham : ISerializable, IComparable<SanPham>
     {
         public string TenSP { get; set; }
         public decimal GiaSP { get; set; }

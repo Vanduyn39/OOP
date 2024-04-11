@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vòng 3", "Vòng 3\Vòng 3.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vòng 4", "Vòng 4\Vòng 4.csproj", "{8DA7AAD0-C7A1-4143-95C0-5F4198572769}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_CLASS_1", "OOP_CLASS_1\OOP_CLASS_1.csproj", "{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "giaodienhaychongiadung", "design\giaodienhaychongiadung\giaodienhaychongiadung.csproj", "{67FD1220-E2E2-41BB-B698-A3FF465148DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{8DA7AAD0-C7A1-4143-95C0-5F4198572769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DA7AAD0-C7A1-4143-95C0-5F4198572769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DA7AAD0-C7A1-4143-95C0-5F4198572769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FD1220-E2E2-41BB-B698-A3FF465148DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FD1220-E2E2-41BB-B698-A3FF465148DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FD1220-E2E2-41BB-B698-A3FF465148DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FD1220-E2E2-41BB-B698-A3FF465148DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
