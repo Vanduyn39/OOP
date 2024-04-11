@@ -36,6 +36,8 @@ namespace OOP_CLASS_1
                 if (player.TienThuong == 0)
                 {
                     Console.WriteLine("Bạn đã thua ở vòng này. Kết thúc chương trình!");
+                    playerList.Add(player);
+                    Console.WriteLine(player);
                     return; // Dừng chương trình nếu người chơi thua ở vòng này
                 }
                 Console.Clear();    
