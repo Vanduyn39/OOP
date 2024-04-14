@@ -1,1 +1,1 @@
-Ở trong hàm Play() của mỗi vòng chơi để gán tiền thưởng thì mọi người dùng ' this.TienThuong=...; '  bằng gì thì tùy mọi người thêm vào nha 
+DemNguoc: SanPham_DN - Main_DN - ChucMung_DN - Thua_DN
