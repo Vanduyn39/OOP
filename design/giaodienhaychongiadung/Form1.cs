@@ -61,7 +61,7 @@ namespace giaodienhaychongiadung
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Vòng_2.Form1 newf1 = new Vòng_2.Form1();
+            Vòng_2.GuessThePrice newf1 = new Vòng_2.Form1();
             newf1.Show();
         }
     }

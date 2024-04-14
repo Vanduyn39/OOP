@@ -100,8 +100,7 @@ namespace OOP_CLASS_1
                 WriteFile(filePathPlayer, playerList);
 
                 DieuKhien dieuKhien = new DieuKhien(filePathPlayer);
-                dieuKhien.AddVongChoi(new Vong_DemNguoc( sanPhamList));
-                dieuKhien.AddVongChoi(new Vong_KhongMaCo(sanPhamList));
+                
                 dieuKhien.AddVongChoi(new Vong_BanTayVang( sanPhamList));
                 dieuKhien.AddVongChoi(new Vong_LuaChonThongMinh( sanPhamList));
                 PlayerList FileRead = ReadFile(filePathPlayer);

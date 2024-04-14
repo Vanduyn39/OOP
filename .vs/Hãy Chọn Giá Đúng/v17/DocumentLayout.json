@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\OOP_15\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67FD1220-E2E2-41BB-B698-A3FF465148DD}|design\\giaodienhaychongiadung\\giaodienhaychongiadung.csproj|d:\\oop_15\\design\\giaodienhaychongiadung\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{67FD1220-E2E2-41BB-B698-A3FF465148DD}|design\\giaodienhaychongiadung\\giaodienhaychongiadung.csproj|solutionrelative:design\\giaodienhaychongiadung\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EA44B66B-2B52-47D4-82ED-3C9737D781CC}|V\u00F2ng 2\\V\u00F2ng 2.csproj|d:\\oop_15\\v\u00F2ng 2\\guesstheprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA44B66B-2B52-47D4-82ED-3C9737D781CC}|V\u00F2ng 2\\V\u00F2ng 2.csproj|solutionrelative:v\u00F2ng 2\\guesstheprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA44B66B-2B52-47D4-82ED-3C9737D781CC}|V\u00F2ng 2\\V\u00F2ng 2.csproj|d:\\oop_15\\v\u00F2ng 2\\guesstheprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EA44B66B-2B52-47D4-82ED-3C9737D781CC}|V\u00F2ng 2\\V\u00F2ng 2.csproj|solutionrelative:v\u00F2ng 2\\guesstheprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\OOP_15\\design\\giaodienhaychongiadung\\Form1.cs",
-              "RelativeDocumentMoniker": "design\\giaodienhaychongiadung\\Form1.cs",
-              "ToolTip": "D:\\OOP_15\\design\\giaodienhaychongiadung\\Form1.cs [Design]",
-              "RelativeToolTip": "design\\giaodienhaychongiadung\\Form1.cs [Design]",
+              "Title": "GuessThePrice.cs",
+              "DocumentMoniker": "D:\\OOP_15\\V\u00F2ng 2\\GuessThePrice.cs",
+              "RelativeDocumentMoniker": "V\u00F2ng 2\\GuessThePrice.cs",
+              "ToolTip": "D:\\OOP_15\\V\u00F2ng 2\\GuessThePrice.cs",
+              "RelativeToolTip": "V\u00F2ng 2\\GuessThePrice.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwEAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T17:10:40.002Z",
+              "WhenOpened": "2024-04-14T05:38:52.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GuessThePrice.cs [Design]",
+              "DocumentMoniker": "D:\\OOP_15\\V\u00F2ng 2\\GuessThePrice.cs",
+              "RelativeDocumentMoniker": "V\u00F2ng 2\\GuessThePrice.cs",
+              "ToolTip": "D:\\OOP_15\\V\u00F2ng 2\\GuessThePrice.cs [Design]",
+              "RelativeToolTip": "V\u00F2ng 2\\GuessThePrice.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T05:38:50.174Z",
               "EditorCaption": " [Design]"
             }
           ]

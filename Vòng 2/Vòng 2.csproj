@@ -47,17 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EndGame.cs">
+    <Compile Include="GuessThePrice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EndGame.Designer.cs">
-      <DependentUpon>EndGame.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="GuessThePrice.Designer.cs">
+      <DependentUpon>GuessThePrice.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,11 +61,8 @@
     <Compile Include="PunchABunch.Designer.cs">
       <DependentUpon>PunchABunch.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="EndGame.resx">
-      <DependentUpon>EndGame.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="GuessThePrice.resx">
+      <DependentUpon>GuessThePrice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -109,10 +100,6 @@
     <ProjectReference Include="..\OOP_CLASS_1\OOP_CLASS_1.csproj">
       <Project>{17c3e6b4-9a19-40d2-a5e2-f1866d24c17a}</Project>
       <Name>OOP_CLASS_1</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Trang Chủ\Trang Chủ.csproj">
-      <Project>{b174b70a-c8b9-42f2-a870-edfdb35ecdda}</Project>
-      <Name>Trang Chủ</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

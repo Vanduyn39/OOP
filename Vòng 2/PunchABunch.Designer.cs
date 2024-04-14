@@ -139,9 +139,8 @@
             this.pnl_PAB.Controls.Add(this.button1);
             this.pnl_PAB.Location = new System.Drawing.Point(214, 82);
             this.pnl_PAB.Name = "pnl_PAB";
-            this.pnl_PAB.Size = new System.Drawing.Size(373, 287);
+            this.pnl_PAB.Size = new System.Drawing.Size(380, 287);
             this.pnl_PAB.TabIndex = 3;
-            this.pnl_PAB.Visible = false;
             // 
             // button51
             // 
