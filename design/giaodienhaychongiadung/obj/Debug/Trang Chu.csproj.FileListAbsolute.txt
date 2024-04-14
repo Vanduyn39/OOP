@@ -1,0 +1,40 @@
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\Trang Chu.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\Trang Chu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\giaodienhaychongiadung.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\giaodienhaychongiadung.Form1.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\giaodienhaychongiadung.menu.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\giaodienhaychongiadung.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\giaodienhaychongiadung.SETTING.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\Trang Chu.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\Trang Chu.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\giaodienhaychongiadung.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\giaodienhaychongiadung.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\giaodienhaychongiadung.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\giaodienhaychongiadung.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\giaodienhaychongiadung.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\DEM NGUOC.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\DEM NGUOC.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\DEM NGUOC.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Memory.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\Trang Chu.csproj.CopyComplete

@@ -18,7 +18,7 @@ namespace OOP_CLASS_1
         {
             SanPhamList = sanPhamList;
         }
-        private void HienGiaSai(int[] giasai)
+        public void HienGiaSai(int[] giasai)
         {
             for (int i = 0; i < 4; i++)
             {

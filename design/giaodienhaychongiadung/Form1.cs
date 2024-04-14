@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Vòng_2;
 
 namespace giaodienhaychongiadung
 {
@@ -61,8 +60,8 @@ namespace giaodienhaychongiadung
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Vòng_2.GuessThePrice newf1 = new Vòng_2.Form1();
-            newf1.Show();
+            //Vòng_2.GuessThePrice newf1 = new Vòng_2.Form1();
+            //newf1.Show();
         }
     }
 }

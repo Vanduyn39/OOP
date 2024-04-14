@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Người chơi phải lựa chọn 1 sản phẩm có giá cao nhất trong số 3 sản phẩm đã được đưa ra bằng cách nhấn chọn dưới sản phẩm tương ứng. Nếu lựa chọn đúng thì người chơi được nhận cả 3 sản phẩm đó, ngược lại không được nhận bất kỳ sản phẩm nào.Người chơi có thể xem mô tả sản phẩm bằng cách nhấn vào số thứ tự tương ứng với sản phẩm đó.</value>
+  </data>
 </root>

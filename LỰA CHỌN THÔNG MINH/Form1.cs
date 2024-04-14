@@ -6,101 +6,154 @@ namespace Vòng_4
 {
     public partial class Form1 : Form
     {
-        private Vong_LuaChonThongMinh vongChoi;
+        private Vong_LuaChonThongMinh LuaChonThongMinh;
         private SanPhamList sanPhamList;
+        private bool daChon;
+        private bool[] btnClicked = new bool[3]; // Theo dõi số lần nhấp vào nút
 
         public Form1(SanPhamList sanPhamList)
         {
             InitializeComponent();
             this.sanPhamList = sanPhamList;
-            vongChoi = new Vong_LuaChonThongMinh(sanPhamList);
+            this.LuaChonThongMinh = new Vong_LuaChonThongMinh(sanPhamList);
+            this.daChon = false;
+            HienTenSP();
+            // Vô hiệu hóa các nút lựa chọn ban đầu
+            btn_S1.Enabled = false;
+            btn_S2.Enabled = false;
+            btn_S3.Enabled = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // In ra danh sách sản phẩm đã lọc
-            for (int i = 0; i < sanPhamList.SanPhams.Count; i++)
+        }
+
+        // Hiển thị mô tả sản phẩm khi nhấp vào nút
+        private void HienMoTaSP(int index)
+        {
+            if (index >= 0 && index < sanPhamList.SanPhams.Count)
             {
-                SanPham sp = vongChoi.GetSanPham(i);
-                Console.WriteLine(sp.ToString());
-                if (i == 0)
-                    label1.Text = sp.TenSP;
-                else if (i == 1)
-                    label2.Text = sp.TenSP;
-                else if (i == 2)
-                    label3.Text = sp.TenSP;
-                if (i >= 2) break; 
+                SanPham sanPhamChon = sanPhamList.SanPhams[index];
+                MessageBox.Show(sanPhamChon.Mota, "Mô tả sản phẩm");
             }
         }
 
-        private void label_Click(object sender, EventArgs e)
+        // Chọn sản phẩm có giá cao nhất
+        private void ChonSPGiaCao(int index)
         {
-            Label clickedLabel = sender as Label;
-
-            if (clickedLabel != null && clickedLabel.Text != null)
+            if (index >= 0 && index < sanPhamList.SanPhams.Count)
             {
-                string productName = clickedLabel.Text;
-                SanPham selectedProduct = null;
+                SanPham sanPhamChon = sanPhamList.SanPhams[index];
+
+                decimal maxPrice = decimal.MinValue; // Khởi tạo maxPrice với giá trị nhỏ nhất
+
+                // Lặp lại danh sách sản phẩm để tìm giá cao nhất
                 foreach (SanPham sp in sanPhamList.SanPhams)
                 {
-                    if (sp.TenSP == productName)
+                    if (sp.GiaSP > maxPrice)
                     {
-                        selectedProduct = sp;
-                        break;
+                        maxPrice = sp.GiaSP;
                     }
                 }
-                if (selectedProduct != null)
+
+                if (sanPhamChon.GiaSP == maxPrice)
                 {
-                    MessageBox.Show(selectedProduct.Mota, "Mô tả sản phẩm");
+                    // Chúc mừng người dùng đã chọn được sản phẩm có giá cao nhất
+                    MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP);
+                    MessageBox.Show("Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + LuaChonThongMinh.bonusReward);
+                    //LuaChonThongMinh.TienThuong += (int)LuaChonThongMinh.bonusReward;
+                    //MessageBox.Show("Tiền thưởng: " + LuaChonThongMinh.TienThuong);
                 }
-            }
-        }
-
-        private void btn_S1_Click(object sender, EventArgs e)
-        {
-            HandleButtonClick(label1);
-        }
-
-        private void btn_S2_Click(object sender, EventArgs e)
-        {
-            HandleButtonClick(label2);
-        }
-
-        private void btn_S3_Click(object sender, EventArgs e)
-        {
-            HandleButtonClick(label3);
-        }
-
-        private void HandleButtonClick(Label label)
-        {
-            SanPham selectedProduct = null;
-            foreach (SanPham sp in sanPhamList.SanPhams)
-            {
-                if (sp.TenSP == label.Text)
+                else
                 {
-                    selectedProduct = sp;
-                    break;
-                }
-            }
-
-            if (selectedProduct != null && selectedProduct.GiaSP == vongChoi.GetMaxPrice())
-            {
-                MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + selectedProduct.TenSP);
-                MessageBox.Show("Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + vongChoi.bonusReward);
-            }
-            else
-            {
-                SanPham maxPriceSanPham = null;
-                foreach (SanPham sp in sanPhamList.SanPhams)
-                {
-                    if (sp.GiaSP == vongChoi.GetMaxPrice())
+                    // Thông báo cho người dùng lựa chọn sai và kết thúc chương trình nếu tất cả các lựa chọn đều sai
+                    SanPham GiaSPCaoNhat = null;
+                    foreach (SanPham sp in sanPhamList.SanPhams)
                     {
-                        maxPriceSanPham = sp;
-                        break;
+                        if (sp.GiaSP == maxPrice)
+                        {
+                            GiaSPCaoNhat = sp;
+                            break;
+                        }
+                    }
+                    MessageBox.Show("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + GiaSPCaoNhat.TenSP);
+                    daChon = true;
+                    if (daChon)
+                    {
+                        MessageBox.Show("Bạn đã chọn sai, chương trình kết thúc!");
+                        Application.Exit();
                     }
                 }
-                MessageBox.Show("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + maxPriceSanPham.TenSP);
+
+                HienTenSP();
             }
+        }
+
+        // Hiển thị tên sản phẩm
+        private void HienTenSP()
+        {
+            label1.Text = LuaChonThongMinh.SanPhamList.SanPhams[0].TenSP;
+            label2.Text = LuaChonThongMinh.SanPhamList.SanPhams[1].TenSP;
+            label3.Text = LuaChonThongMinh.SanPhamList.SanPhams[2].TenSP;
+        }
+
+        // Trình xử lý sự kiện cho nút 1 lần nhấp
+        private void btn_1_Click(object sender, EventArgs e)
+        {
+            HienMoTaSP(0);
+            btnClicked[0] = true;
+            KiemTraMoTa();
+        }
+
+        // Trình xử lý sự kiện cho nút bấm 2 lần
+        private void btn_2_Click(object sender, EventArgs e)
+        {
+            HienMoTaSP(1);
+            btnClicked[1] = true;
+            KiemTraMoTa();
+        }
+
+        // Trình xử lý sự kiện cho nút bấm 3
+        private void btn_3_Click(object sender, EventArgs e)
+        {
+            HienMoTaSP(2);
+            btnClicked[2] = true;
+            KiemTraMoTa();
+        }
+
+        // Bật các nút chọn khi nhấp vào tất cả các nút sản phẩm
+        private void KiemTraMoTa()
+        {
+            if (btnClicked[0] && btnClicked[1] && btnClicked[2])
+            {
+                btn_S1.Enabled = true;
+                btn_S2.Enabled = true;
+                btn_S3.Enabled = true;
+            }
+        }
+
+        // Ẩn bảng hướng dẫn khi nhấp vào nút tiếp tục
+        private void btn_tieptuc_Click(object sender, EventArgs e)
+        {
+            pnl_huongdan.Visible = false;
+        }
+
+        // Trình xử lý sự kiện cho nút chọn 1 cú nhấp chuột
+        private void btn_S1_Click_1(object sender, EventArgs e)
+        {
+            ChonSPGiaCao(0);
+        }
+
+        // Trình xử lý sự kiện cho nút chọn 2 lần nhấp
+        private void btn_S2_Click_1(object sender, EventArgs e)
+        {
+            ChonSPGiaCao(1);
+        }
+
+        // Trình xử lý sự kiện cho nút chọn 3 lần nhấp
+        private void btn_S3_Click_1(object sender, EventArgs e)
+        {
+            ChonSPGiaCao(2);
         }
     }
 }

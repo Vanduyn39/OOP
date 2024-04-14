@@ -90,3 +90,29 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.pdb
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\Vòng 4.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\Vòng 4.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\Vòng 4.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng_4.Form1.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng_4.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.pdb

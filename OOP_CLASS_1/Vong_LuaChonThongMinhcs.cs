@@ -11,10 +11,13 @@ namespace OOP_CLASS_1
     {
         public SanPhamList SanPhamList;
         public decimal bonusReward;
+        //private List<SanPham> lichSuSanPham; // Lịch sử sản phẩm đã chọn
         // Tạo phương thức GetSanPhamList để trả về giá trị của thuộc tính SanPhamList
-        
-        public Vong_LuaChonThongMinh( SanPhamList sanPhamList) : base("LuaChonThongMinh")
+
+        public Vong_LuaChonThongMinh(SanPhamList sanPhamList) : base("LuaChonThongMinh")
         {
+            //// Khởi tạo lịch sử sản phẩm
+            //lichSuSanPham = new List<SanPham>();
             SanPhamList = sanPhamList;
             // Sắp xếp các sản phẩm theo giá
             List<SanPham> sortedSanPhams = new List<SanPham>(SanPhamList.SanPhams); // Sao chép danh sách sản phẩm
@@ -76,7 +79,7 @@ namespace OOP_CLASS_1
             return sp1.GiaSP.CompareTo(sp2.GiaSP);
         }
 
-        // Modified method to find all valid triplets with price difference between 1 and 50
+        // Phương pháp được sửa đổi để tìm tất cả các bộ ba hợp lệ có chênh lệch giá từ 1 đến 50
         public List<List<SanPham>> GetFilteredSanPhams(List<SanPham> sortedSanPhams)
         {
             List<List<SanPham>> allValidTriplets = new List<List<SanPham>>();
@@ -110,9 +113,24 @@ namespace OOP_CLASS_1
                 Console.WriteLine(i + ". " + sp.TenSP + " - " + sp.Mota);
                 i++;
             }
+            //// Lựa chọn sản phẩm
+            //SanPham sanPhamChon;
+            //do
+            //{
+            //    Console.WriteLine("Lựa chọn sản phẩm có giá cao nhất:");
+            //    int sanPhamChonNumber = int.Parse(Console.ReadLine());
+            //    sanPhamChon = SanPhamList.SanPhams[sanPhamChonNumber - 1];
+            //} while (LichSuSanPham(sanPhamChon)); // Kiểm tra xem sản phẩm đã chọn có trong lịch sử không
 
+            //// Thêm sản phẩm mới vào lịch sử
+            //lichSuSanPham.Add(sanPhamChon);
             Console.WriteLine("Lựa chọn sản phẩm có giá cao nhất:");
             int sanPhamChonNumber = int.Parse(Console.ReadLine());
+            while (sanPhamChonNumber < 1 || sanPhamChonNumber > 3)
+            {
+                Console.WriteLine("Lựa chọn không hợp lệ. Vui lòng nhập lại số từ 1 đến 3:");
+                sanPhamChonNumber = int.Parse(Console.ReadLine());
+            }
             SanPham sanPhamChon = SanPhamList.SanPhams[sanPhamChonNumber - 1];
             decimal maxPrice = GetMaxPrice();
 
@@ -131,7 +149,11 @@ namespace OOP_CLASS_1
                 Console.WriteLine("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + maxPriceSanPham.TenSP);
             }
         }
-
+        // Phương thức kiểm tra xem một sản phẩm có trong lịch sử hay không
+        //private bool LichSuSanPham(SanPham sanPham)
+        //{
+        //    return lichSuSanPham.Any(sp => sp.Equals(sanPham));
+        //}
         // Phương thức giả lập lấy giá sản phẩm cao nhất
         public decimal GetMaxPrice()
         {
@@ -145,23 +167,23 @@ namespace OOP_CLASS_1
             }
             return maxPrice;
         }
-        public SanPham GetSanPham(int index)
-        {
-            // Kiểm tra xem chỉ mục có nằm trong phạm vi hợp lệ không
-            if (index >= 0 && index < SanPhamList.SanPhams.Count)
-            {
-                // Nhận sản phẩm tại chỉ mục được chỉ định
-                SanPham product = SanPhamList.SanPhams[index];
+        //public SanPham GetSanPham(int index)
+        //{
+        //    // Kiểm tra xem chỉ mục có nằm trong phạm vi hợp lệ không
+        //    if (index >= 0 && index < SanPhamList.SanPhams.Count)
+        //    {
+        //        // Nhận sản phẩm tại chỉ mục được chỉ định
+        //        SanPham product = SanPhamList.SanPhams[index];
 
-                // Trả lại sản phẩm
-                return product;
-            }
-            else
-            {
-                // Nếu chỉ mục không hợp lệ, hãy ném ArgumentOutOfRangeException
-                throw new ArgumentOutOfRangeException("index", "Invalid index provided.");
-            }
-        }
+        //        // Trả lại sản phẩm
+        //        return product;
+        //    }
+        //    else
+        //    {
+        //        // Nếu chỉ mục không hợp lệ, hãy ném ArgumentOutOfRangeException
+        //        throw new ArgumentOutOfRangeException("index", "Invalid index provided.");
+        //    }
+        //}
 
     }
 }
