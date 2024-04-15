@@ -44,10 +44,10 @@
             this.guna2Panel1.Controls.Add(this.btn_thoat);
             this.guna2Panel1.Controls.Add(this.label2);
             this.guna2Panel1.Controls.Add(this.label1);
-            this.guna2Panel1.Location = new System.Drawing.Point(78, 53);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel1.Location = new System.Drawing.Point(104, 65);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(344, 207);
+            this.guna2Panel1.Size = new System.Drawing.Size(459, 255);
             this.guna2Panel1.TabIndex = 2;
             // 
             // btn_thoat
@@ -62,9 +62,10 @@
             this.btn_thoat.FillColor = System.Drawing.Color.Silver;
             this.btn_thoat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_thoat.ForeColor = System.Drawing.Color.Black;
-            this.btn_thoat.Location = new System.Drawing.Point(234, 167);
+            this.btn_thoat.Location = new System.Drawing.Point(312, 206);
+            this.btn_thoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_thoat.Name = "btn_thoat";
-            this.btn_thoat.Size = new System.Drawing.Size(98, 29);
+            this.btn_thoat.Size = new System.Drawing.Size(131, 36);
             this.btn_thoat.TabIndex = 3;
             this.btn_thoat.Text = "Thoát";
             this.btn_thoat.Click += new System.EventHandler(this.btn_thoat_Click);
@@ -74,10 +75,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Brown;
-            this.label2.Location = new System.Drawing.Point(82, 46);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(109, 57);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 22);
+            this.label2.Size = new System.Drawing.Size(241, 26);
             this.label2.TabIndex = 1;
             this.label2.Text = "VÒNG ĐẾM NGƯỢC";
             // 
@@ -86,24 +86,25 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(62, 15);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(83, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(234, 22);
+            this.label1.Size = new System.Drawing.Size(295, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "BẠN KHÔNG VƯỢT QUA";
             // 
             // Thua
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DEM_NGUOC.Properties.Resources._432348082_380713308086124_1446086889351010626_n;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(500, 312);
+            this.ClientSize = new System.Drawing.Size(667, 384);
             this.Controls.Add(this.guna2Panel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Thua";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thua";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();

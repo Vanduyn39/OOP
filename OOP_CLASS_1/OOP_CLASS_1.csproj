@@ -74,7 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AmThanh.cs" />
-    <Compile Include="DieuKhiencs.cs" />
+    <Compile Include="DieuKhien.cs" />
     <Compile Include="IVongChoi.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerList.cs" />
@@ -86,11 +86,16 @@
     <Compile Include="Vong_BanTayVang.cs" />
     <Compile Include="Vong_DemNguoc.cs" />
     <Compile Include="Vong_KhongMaCo.cs" />
-    <Compile Include="Vong_LuaChonThongMinhcs.cs" />
+    <Compile Include="Vong_LuaChonThongMinh.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\Am-thanh-chuc-mung-chien-thang-www_tiengdong_com.wav" />
+    <Content Include="Properties\trlsai.wav.wav" />
+    <Content Include="Properties\WinterFluteVersion-VA_4b4y5.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

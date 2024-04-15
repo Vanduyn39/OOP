@@ -16,9 +16,9 @@ namespace OOP_CLASS_1
 
         public AmThanh()
         {
-            AmThanhGame = new SoundPlayer("\\NewFolder1\\WinterFluteVersion-VA_4b4y5.mp3");
-            Nhac_trldung = new SoundPlayer("\\NewFolder1\\Am-thanh-chuc-mung-chien-thang-www_tiengdong_com");
-            Nhac_trlsai = new SoundPlayer("\\NewFolder1\\trlsai.wav.wav");
+            AmThanhGame = new SoundPlayer("C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\Properties\\WinterFluteVersion-VA_4b4y5.wav");
+            Nhac_trldung = new SoundPlayer("C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\Properties\\Am-thanh-chuc-mung-chien-thang-www_tiengdong_com.wav");
+            Nhac_trlsai = new SoundPlayer("C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\Properties\\trlsai.wav.wav");
         }
 
         public void PlayCorrectSound()

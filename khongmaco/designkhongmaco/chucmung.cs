@@ -15,9 +15,6 @@ namespace designkhongmaco
         public chucmung()
         {
             InitializeComponent();
-            // Không cho phép nhập liệu vào các TextBox
-            soluongthang.ReadOnly = true;
-            tienthuong.ReadOnly = true;
         }
 
         private void label2_Click(object sender, EventArgs e)

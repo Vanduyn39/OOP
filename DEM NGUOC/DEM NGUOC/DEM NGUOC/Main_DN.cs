@@ -29,25 +29,13 @@ namespace DEM_NGUOC
         private void btn_chơi_Click(object sender, EventArgs e)
         {
             demNguoc=new Vong_DemNguoc(SanPhamList);
-            //List<SanPham> sanPhams = new List<SanPham>();
-            //foreach (SanPham sanPham in SanPhamList.SanPhams)
-            //{
-            //    if (sanPham.GiaSP >= 1000 && sanPham.GiaSP <= 9999)
-            //    {
-            //        sanPhams.Add(sanPham);
-            //    }
-            //}
-            //if (sanPhams.Count > 0)
-            //{
-            //    int index = random.Next(0, sanPhams.Count);
-            //    sanpham = sanPhams[index];
-            //}
                 demNguoc.HienGiaSai(giasai);
             lbl_nghin1.Text = giasai[0].ToString();
             lbl_tram.Text = giasai[1].ToString();
             lbl_chuc.Text = giasai[2].ToString();
             lbl_dvi.Text = giasai[3].ToString();
             timerCount.Start();
+            btn_chơi.Enabled = false;
         }
         int count = 60;
         private void timerCount_Tick(object sender, EventArgs e)
@@ -66,35 +54,41 @@ namespace DEM_NGUOC
         private void btn_kiemtra_Click(object sender, EventArgs e)
         {
             int i = 0;
-            //MessageBox.Show(sanpham.TenSP);
-                int a = (int)sanpham.GiaSP / 1000;
-                int b = ((int)sanpham.GiaSP - a * 1000) / 100;
-                int c = ((int)sanpham.GiaSP - a * 1000 - b * 100) / 10;
-                int d = (int)sanpham.GiaSP - a * 1000 - b * 100 - c * 10;
-                int[] giatri = { a, b, c, d };
-                if ((a >= giasai[0] && rdb_lonhon_nghin.Checked) || (a < giasai[0] && rdb_nhohon_nghin.Checked))
-                    i += 0;
-                else
-                    i += 1;
-                if ((b >= giasai[1] && rdb_lonhon_tram.Checked) || (b < giasai[1] && rdb_nhohon_tram.Checked))
-                    i += 0;
-                else
-                    i += 1;
-                if ((c >= giasai[2] && rdb_lonhon_chuc.Checked) || (c < giasai[2] && rdb_nhohon_chuc.Checked))
-                    i += 0;
-                else
-                    i += 1;
-                if ((d >= giasai[3] && rdb_lonhon_dvi.Checked) || (d < giasai[3] && rdb_nhohon_dvi.Checked))
-                    i += 0;
-                else
-                    i += 1;
-                if (i == 0)
-                {
-                    ChucMung_DN chucMung_DN = new ChucMung_DN(SanPhamList,sanpham);
-                    this.Hide();
-                    chucMung_DN.Show();
-                }
-            
+            AmThanh amThanh = new AmThanh();
+            int a = (int)sanpham.GiaSP / 1000;
+            int b = ((int)sanpham.GiaSP - a * 1000) / 100;
+            int c = ((int)sanpham.GiaSP - a * 1000 - b * 100) / 10;
+            int d = (int)sanpham.GiaSP - a * 1000 - b * 100 - c * 10;
+            int[] giatri = { a, b, c, d };
+            if ((a >= giasai[0] && rdb_lonhon_nghin.Checked) || (a < giasai[0] && rdb_nhohon_nghin.Checked))
+                i += 0;
+            else
+                i += 1;
+            if ((b >= giasai[1] && rdb_lonhon_tram.Checked) || (b < giasai[1] && rdb_nhohon_tram.Checked))
+                i += 0;
+            else
+                i += 1;
+            if ((c >= giasai[2] && rdb_lonhon_chuc.Checked) || (c < giasai[2] && rdb_nhohon_chuc.Checked))
+                i += 0;
+            else
+                i += 1;
+            if ((d >= giasai[3] && rdb_lonhon_dvi.Checked) || (d < giasai[3] && rdb_nhohon_dvi.Checked))
+                i += 0;
+            else
+                i += 1;
+            if (i == 0)
+            {
+                ChucMung_DN chucMung_DN = new ChucMung_DN(SanPhamList, sanpham);
+                timerCount.Stop();
+                amThanh.PlayCorrectSound();
+                this.Hide();
+                chucMung_DN.Show();
+            }
+            else
+            {
+                amThanh.PlayIncorrectSound();
+            }
+
         }
         private void btn_tieptuc_Click(object sender, EventArgs e)
         {

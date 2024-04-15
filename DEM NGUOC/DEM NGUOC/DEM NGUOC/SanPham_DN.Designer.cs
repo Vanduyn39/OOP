@@ -32,11 +32,11 @@
             this.btn_tieptuc = new Guna.UI2.WinForms.Guna2Button();
             this.bt_batdau = new Guna.UI2.WinForms.Guna2Button();
             this.panel_cm = new Guna.UI2.WinForms.Guna2Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.cua_2 = new System.Windows.Forms.PictureBox();
             this.cua_1 = new System.Windows.Forms.PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel_cm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cua_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cua_1)).BeginInit();
@@ -109,6 +109,17 @@
             this.panel_cm.Size = new System.Drawing.Size(525, 106);
             this.panel_cm.TabIndex = 7;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(17, 11);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(425, 69);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Chào mừng bạn đến với vòng chơi Đếm Ngược.\r\nNhấn \'Bắt đầu\' để biết sản phẩm bạn c" +
+    "ần đoán giá\r\n và bắt đầu chơi.";
+            // 
             // cua_2
             // 
             this.cua_2.BackgroundImage = global::DEM_NGUOC.Properties.Resources._423903942_726671656268022_8227592408462440658_n;
@@ -153,17 +164,6 @@
             this.textBox1.Size = new System.Drawing.Size(485, 39);
             this.textBox1.TabIndex = 8;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(425, 69);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Chào mừng bạn đến với vòng chơi Đếm Ngược.\r\nNhấn \'Bắt đầu\' để biết sản phẩm bạn c" +
-    "ần đoán giá\r\n và bắt đầu chơi.";
-            // 
             // SanPham_DN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -180,6 +180,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "SanPham_DN";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SanPham _DN";
             this.Load += new System.EventHandler(this.SanPham_DN_Load);
             this.panel_cm.ResumeLayout(false);

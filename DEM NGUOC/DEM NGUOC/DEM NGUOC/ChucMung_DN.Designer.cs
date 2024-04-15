@@ -197,6 +197,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ChucMung_DN";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChucMung_DN";
             this.Load += new System.EventHandler(this.ChucMung_DN_Load);
             this.guna2Panel1.ResumeLayout(false);

@@ -27,11 +27,10 @@
             // 
             // giarandom
             // 
-            this.giarandom.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.giarandom.Location = new System.Drawing.Point(301, 221);
+            this.giarandom.Location = new System.Drawing.Point(281, 221);
             this.giarandom.Multiline = true;
             this.giarandom.Name = "giarandom";
-            this.giarandom.Size = new System.Drawing.Size(70, 38);
+            this.giarandom.Size = new System.Drawing.Size(106, 35);
             this.giarandom.TabIndex = 6;
             // 
             // textBox2

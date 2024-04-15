@@ -9,8 +9,8 @@ namespace OOP_CLASS_1
 {
     public abstract class VongChoi : IVongChoi
     {
-        public string TenVongChoi { get; protected set; }
-        public int TienThuong { get; protected set; }
+        public string TenVongChoi { get;  set; }
+        public int TienThuong { get;  set; }
         public abstract void Play();
         public VongChoi(string tenVongChoi)
         {

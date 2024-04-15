@@ -1,13 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\OOP_15\\",
+  "WorkspaceRootPath": "C:\\Users\\dell\\Downloads\\OOP_15-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA44B66B-2B52-47D4-82ED-3C9737D781CC}|V\u00F2ng 2\\V\u00F2ng 2.csproj|d:\\oop_15\\v\u00F2ng 2\\guesstheprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\oop_class_1\\vong_demnguoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|solutionrelative:oop_class_1\\vong_demnguoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|c:\\users\\dell\\downloads\\oop_15-main\\dem nguoc\\dem nguoc\\dem nguoc\\sanpham_dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|solutionrelative:dem nguoc\\dem nguoc\\dem nguoc\\sanpham_dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\dem nguoc\\dem nguoc\\dem nguoc\\sanpham_dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|solutionrelative:dem nguoc\\dem nguoc\\dem nguoc\\sanpham_dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\dem nguoc\\dem nguoc\\dem nguoc\\main_dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|solutionrelative:dem nguoc\\dem nguoc\\dem nguoc\\main_dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|c:\\users\\dell\\downloads\\oop_15-main\\oop_class_1\\dieukhien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|solutionrelative:oop_class_1\\dieukhien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\dem nguoc\\dem nguoc\\dem nguoc\\main_dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|solutionrelative:dem nguoc\\dem nguoc\\dem nguoc\\main_dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\dem nguoc\\dem nguoc\\dem nguoc\\thua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|solutionrelative:dem nguoc\\dem nguoc\\dem nguoc\\thua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\dem nguoc\\dem nguoc\\dem nguoc\\chucmung_dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|solutionrelative:dem nguoc\\dem nguoc\\dem nguoc\\chucmung_dn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\oop_class_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|solutionrelative:oop_class_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\dem nguoc\\dem nguoc\\dem nguoc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47058F66-7371-4EE9-B7E6-444B7AE8E814}|DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC.csproj|solutionrelative:dem nguoc\\dem nguoc\\dem nguoc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\oop_class_1\\vongchoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|solutionrelative:oop_class_1\\vongchoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\bin\\Debug\\SanPham.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\bin\\Debug\\SanPham.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\oop_class_1\\amthanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|solutionrelative:oop_class_1\\amthanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\oop_class_1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|solutionrelative:oop_class_1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\oop_class_1\\ivongchoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C3E6B4-9A19-40D2-A5E2-F1866D24C17A}|OOP_CLASS_1\\OOP_CLASS_1.csproj|solutionrelative:oop_class_1\\ivongchoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA44B66B-2B52-47D4-82ED-3C9737D781CC}|V\u00F2ng 2\\V\u00F2ng 2.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\v\u00F2ng 2\\guesstheprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA44B66B-2B52-47D4-82ED-3C9737D781CC}|V\u00F2ng 2\\V\u00F2ng 2.csproj|solutionrelative:v\u00F2ng 2\\guesstheprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA44B66B-2B52-47D4-82ED-3C9737D781CC}|V\u00F2ng 2\\V\u00F2ng 2.csproj|d:\\oop_15\\v\u00F2ng 2\\guesstheprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EA44B66B-2B52-47D4-82ED-3C9737D781CC}|V\u00F2ng 2\\V\u00F2ng 2.csproj|C:\\Users\\dell\\Downloads\\OOP_15-main\\v\u00F2ng 2\\guesstheprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA44B66B-2B52-47D4-82ED-3C9737D781CC}|V\u00F2ng 2\\V\u00F2ng 2.csproj|solutionrelative:v\u00F2ng 2\\guesstheprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,32 +78,211 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GuessThePrice.cs",
-              "DocumentMoniker": "D:\\OOP_15\\V\u00F2ng 2\\GuessThePrice.cs",
-              "RelativeDocumentMoniker": "V\u00F2ng 2\\GuessThePrice.cs",
-              "ToolTip": "D:\\OOP_15\\V\u00F2ng 2\\GuessThePrice.cs",
-              "RelativeToolTip": "V\u00F2ng 2\\GuessThePrice.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwEAAAAApAAAA",
+              "DocumentIndex": 1,
+              "Title": "SanPham_DN.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\SanPham_DN.cs",
+              "RelativeDocumentMoniker": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\SanPham_DN.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\SanPham_DN.cs",
+              "RelativeToolTip": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\SanPham_DN.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAiwBsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T05:38:52.362Z",
+              "WhenOpened": "2024-04-14T20:03:53.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GuessThePrice.cs [Design]",
-              "DocumentMoniker": "D:\\OOP_15\\V\u00F2ng 2\\GuessThePrice.cs",
+              "DocumentIndex": 0,
+              "Title": "Vong_DemNguoc.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\Vong_DemNguoc.cs",
+              "RelativeDocumentMoniker": "OOP_CLASS_1\\Vong_DemNguoc.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\Vong_DemNguoc.cs",
+              "RelativeToolTip": "OOP_CLASS_1\\Vong_DemNguoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:33:03.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DieuKhien.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\DieuKhien.cs",
+              "RelativeDocumentMoniker": "OOP_CLASS_1\\DieuKhien.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\DieuKhien.cs",
+              "RelativeToolTip": "OOP_CLASS_1\\DieuKhien.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:31:45.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VongChoi.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\VongChoi.cs",
+              "RelativeDocumentMoniker": "OOP_CLASS_1\\VongChoi.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\VongChoi.cs",
+              "RelativeToolTip": "OOP_CLASS_1\\VongChoi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:30:27.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main_DN.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Main_DN.cs",
+              "RelativeDocumentMoniker": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Main_DN.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Main_DN.cs [Design]",
+              "RelativeToolTip": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Main_DN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T19:09:51.236Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\Program.cs",
+              "RelativeDocumentMoniker": "OOP_CLASS_1\\Program.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\Program.cs",
+              "RelativeToolTip": "OOP_CLASS_1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:31:36.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main_DN.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Main_DN.cs",
+              "RelativeDocumentMoniker": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Main_DN.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Main_DN.cs",
+              "RelativeToolTip": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Main_DN.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAYwFIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T19:10:48.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SanPham_DN.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\SanPham_DN.cs",
+              "RelativeDocumentMoniker": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\SanPham_DN.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\SanPham_DN.cs [Design]",
+              "RelativeToolTip": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\SanPham_DN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T19:42:35.959Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AmThanh.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\AmThanh.cs",
+              "RelativeDocumentMoniker": "OOP_CLASS_1\\AmThanh.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\AmThanh.cs",
+              "RelativeToolTip": "OOP_CLASS_1\\AmThanh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:37:35.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\Player.cs",
+              "RelativeDocumentMoniker": "OOP_CLASS_1\\Player.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\Player.cs",
+              "RelativeToolTip": "OOP_CLASS_1\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T18:40:56.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChucMung_DN.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\ChucMung_DN.cs",
+              "RelativeDocumentMoniker": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\ChucMung_DN.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\ChucMung_DN.cs [Design]",
+              "RelativeToolTip": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\ChucMung_DN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T19:43:50.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Thua.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Thua.cs",
+              "RelativeDocumentMoniker": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Thua.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Thua.cs [Design]",
+              "RelativeToolTip": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Thua.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T19:45:42.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Program.cs",
+              "RelativeDocumentMoniker": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Program.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Program.cs",
+              "RelativeToolTip": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwB0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T18:58:05.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SanPham.json",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\bin\\Debug\\SanPham.json",
+              "RelativeDocumentMoniker": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\bin\\Debug\\SanPham.json",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\bin\\Debug\\SanPham.json",
+              "RelativeToolTip": "DEM NGUOC\\DEM NGUOC\\DEM NGUOC\\bin\\Debug\\SanPham.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-14T19:01:34.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IVongChoi.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\IVongChoi.cs",
+              "RelativeDocumentMoniker": "OOP_CLASS_1\\IVongChoi.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\OOP_CLASS_1\\IVongChoi.cs",
+              "RelativeToolTip": "OOP_CLASS_1\\IVongChoi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:30:33.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GuessThePrice.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\V\u00F2ng 2\\GuessThePrice.cs",
               "RelativeDocumentMoniker": "V\u00F2ng 2\\GuessThePrice.cs",
-              "ToolTip": "D:\\OOP_15\\V\u00F2ng 2\\GuessThePrice.cs [Design]",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\V\u00F2ng 2\\GuessThePrice.cs",
+              "RelativeToolTip": "V\u00F2ng 2\\GuessThePrice.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwEAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T05:38:52.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GuessThePrice.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\OOP_15-main\\V\u00F2ng 2\\GuessThePrice.cs",
+              "RelativeDocumentMoniker": "V\u00F2ng 2\\GuessThePrice.cs",
+              "ToolTip": "C:\\Users\\dell\\Downloads\\OOP_15-main\\V\u00F2ng 2\\GuessThePrice.cs [Design]",
               "RelativeToolTip": "V\u00F2ng 2\\GuessThePrice.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T05:38:50.174Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-14T05:38:50.174Z"
             }
           ]
         }

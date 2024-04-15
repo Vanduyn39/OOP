@@ -34,7 +34,7 @@ namespace OOP_CLASS_1
                 Thread.Sleep(1000);
                 if (i == 0)
                 {
-                    Console.Write("Đã hết thời gian, Chúc bạn may mắn làn sau !!!");
+                    Console.Write("\nĐã hết thời gian.Vui lòng nhấn Enter 4 lần để kết thúc vòng chơi. \nChúc bạn may mắn làn sau !!!");
                     TienThuong = 0;
                     return;
                 }
@@ -73,6 +73,7 @@ namespace OOP_CLASS_1
                 else
                 {
                     Console.WriteLine(" Chúc mừng bạn đã vượt qua vòng Đếm Ngược!!!");
+                    amThanh.PlayCorrectSound();
                     return true;
                     break;
                 }

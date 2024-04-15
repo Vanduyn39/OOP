@@ -15,8 +15,6 @@ namespace designkhongmaco
         public thua()
         {
             InitializeComponent();
-            // Không cho phép nhập liệu vào TextBox soluongthua
-            soluongthua.ReadOnly = true;
         }
 
         public void SetCorrectGuessCount(int count)
