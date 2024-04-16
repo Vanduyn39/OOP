@@ -37,6 +37,8 @@ namespace DEM_NGUOC
 
         private void ChucMung_DN_Load(object sender, EventArgs e)
         {
+            demNguoc=new Vong_DemNguoc(SanPhamList);
+            demNguoc.TienThuong= sanpham.GiaSP;
             Giaithuong.Text = $"Ten Giai Thuong: {sanpham.TenSP}\nGia Giai Thuong: {sanpham.GiaSP}";
         }
     }
