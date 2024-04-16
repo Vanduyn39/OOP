@@ -11,10 +11,8 @@ namespace OOP_CLASS_1
     public class Vong_DemNguoc : VongChoi
     {
         private SanPhamList SanPhamList;
-        private SanPham sanpham;
         private Random random = new Random();
         private int[] giasai = new int[4];
-        public TextBox textBox1;
         private int j;
         public Vong_DemNguoc(SanPhamList sanPhamList) : base("Đếm Ngược")
         {
@@ -82,9 +80,8 @@ namespace OOP_CLASS_1
             }
             return false;
         }
-        public override void Play(TextBox textBox1)
+        public override void Play()
         {
-            textBox1=textBox1;
             Console.OutputEncoding = Encoding.UTF8;
             List<SanPham> sanPhams = new List<SanPham>();
             foreach (SanPham sanPham in SanPhamList.SanPhams)
@@ -99,8 +96,7 @@ namespace OOP_CLASS_1
                 Console.WriteLine("Bạn hãy đoán giá của sản phẩm bằng cách lựa chọn lớn hơn hoặc nhỏ hơn (>/<)\n để so sánh từng đơn vị trong giá của sản phẩm lớn hơn hay nhỏ hơn giá sai mà chương trình đưa ra");
                 // Chọn một sản phẩm ngẫu nhiên từ danh sách sản phẩm thỏa mãn điều kiện
                 int index = random.Next(0, sanPhams.Count);
-                 sanPhamNgauNhien = sanPhams[index];
-                textBox1.Text=sanPhamNgauNhien.TenSP.ToString();
+                SanPham sanPhamNgauNhien = sanPhams[index];
                 Console.WriteLine($"Sản phẩm bạn cần đoán giá là: \nTên sản phẩm: {sanPhamNgauNhien.TenSP}\nMô tả sản phẩm: {sanPhamNgauNhien.Mota}");
                 int a = (int)sanPhamNgauNhien.GiaSP / 1000;
                 int b = ((int)sanPhamNgauNhien.GiaSP - a * 1000) / 100;
