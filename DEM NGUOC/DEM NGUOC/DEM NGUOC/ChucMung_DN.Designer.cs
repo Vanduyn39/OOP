@@ -185,6 +185,7 @@
             this.btn_tieptuc.Size = new System.Drawing.Size(117, 34);
             this.btn_tieptuc.TabIndex = 0;
             this.btn_tieptuc.Text = "Tiếp tục";
+            this.btn_tieptuc.Click += new System.EventHandler(this.btn_tieptuc_Click);
             // 
             // ChucMung_DN
             // 

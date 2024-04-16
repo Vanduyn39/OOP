@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOP_CLASS_1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace designkhongmaco
 {
     public partial class thua : Form
     {
+        private SanPhamList sanPhamList;
+
         public thua()
         {
             InitializeComponent();
@@ -27,7 +30,7 @@ namespace designkhongmaco
             // Đóng form hiện tại
             this.Close();
             // Tạo một thể hiện mới của Form2
-            Form2 form2 = new Form2();
+            Form2 form2 = new Form2(sanPhamList);
             // Hiển thị Form2
             form2.Show();
         }

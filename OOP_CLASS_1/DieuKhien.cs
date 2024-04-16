@@ -89,7 +89,7 @@ namespace OOP_CLASS_1
             string filePathPlayer = "Player.json";
             WriteFile(filePathPlayer, playerList);
             PlayerList FileRead = ReadFile(filePathPlayer);
-            DieuPhoi();
+            //DieuPhoi();
             WriteFile(filePathPlayer, playerList);//Thêm người chơi mới
             PlayerList newData = ReadFile(filePathPlayer);
         }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace giaodienhaychongiadung
+namespace TrangChu
 {
     public partial class SETTING : Form
     {
@@ -35,7 +35,7 @@ namespace giaodienhaychongiadung
         private void SETTING_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Hide();
-            Form1 f1 = new Form1();
+            TrangChu f1 = new TrangChu();
             f1.ShowDialog();
         }
     }

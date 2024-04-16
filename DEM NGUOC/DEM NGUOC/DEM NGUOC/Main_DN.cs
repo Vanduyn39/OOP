@@ -54,7 +54,7 @@ namespace DEM_NGUOC
         private void btn_kiemtra_Click(object sender, EventArgs e)
         {
             int i = 0;
-            AmThanh amThanh = new AmThanh();
+            //AmThanh amThanh = new AmThanh();
             int a = (int)sanpham.GiaSP / 1000;
             int b = ((int)sanpham.GiaSP - a * 1000) / 100;
             int c = ((int)sanpham.GiaSP - a * 1000 - b * 100) / 10;
@@ -80,13 +80,13 @@ namespace DEM_NGUOC
             {
                 ChucMung_DN chucMung_DN = new ChucMung_DN(SanPhamList, sanpham);
                 timerCount.Stop();
-                amThanh.PlayCorrectSound();
+                //amThanh.PlayCorrectSound();
                 this.Hide();
                 chucMung_DN.Show();
             }
             else
             {
-                amThanh.PlayIncorrectSound();
+                //amThanh.PlayIncorrectSound();
             }
 
         }

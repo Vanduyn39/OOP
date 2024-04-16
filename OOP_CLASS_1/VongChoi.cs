@@ -17,5 +17,6 @@ namespace OOP_CLASS_1
             this.TenVongChoi = tenVongChoi;
         }
 
+
     }
 }

@@ -37,9 +37,24 @@ namespace DEM_NGUOC
 
         private void ChucMung_DN_Load(object sender, EventArgs e)
         {
-            demNguoc=new Vong_DemNguoc(SanPhamList);
-            demNguoc.TienThuong= sanpham.GiaSP;
             Giaithuong.Text = $"Ten Giai Thuong: {sanpham.TenSP}\nGia Giai Thuong: {sanpham.GiaSP}";
+        }
+
+        private void btn_tieptuc_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SanPhamList sanPhamList = new SanPhamList();
+            PlayerList playerList = new PlayerList();
+            DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
+            dieuKhien.AddSanPham(sanPhamList);
+            // Get the player name from the textbox
+            //string playerName = textBox1.Text;
+            // Add the player to the player list
+            //Player newPlayer = new Player(playerName, null, 0);
+            //playerList.Add(newPlayer);
+            dieuKhien.AddPlayer(playerList);
+            SanPham_DN SanPham_DN = new DEM_NGUOC.SanPham_DN(sanPhamList);
+            SanPham_DN.ShowDialog();
         }
     }
 }

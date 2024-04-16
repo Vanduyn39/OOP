@@ -1,91 +1,81 @@
-﻿//using OOP_CLASS_1;
-//using System;
-//using System.Collections.Generic;
-//using System.Windows.Forms;
+﻿using OOP_CLASS_1;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Remoting.Channels;
+using System.Windows.Forms;
+using DEM_NGUOC;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Reflection.Emit;
 
-//namespace Vòng_2
-//{
-//    public partial class PunchABunch : Form
-//    {
-//        private int correctGuesses;
-//        private int currentGuess;
-//        private int punchesLeft;
-//        private int punchesTaken;
-//        private List<int> prizes;
-//        private Random random;
-//        public Vong_BanTayVang vongBanTayVang;
+namespace Vòng_2
+{
+    public partial class PunchABunch : Form
+    {
+        public Random random = new Random();
+        private int correctGuesses;
+        private  Vong_BanTayVang vongBanTayVang;
 
-//        public PunchABunch(int correctGuesses)
-//        {
-//            InitializeComponent();
-//            this.correctGuesses = correctGuesses;
-//            this.currentGuess = 0;
-//            this.punchesLeft = 0;
-//            this.punchesTaken = 0;
-//            this.prizes = new List<int>();
-//            this.random = new Random();
-//            InitializePrizes();
-//            DisplayPrizes();
-//        }
+        public PunchABunch(int correctGuesses, string username)
+        {
+            SanPhamList sanPhamList = new SanPhamList();
+            this.correctGuesses = correctGuesses;
+            InitializeComponent();
+            label1.Text = username;
+            label1.BringToFront();
+            vongBanTayVang = new Vong_BanTayVang(sanPhamList);
 
-//        private void InitializePrizes()
-//        {
-//            prize = Vong_BanTayVang.prizevalue;
-//        }
+        }
 
-//        private void DisplayPrizes()
-//        {
-//            for (int i = 0; i < 50; i++)
-//            {
-//                if (prizes[i] == 0)
-//                {
-//                    btnPrize[i].Text = "Thêm lượt";
-//                }
-//                else
-//                {
-//                    btnPrizes[i].Text = prizes[i].ToString("N0");
-//                }
-//            }
-//        }
+        private void btn_Result_Click(object sender, EventArgs e)
+        {
+            decimal totalPrize = vongBanTayVang.totalPrizeMoney;
+            MessageBox.Show($"Bạn đã hết lượt đấm! \nTổng giải thưởng:{totalPrize}");
+            this.Hide();
+            SanPhamList sanPhamList = new SanPhamList();
+            PlayerList playerList = new PlayerList();
+            DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
+            dieuKhien.AddSanPham(sanPhamList);
+            // Get the player name from the textbox
+            //string playerName = textBox1.Text;
+            // Add the player to the player list
+            //Player newPlayer = new Player(playerName, null, 0);
+            //playerList.Add(newPlayer);
+            dieuKhien.AddPlayer(playerList);
+            SanPham_DN SanPham_DN = new DEM_NGUOC.SanPham_DN(sanPhamList);
+            SanPham_DN.ShowDialog();
+        }
 
-//        private void btnPrizes_Click(object sender, EventArgs e)
-//        {
-//            Button clickedButton = (Button)sender;
-//            int index = btnPrizes.ToList().IndexOf(clickedButton);
-//            if (prizes[index] ==0)
-//            {
-//                punchesLeft++;
-//                DisplayPrizes();
-//            }
-//            else
-//            {
-//                punchesTaken += prizes[index];
-//                prizes[index] = 0;
-//                DisplayPrizes();
-//            }
-//            currentGuess++;
-//            if (currentGuess >= correctGuesses)
-//            {
-//                int finalPrize = GetFinalPrize();
-//                MessageBox.Show($"Bạn đạt được {finalPrize} VND! Thúc đây, trò chơi kết thúc.");
-//                this.Close();
-//            }
-//        }
+        private void pnl_PAB_MouseClick(object sender, MouseEventArgs e)
+        {
+            List<int> prizeValues = vongBanTayVang.prizeValues;
+            if (correctGuesses > 0)
+            {
+                int randomIndex = random.Next(prizeValues.Count);
+                int prizeValue = prizeValues[randomIndex];
+                System.Windows.Forms.Button clickedButton = (System.Windows.Forms.Button)sender;
+                correctGuesses--;
+                MessageBox.Show($"Giải thưởng của ô là: {prizeValue} VND.\nBạn còn {correctGuesses} cơ hội!");
+                clickedButton.Visible = false;
+                vongBanTayVang.AddPrize(prizeValue); // Add the prize value to the Vong_BanTayVang object
+            }
+            else if (correctGuesses > 0)
+            {
+                correctGuesses++; // Thêm một lượt đấm
+                MessageBox.Show("Bạn đã nhận được thêm một lượt đấm!");
+            }
+            else
+            {
+                btn_Result.Visible = true;
+            }
+        }
 
-//        private int GetFinalPrize()
-//        {
-//            int finalPrize = 0;
-//            if (punchesTaken < 100000)
-//            {
-//                finalPrize = punchesTaken * 2;
-//            }
-//            else
-//            {
-//                finalPrize = 15000000;
-//            }
-//            return finalPrize;
-//        }
-        
-//    }
-//}
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+
+}
+
 

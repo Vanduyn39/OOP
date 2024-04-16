@@ -69,3 +69,34 @@ C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\aa-DJ\de
 C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkh.C7D91E57.Up2Date
 C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.exe
 C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\aa-DJ\designkhongmaco.resources.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.chucmung.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form2.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.thua.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.aa-DJ.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\aa-DJ\designkhongmaco.resources.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.pdb

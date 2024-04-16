@@ -1,4 +1,4 @@
-﻿namespace giaodienhaychongiadung
+﻿namespace TrangChu
 {
     partial class SETTING
     {

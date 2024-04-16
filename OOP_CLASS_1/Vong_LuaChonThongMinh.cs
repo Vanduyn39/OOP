@@ -14,7 +14,7 @@ namespace OOP_CLASS_1
         //private List<SanPham> lichSuSanPham; // Lịch sử sản phẩm đã chọn
         // Tạo phương thức GetSanPhamList để trả về giá trị của thuộc tính SanPhamList
 
-        public Vong_LuaChonThongMinh(SanPhamList sanPhamList) : base("LuaChonThongMinh")
+        public Vong_LuaChonThongMinh(SanPhamList sanPhamList, Player currentPlayer) : base("LuaChonThongMinh")
         {
             //// Khởi tạo lịch sử sản phẩm
             //lichSuSanPham = new List<SanPham>();

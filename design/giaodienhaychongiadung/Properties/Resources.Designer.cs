@@ -61,6 +61,16 @@ namespace giaodienhaychongiadung.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Am_thanh_chuc_mung_chien_thang_www_tiengdong_com {
+            get {
+                object obj = ResourceManager.GetObject("Am_thanh_chuc_mung_chien_thang_www_tiengdong_com", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap anhbia {
@@ -147,6 +157,25 @@ namespace giaodienhaychongiadung.Properties {
             get {
                 object obj = ResourceManager.GetObject("snapedit_1712412497846", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream trlsai_wav {
+            get {
+                return ResourceManager.GetStream("trlsai_wav", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] WinterFluteVersion_VA_4b4y5 {
+            get {
+                object obj = ResourceManager.GetObject("WinterFluteVersion_VA_4b4y5", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

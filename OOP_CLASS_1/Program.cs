@@ -13,6 +13,7 @@ namespace OOP_CLASS_1
 {
     public class Program
     {
+        private static Player currentPlayer;
 
         static void Main(string[] args)
         {
@@ -22,9 +23,9 @@ namespace OOP_CLASS_1
             DieuKhien dieuKhien = new DieuKhien(playerList,sanPhamList);
             dieuKhien.AddSanPham(sanPhamList);
             dieuKhien.AddVongChoi(new Vong_BanTayVang(sanPhamList));
-            dieuKhien.AddVongChoi(new Vong_KhongMaCo(sanPhamList));
-            dieuKhien.AddVongChoi(new Vong_LuaChonThongMinh(sanPhamList));
             dieuKhien.AddVongChoi(new Vong_DemNguoc(sanPhamList));
+            dieuKhien.AddVongChoi(new Vong_KhongMaCo(sanPhamList));
+            dieuKhien.AddVongChoi(new Vong_LuaChonThongMinh(sanPhamList, currentPlayer));
             dieuKhien.AddPlayer(playerList);
             Console.ReadLine();
         }

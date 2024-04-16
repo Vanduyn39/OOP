@@ -42,7 +42,7 @@ namespace OOP_CLASS_1
         }
         private bool Kiemtra(int[] giasai, int[] giatri)
         {
-            AmThanh amThanh= new AmThanh();
+            //AmThanh amThanh= new AmThanh();
             Thread demnguoc = new Thread(DemNguocTime);
             demnguoc.Start();
             while (!demnguoc.Join(0))
@@ -68,12 +68,12 @@ namespace OOP_CLASS_1
                 {
                     Console.WriteLine(" Sai rồi, mời bạn chọn lại!!!");
                     this.TienThuong = 0;
-                    amThanh.PlayIncorrectSound();
+                    //amThanh.PlayIncorrectSound();
                 }
                 else
                 {
                     Console.WriteLine(" Chúc mừng bạn đã vượt qua vòng Đếm Ngược!!!");
-                    amThanh.PlayCorrectSound();
+                    //amThanh.PlayCorrectSound();
                     return true;
                     break;
                 }

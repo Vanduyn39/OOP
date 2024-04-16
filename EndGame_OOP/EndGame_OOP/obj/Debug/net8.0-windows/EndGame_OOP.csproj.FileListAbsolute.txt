@@ -1,0 +1,17 @@
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\bin\Debug\net8.0-windows\EndGame_OOP.exe
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\bin\Debug\net8.0-windows\EndGame_OOP.deps.json
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\bin\Debug\net8.0-windows\EndGame_OOP.runtimeconfig.json
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\bin\Debug\net8.0-windows\EndGame_OOP.dll
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\bin\Debug\net8.0-windows\EndGame_OOP.pdb
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\EndGame_OOP.Form1.resources
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\EndGame_OOP.Properties.Resources.resources
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\EndGame_OOP.csproj.GenerateResource.cache
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\EndGame_OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\EndGame_OOP.AssemblyInfoInputs.cache
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\EndGame_OOP.AssemblyInfo.cs
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\EndGame_OOP.csproj.CoreCompileInputs.cache
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\EndGame_OOP.dll
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\refint\EndGame_OOP.dll
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\EndGame_OOP.pdb
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\EndGame_OOP.genruntimeconfig.cache
+C:\Users\nhoih\source\repos\EndGame_OOP\EndGame_OOP\obj\Debug\net8.0-windows\ref\EndGame_OOP.dll

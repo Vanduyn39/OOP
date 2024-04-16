@@ -81,7 +81,6 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\bin\Debug\System.Text.Json.xml
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.csproj.AssemblyReference.cache
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng_4.Form1.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng_4.Properties.Resources.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.csproj.GenerateResource.cache
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.csproj.CoreCompileInputs.cache
@@ -116,3 +115,5 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.csproj.CopyComplete
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.exe
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng_4.MainVong4.resources

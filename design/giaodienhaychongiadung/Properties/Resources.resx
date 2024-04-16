@@ -145,4 +145,13 @@
   <data name="snapedit_1712412497846" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\snapedit_1712412497846.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Am_thanh_chuc_mung_chien_thang_www_tiengdong_com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Am-thanh-chuc-mung-chien-thang-www_tiengdong_com.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trlsai_wav" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trlsai.wav.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WinterFluteVersion_VA_4b4y5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WinterFluteVersion-VA_4b4y5.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
