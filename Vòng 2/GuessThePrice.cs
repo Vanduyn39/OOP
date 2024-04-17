@@ -10,30 +10,53 @@ namespace Vòng_2
         private Vong_BanTayVang vongBanTayVang;
         private int displayedProducts;
         public int numberOfProducts;
-        public string Ten;
-
-        //public object Player { get; set; }
-
-        public GuessThePrice(SanPhamList sanPhamList, string Ten)
+        public SanPham nextProducts;
+        public GuessThePrice(SanPhamList sanPhamList)
         {
             InitializeComponent();
             vongBanTayVang = new Vong_BanTayVang(sanPhamList);
-            this.Ten = Ten;
-            label2.Text = $"Player: {this.Ten}";
-            label2.BringToFront();
         }
 
+        // Trong phương thức Guess:
+        private void Guess(string guess)
+        {
+            // Lấy giá trị hiddenPrice và correctPrice từ class
+            decimal hiddenPrice = vongBanTayVang.GetHiddenPrice();
+            decimal correctPrice = vongBanTayVang.GetCorrectPrice(nextProducts, numberOfProducts);
+            int correctGuess = vongBanTayVang.correctGuesses;
+
+            // Hiển thị kết quả đoán giá thông qua Label
+            if ((guess == "l" && correctPrice < hiddenPrice) || (guess == "h" && correctPrice > hiddenPrice))
+            {
+                pnl_Result.BringToFront();
+                pnl_Result.Visible = true;
+                lbl_Result.Text = $"Bạn đã đoán đúng! \nGiá đúng là: {correctPrice} VND. ";
+                correctGuess++;
+            }
+            else
+            {
+                pnl_Result.BringToFront();
+                pnl_Result.Visible = true;
+                lbl_Result.Text = $"Bạn đã đoán sai!  \nGiá đúng là: {correctPrice} VND.";
+            }
+
+            // Gọi phương thức Guess từ class để cập nhật trạng thái
+            vongBanTayVang.Guess(guess, hiddenPrice, correctPrice);
+            // Hiển thị sản phẩm tiếp theo
+            DisplayProduct();
+        }
+
+        // Trong phương thức DisplayProduct:
         private void DisplayProduct()
         {
             if (displayedProducts < 4)
             {
                 decimal hiddenPrice = vongBanTayVang.GetHiddenPrice();
                 numberOfProducts = vongBanTayVang.GetNumberOfProducts();
-                SanPham nextProducts = vongBanTayVang.GetNextProduct();
-
+                nextProducts = vongBanTayVang.GetNextProduct();
                 if (nextProducts != null)
                 {
-                    label1.Text = $"Trưng bày {numberOfProducts} sản phẩm: {nextProducts.TenSP}\nMô tả: {nextProducts.Mota} \nGiá đưa ra: {hiddenPrice}";
+                    label1.Text = $"Trưng bày {numberOfProducts} sản phẩm: {nextProducts.TenSP}\nMô tả: {nextProducts.Mota} \nGiá đưa ra: {hiddenPrice} VND.";
                     displayedProducts++;
                 }
             }
@@ -44,8 +67,8 @@ namespace Vòng_2
                 {
                     MessageBox.Show($"Bạn đã đoán đúng {correctGuess} trên tổng số {displayedProducts} câu.");
                     this.Hide();
-                    PunchABunch newForm = new PunchABunch(correctGuess, this.Ten);
-                    newForm.Show();
+                    PunchABunch newForm = new PunchABunch(correctGuess);
+                    newForm.ShowDialog();
                 }
                 else
                 {
@@ -54,39 +77,14 @@ namespace Vòng_2
                 }
             }
         }
-
-        private void Guess(string guess,decimal hiddenPrice, decimal correctPrice)
+        private void btn_NH_Click(object sender, EventArgs e)
         {
-            SanPham nextProducts = vongBanTayVang.GetNextProduct();
-            correctPrice = nextProducts.GiaSP * this.numberOfProducts;
-            int correctGuess = vongBanTayVang.correctGuesses;
-
-            if ((guess == "l" && correctPrice < hiddenPrice) || (guess == "h" && correctPrice > hiddenPrice))
-            {
-                pnl_Result.BringToFront();
-                pnl_Result.Visible = true;
-                lbl_Result.Text = $"Bạn đã đoán đúng! \nGiá đúng là: {correctPrice} ";
-                correctGuess++;
-            }
-            else
-            {
-                pnl_Result.BringToFront();
-                pnl_Result.Visible = true;
-                lbl_Result.Text = $"Bạn đã đoán sai!  \nGiá đúng là: {correctPrice}";
-            }
-
-            vongBanTayVang.Guess(guess, hiddenPrice, correctPrice);
-            DisplayProduct();
+            Guess("l");
         }
 
-        private void btn_NH_Click_1(object sender, EventArgs e)
+        private void btn_LH_Click(object sender, EventArgs e)
         {
-            Guess("l", vongBanTayVang.GetHiddenPrice(), vongBanTayVang.correctPrice);
-        }
-
-        private void btn_LH_Click_1(object sender, EventArgs e)
-        {
-            Guess("h", vongBanTayVang.GetHiddenPrice(), vongBanTayVang.correctPrice);
+            Guess("h");
 
 
         }
@@ -107,11 +105,6 @@ namespace Vòng_2
             {
                 button1.Visible = false;
             }
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

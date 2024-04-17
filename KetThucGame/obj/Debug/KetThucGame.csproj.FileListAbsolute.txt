@@ -1,0 +1,70 @@
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\KetThucGame.exe.config
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\KetThucGame.exe
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\KetThucGame.pdb
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\Guna.UI2.dll
+C:\Users\dell\Downloads\KetThucGame\obj\Debug\KetThucGame.csproj.AssemblyReference.cache
+C:\Users\dell\Downloads\KetThucGame\obj\Debug\KetThucGame.Form1.resources
+C:\Users\dell\Downloads\KetThucGame\obj\Debug\KetThucGame.Properties.Resources.resources
+C:\Users\dell\Downloads\KetThucGame\obj\Debug\KetThucGame.csproj.GenerateResource.cache
+C:\Users\dell\Downloads\KetThucGame\obj\Debug\KetThucGame.csproj.CoreCompileInputs.cache
+C:\Users\dell\Downloads\KetThucGame\obj\Debug\KetThucG.34312C58.Up2Date
+C:\Users\dell\Downloads\KetThucGame\obj\Debug\KetThucGame.exe
+C:\Users\dell\Downloads\KetThucGame\obj\Debug\KetThucGame.pdb
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\OOP_CLASS_1.exe
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Text.Json.dll
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Memory.dll
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.ValueTuple.dll
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Buffers.dll
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Text.Json.xml
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Memory.xml
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.ValueTuple.xml
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Buffers.xml
+C:\Users\dell\Downloads\KetThucGame\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dell\Downloads\KetThucGame\obj\Debug\KetThucGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\Downloads\KetThucGame\obj\Debug\KetThucGame.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\KetThucGame.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\KetThucGame.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\KetThucGame.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Memory.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.Form1.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.pdb

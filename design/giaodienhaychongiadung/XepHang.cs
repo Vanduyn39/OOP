@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using OOP_CLASS_1; // Assuming the Player class is defined here
+using OOP_CLASS_1; // Assuming the Player and PlayerList classes are defined here
+using System.IO;
 
 namespace TrangChu
 {
@@ -11,34 +12,18 @@ namespace TrangChu
             InitializeComponent();
         }
 
-        //private void XepHang_Load(object sender, EventArgs e)
-        //{
-        //    // Call a method to populate the DataGridView with player data
-        //    PopulateDataGridView();
-        //}
+        private void XepHang_Load(object sender, EventArgs e)
+        {
+            string filePathPlayer = "Player.json";
 
-        //private void PopulateDataGridView()
-        //{
-        //    // Create some sample players (replace this with your actual player data)
-        //    Player[] players = new Player[]
-        //    {
-        //        new Player("Player 1", VongChoi.Vong1, 100),
-        //        new Player("Player 2", VongChoi.Vong2, 200),
-        //        new Player("Player 3", VongChoi.Vong3, 150)
-        //    };
+            // Read the file and populate the dataGridView1 control
+            PlayerList playerList = DieuKhien.ReadFile(filePathPlayer);
+            dataGridView1.DataSource = playerList;
 
-        //    // Call the sorting method to sort players by prize money
-        //    Player.Sort(players, Player.CompareByTienThuong);
-
-        //    // Clear existing rows in the DataGridView
-        //    dataGridView1.Rows.Clear();
-
-        //    // Add sorted players to the DataGridView
-        //    foreach (Player player in players)
-        //    {
-        //        dataGridView1.Rows.Add(player.GetTen(), player.GetVongChoi(), player.GetTienThuong());
-        //    }
-        //}
+            // Customize the appearance and behavior of the dataGridView1 control
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dataGridView1.ReadOnly = true;
+        }
 
         private void menu_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -46,6 +31,11 @@ namespace TrangChu
             this.Hide();
             TrangChu f1 = new TrangChu();
             f1.ShowDialog();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Handle cell content click event if needed
         }
     }
 }

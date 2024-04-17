@@ -28,95 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            this.rdb_bat = new System.Windows.Forms.RadioButton();
+            this.rdb_tat = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
-            // 
-            // trackBar1
-            // 
-            this.trackBar1.Location = new System.Drawing.Point(177, 172);
-            this.trackBar1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.trackBar1.Maximum = 100;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(276, 69);
-            this.trackBar1.TabIndex = 0;
-            this.trackBar1.Value = 1;
-            this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.Color.Crimson;
-            this.checkBox1.Location = new System.Drawing.Point(200, 92);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(68, 33);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "on";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.ForeColor = System.Drawing.Color.Crimson;
-            this.checkBox2.Location = new System.Drawing.Point(338, 92);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(68, 33);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "off";
-            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(18, 92);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(113, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 29);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Âm nhạc";
+            this.label1.Size = new System.Drawing.Size(131, 33);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Âm Thanh";
             // 
-            // label2
+            // rdb_bat
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Crimson;
-            this.label2.Location = new System.Drawing.Point(18, 172);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 29);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Âm lượng";
+            this.rdb_bat.AutoSize = true;
+            this.rdb_bat.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdb_bat.Location = new System.Drawing.Point(64, 81);
+            this.rdb_bat.Name = "rdb_bat";
+            this.rdb_bat.Size = new System.Drawing.Size(78, 36);
+            this.rdb_bat.TabIndex = 1;
+            this.rdb_bat.TabStop = true;
+            this.rdb_bat.Text = "Bật";
+            this.rdb_bat.UseVisualStyleBackColor = true;
+            // 
+            // rdb_tat
+            // 
+            this.rdb_tat.AutoSize = true;
+            this.rdb_tat.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdb_tat.Location = new System.Drawing.Point(208, 81);
+            this.rdb_tat.Name = "rdb_tat";
+            this.rdb_tat.Size = new System.Drawing.Size(76, 36);
+            this.rdb_tat.TabIndex = 2;
+            this.rdb_tat.TabStop = true;
+            this.rdb_tat.Text = "Tắt";
+            this.rdb_tat.UseVisualStyleBackColor = true;
             // 
             // SETTING
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(470, 285);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(371, 200);
+            this.Controls.Add(this.rdb_tat);
+            this.Controls.Add(this.rdb_bat);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.trackBar1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.MaximumSize = new System.Drawing.Size(492, 341);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(439, 282);
             this.Name = "SETTING";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SETTING";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SETTING_FormClosed);
             this.Load += new System.EventHandler(this.SETTING_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,10 +91,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RadioButton rdb_bat;
+        private System.Windows.Forms.RadioButton rdb_tat;
     }
 }

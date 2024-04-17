@@ -10,17 +10,17 @@ namespace Vòng_4
         public Vong_LuaChonThongMinh LuaChonThongMinh { get; private set; }
         private SanPhamList sanPhamList;
         private bool daChon;
-        private Player player;
+        //private Player player;
         private bool[] btnClicked = new bool[3]; // Theo dõi số lần nhấp vào nút
-        public Player Player; // Add this line at the class level
+        /*public Player Player;*/ // Add this line at the class level
 
-        public MainVong4(SanPhamList sanPhamList, Player player)
+        public MainVong4(SanPhamList sanPhamList)
         {
             InitializeComponent();
             this.sanPhamList = sanPhamList;
             this.LuaChonThongMinh = new Vong_LuaChonThongMinh(sanPhamList); // Pass sanPhamList only
             this.daChon = false;
-            this.player = player; // Assign the player parameter to the player field
+            /*this.player = player;*/ // Assign the player parameter to the player field
             HienTenSP();
             // Vô hiệu hóa các nút lựa chọn ban đầu
             btn_S1.Enabled = false;
@@ -46,43 +46,34 @@ namespace Vòng_4
         // Chọn sản phẩm có giá cao nhất
         //private Player currentPlayer; // Add this line at the class level
 
-        private void ChonSPGiaCao(int index, Player player)
+        private void ChonSPGiaCao(int index)
         {
             if (index >= 0 && index < sanPhamList.SanPhams.Count)
             {
                 SanPham sanPhamChon = sanPhamList.SanPhams[index];
 
                 decimal maxPrice = decimal.MinValue;
+                SanPham GiaSPCaoNhat = null;
 
                 foreach (SanPham sp in sanPhamList.SanPhams)
                 {
                     if (sp.GiaSP > maxPrice)
                     {
                         maxPrice = sp.GiaSP;
+                        GiaSPCaoNhat = sp;
                     }
                 }
 
                 if (sanPhamChon.GiaSP == maxPrice)
                 {
-                    MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP);
-                    MessageBox.Show("Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + LuaChonThongMinh.bonusReward);
+                    MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP + "Bạn đã nhận được tất cả 3 sản phẩm với giá trị" + LuaChonThongMinh.bonusReward);
                     LuaChonThongMinh.TienThuong += (int)LuaChonThongMinh.bonusReward;
-                    //this.TienThuong += (int)bonusReward;
                     MessageBox.Show("Tiền thưởng: " + LuaChonThongMinh.TienThuong);
                     this.Hide();
                     //Application.Exit();
                 }
                 else
                 {
-                    SanPham GiaSPCaoNhat = null;
-                    foreach (SanPham sp in sanPhamList.SanPhams)
-                    {
-                        if (sp.GiaSP == maxPrice)
-                        {
-                            GiaSPCaoNhat = sp;
-                            break;
-                        }
-                    }
                     MessageBox.Show("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + GiaSPCaoNhat.TenSP);
                     daChon = true;
                     if (daChon)
@@ -96,6 +87,7 @@ namespace Vòng_4
                 HienTenSP();
             }
         }
+
 
 
         // Hiển thị tên sản phẩm
@@ -150,19 +142,19 @@ namespace Vòng_4
         // Trình xử lý sự kiện cho nút chọn 1 cú nhấp chuột
         private void btn_S1_Click_1(object sender, EventArgs e)
         {
-            ChonSPGiaCao(0, Player);
+            ChonSPGiaCao(0);
         }
 
         // Trình xử lý sự kiện cho nút chọn 2 lần nhấp
         private void btn_S2_Click_1(object sender, EventArgs e)
         {
-            ChonSPGiaCao(1, Player);
+            ChonSPGiaCao(1);
         }
 
         // Trình xử lý sự kiện cho nút chọn 3 lần nhấp
         private void btn_S3_Click_1(object sender, EventArgs e)
         {
-            ChonSPGiaCao(2, Player);
+            ChonSPGiaCao(2);
         }
     }
 }

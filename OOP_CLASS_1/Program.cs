@@ -23,7 +23,7 @@ namespace OOP_CLASS_1
             DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
             dieuKhien.AddSanPham(sanPhamList);
             //dieuKhien.AddVongChoi(new Vong_BanTayVang(sanPhamList));
-            dieuKhien.AddVongChoi(new Vong_LuaChonThongMinh(sanPhamList/*,player*/));
+            //dieuKhien.AddVongChoi(new Vong_LuaChonThongMinh(sanPhamList/*,player*/));
             //dieuKhien.AddVongChoi(new Vong_KhongMaCo(sanPhamList));
             dieuKhien.AddVongChoi(new Vong_DemNguoc(sanPhamList));
             dieuKhien.AddPlayer1(playerList);

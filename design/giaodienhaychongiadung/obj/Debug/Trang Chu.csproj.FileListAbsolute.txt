@@ -42,3 +42,7 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\TrangChu.XepHang.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\TrangChu.SETTING.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\obj\Debug\TrangChu.TrangChu.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\designkhongmaco.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\aa-DJ\designkhongmaco.resources.dll

@@ -1,262 +1,77 @@
 {
   "Players": [
     {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 6108
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 2700
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 2700
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 3300
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "g",
-      "Vongchoidachoi": null,
-      "TienThuong": 6108
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 6108
-    },
-    {
-      "Ten": "j",
-      "Vongchoidachoi": null,
-      "TienThuong": 6108
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 1650
-    },
-    {
-      "Ten": "k",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "k",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "hh",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 1650
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "hj",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
       "Ten": "h\u1ED3ng",
       "Vongchoidachoi": null,
-      "TienThuong": 0
+      "TienThuong": 4380
     },
     {
-      "Ten": "duyen",
+      "Ten": "jkjk",
       "Vongchoidachoi": null,
-      "TienThuong": 0
+      "TienThuong": 6022
     },
     {
-      "Ten": "duyen",
+      "Ten": "jkjk",
+      "Vongchoidachoi": null,
+      "TienThuong": 6022
+    },
+    {
+      "Ten": "jkjk",
+      "Vongchoidachoi": null,
+      "TienThuong": 7549
+    },
+    {
+      "Ten": "hong",
+      "Vongchoidachoi": null,
+      "TienThuong": 7640
+    },
+    {
+      "Ten": "h\u1ED3ngpham",
+      "Vongchoidachoi": null,
+      "TienThuong": 8124
+    },
+    {
+      "Ten": "hong",
+      "Vongchoidachoi": null,
+      "TienThuong": 2810
+    },
+    {
+      "Ten": "hong",
+      "Vongchoidachoi": null,
+      "TienThuong": 6350
+    },
+    {
+      "Ten": "hong",
+      "Vongchoidachoi": null,
+      "TienThuong": 2382
+    },
+    {
+      "Ten": "hong",
+      "Vongchoidachoi": null,
+      "TienThuong": 2362
+    },
+    {
+      "Ten": "hong",
+      "Vongchoidachoi": null,
+      "TienThuong": 5350
+    },
+    {
+      "Ten": "hong",
+      "Vongchoidachoi": null,
+      "TienThuong": 1800
+    },
+    {
+      "Ten": "jkjk",
+      "Vongchoidachoi": null,
+      "TienThuong": 3022
+    },
+    {
+      "Ten": "hong",
+      "Vongchoidachoi": null,
+      "TienThuong": 3054
+    },
+    {
+      "Ten": "hong",
       "Vongchoidachoi": null,
       "TienThuong": 0
     },
@@ -266,22 +81,12 @@
       "TienThuong": 0
     },
     {
-      "Ten": "h",
+      "Ten": "hong",
       "Vongchoidachoi": null,
-      "TienThuong": 0
+      "TienThuong": 1800
     },
     {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
-      "Vongchoidachoi": null,
-      "TienThuong": 0
-    },
-    {
-      "Ten": "h",
+      "Ten": "hong",
       "Vongchoidachoi": null,
       "TienThuong": 0
     },
@@ -291,89 +96,44 @@
       "TienThuong": 0
     },
     {
-      "Ten": "t",
+      "Ten": "hong",
       "Vongchoidachoi": null,
-      "TienThuong": 6108
+      "TienThuong": 1500
     },
     {
-      "Ten": "t",
-      "Vongchoidachoi": null,
-      "TienThuong": 6108
-    },
-    {
-      "Ten": "duyen",
-      "Vongchoidachoi": null,
-      "TienThuong": 6044
-    },
-    {
-      "Ten": "duyen",
-      "Vongchoidachoi": null,
-      "TienThuong": 6044
-    },
-    {
-      "Ten": "duyen",
+      "Ten": "hong",
       "Vongchoidachoi": null,
       "TienThuong": 0
     },
     {
-      "Ten": "duyen",
+      "Ten": "hong",
       "Vongchoidachoi": null,
       "TienThuong": 0
     },
     {
-      "Ten": "duyen",
+      "Ten": "jki",
+      "Vongchoidachoi": null,
+      "TienThuong": 3000
+    },
+    {
+      "Ten": "hong",
       "Vongchoidachoi": null,
       "TienThuong": 0
     },
     {
-      "Ten": "duyen",
-      "Vongchoidachoi": null,
-      "TienThuong": 8370
-    },
-    {
-      "Ten": "duyen",
-      "Vongchoidachoi": null,
-      "TienThuong": 8370
-    },
-    {
-      "Ten": "vanduyen",
+      "Ten": "hong",
       "Vongchoidachoi": null,
       "TienThuong": 0
     },
     {
-      "Ten": "vanduyen",
-      "Vongchoidachoi": null,
-      "TienThuong": 3732
-    },
-    {
-      "Ten": "vanduyen",
-      "Vongchoidachoi": null,
-      "TienThuong": 3732
-    },
-    {
-      "Ten": "vanduyen",
+      "Ten": "hong",
       "Vongchoidachoi": null,
       "TienThuong": 0
     },
     {
-      "Ten": "duyenphan",
+      "Ten": "hong",
       "Vongchoidachoi": null,
-      "TienThuong": 7044
-    },
-    {
-      "Ten": "duyenphan",
-      "Vongchoidachoi": null,
-      "TienThuong": 7044
-    },
-    {
-      "Ten": "vanduyenphan",
-      "Vongchoidachoi": null,
-      "TienThuong": 10104
-    },
-    {
-      "Ten": "vanduyenphan",
-      "Vongchoidachoi": null,
-      "TienThuong": 10104
+      "TienThuong": 0
     }
   ]
 }

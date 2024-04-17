@@ -97,10 +97,6 @@
     <None Include="Resources\logo 1.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DEM NGUOC\DEM NGUOC\DEM NGUOC\DEM NGUOC.csproj">
-      <Project>{47058f66-7371-4ee9-b7e6-444b7ae8e814}</Project>
-      <Name>DEM NGUOC</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OOP_CLASS_1\OOP_CLASS_1.csproj">
       <Project>{17c3e6b4-9a19-40d2-a5e2-f1866d24c17a}</Project>
       <Name>OOP_CLASS_1</Name>

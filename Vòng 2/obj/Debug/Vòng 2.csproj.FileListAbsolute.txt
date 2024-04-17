@@ -48,6 +48,16 @@ D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.exe
 D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.pdb
 D:\OOP_15\Vòng 2\obj\Debug\Vòng_2.PunchABunch.resources
 D:\OOP_15\Vòng 2\obj\Debug\Vòng_2.GuessThePrice.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng_2.GuessThePrice.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng_2.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng_2.PunchABunch.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.pdb
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Vòng 2.exe.config
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Vòng 2.exe
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Vòng 2.pdb
@@ -72,18 +82,4 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Buffers.xml
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.AssemblyReference.cache
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.SuggestedBindingRedirects.cache
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.exe.config
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng_2.GuessThePrice.resources
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng_2.Properties.Resources.resources
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng_2.PunchABunch.resources
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.GenerateResource.cache
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.CopyComplete
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.exe
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.pdb
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\DEM NGUOC.exe
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Guna.UI2.dll
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\DEM NGUOC.pdb
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\DEM NGUOC.exe.config

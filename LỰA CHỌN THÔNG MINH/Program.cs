@@ -29,7 +29,7 @@ namespace Vòng_4
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Player currentPlayer = playerList.Players[0];
-            Application.Run(new MainVong4(sanPhamList, player));
+            Application.Run(new MainVong4(sanPhamList));
         }
     }
 }

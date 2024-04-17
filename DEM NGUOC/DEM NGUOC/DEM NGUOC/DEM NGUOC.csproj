@@ -140,10 +140,6 @@
     <EmbeddedResource Include="Properties\trlsai.wav.wav" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\khongmaco\designkhongmaco\designkhongmaco.csproj">
-      <Project>{89acc616-afb2-4bc6-a550-02783684ad75}</Project>
-      <Name>designkhongmaco</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\OOP_CLASS_1\OOP_CLASS_1.csproj">
       <Project>{17c3e6b4-9a19-40d2-a5e2-f1866d24c17a}</Project>
       <Name>OOP_CLASS_1</Name>
