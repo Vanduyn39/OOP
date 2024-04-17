@@ -33,6 +33,7 @@ namespace Vòng_2
             MessageBox.Show($"Bạn đã hết lượt đấm! \nTổng giải thưởng:{totalPrize}");
             this.Hide();
             SanPhamList sanPhamList = new SanPhamList();
+            SanPham sanPham = new SanPham();
             PlayerList playerList = new PlayerList();
             DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
             dieuKhien.AddSanPham(sanPhamList);
@@ -41,9 +42,10 @@ namespace Vòng_2
             // Add the player to the player list
             //Player newPlayer = new Player(playerName, null, 0);
             //playerList.Add(newPlayer);
-            dieuKhien.AddPlayer(playerList);
-            SanPham_DN SanPham_DN = new DEM_NGUOC.SanPham_DN(sanPhamList);
-            SanPham_DN.ShowDialog();
+            dieuKhien.AddPlayer1(playerList);
+            dieuKhien.AddPlayer2(playerList);
+            Main_DN main_DN = new Main_DN(sanPhamList, sanPham);
+            main_DN.Show();
         }
 
         private void pnl_PAB_MouseClick(object sender, MouseEventArgs e)

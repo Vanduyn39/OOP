@@ -14,7 +14,8 @@ namespace OOP_CLASS_1
         private List<IVongChoi> vongChois = new List<IVongChoi>();
         private PlayerList playerList;
         private SanPhamList SanPhamList;
-        public DieuKhien( PlayerList playerList, SanPhamList sanPhamList)
+        string filePathPlayer = "Player.json";
+        public DieuKhien(PlayerList playerList, SanPhamList sanPhamList)
         {
             this.playerList = playerList;
             SanPhamList = sanPhamList;
@@ -84,12 +85,13 @@ namespace OOP_CLASS_1
                 return null;
             }
         }
-        public void AddPlayer(PlayerList playerList)
+        public void AddPlayer1(PlayerList playerList)
         {
-            string filePathPlayer = "Player.json";
             WriteFile(filePathPlayer, playerList);
             PlayerList FileRead = ReadFile(filePathPlayer);
-            //DieuPhoi();
+        }
+        public void AddPlayer2(PlayerList playerList)
+        { 
             WriteFile(filePathPlayer, playerList);//Thêm người chơi mới
             PlayerList newData = ReadFile(filePathPlayer);
         }
@@ -140,4 +142,3 @@ namespace OOP_CLASS_1
     }
 
 }
-

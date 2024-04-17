@@ -6,11 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Numerics;
 
 namespace Vòng_4
 {
     internal static class Program
     {
+        private static Player player;
+
         // Khai báo biến toàn cục
         //public static SanPhamList sanPhamList;
         /// <summary>
@@ -25,8 +28,8 @@ namespace Vòng_4
             dieuKhien.AddSanPham(sanPhamList);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Player currentPlayer = playerList.Players[0];
-            Application.Run(new MainVong4(sanPhamList, currentPlayer));
+            //Player currentPlayer = playerList.Players[0];
+            Application.Run(new MainVong4(sanPhamList, player));
         }
     }
 }

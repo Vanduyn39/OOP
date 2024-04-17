@@ -11,6 +11,9 @@ namespace Vòng_2
         private int displayedProducts;
         public int numberOfProducts;
         public string Ten;
+
+        //public object Player { get; set; }
+
         public GuessThePrice(SanPhamList sanPhamList, string Ten)
         {
             InitializeComponent();

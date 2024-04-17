@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOP_CLASS_1.DieuKhien">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAQAAAAAAAQAAgAAAAAAAYkAAACAAAAAA=</HashCode>
+      <FileName>DieuKhien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_CLASS_1.Player" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="OOP_CLASS_1.Player.CompareTienThuong" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Player.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAIAAAgAAEgAAQAACgAAABAAAABAAAAAAAABA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_CLASS_1.PlayerList" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAgAAAgAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>PlayerList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_CLASS_1.SanPham" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAgAAAQEAAAAIAAgAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>SanPham.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_CLASS_1.SanPhamList" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SanPhamList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_CLASS_1.Vong_BanTayVang">
+    <Position X="10.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAgEAAAAGAgAAoQEAAAAAABIQAQgAQAAAAAABA=</HashCode>
+      <FileName>Vong_BanTayVang.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_CLASS_1.Vong_DemNguoc">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgABAAABAAEAAAAAgAEAAAAAAAQkAUAAgAQAAA=</HashCode>
+      <FileName>Vong_DemNguoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_CLASS_1.Vong_KhongMaCo">
+    <Position X="12.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQkAAAAAAAAAA=</HashCode>
+      <FileName>Vong_KhongMaCo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_CLASS_1.Vong_LuaChonThongMinh">
+    <Position X="8.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEBAAAAAAAAAAAAAAAAAABAAAQgACAAAAAAAA=</HashCode>
+      <FileName>Vong_LuaChonThongMinh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_CLASS_1.VongChoi">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAAAAAAA=</HashCode>
+      <FileName>VongChoi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="OOP_CLASS_1.IVongChoi">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAAAAAAA=</HashCode>
+      <FileName>IVongChoi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -2,21 +2,27 @@ using OOP_CLASS_1;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace OOP_CLASS_1
 {
     public class Vong_DemNguoc : VongChoi
     {
         private SanPhamList SanPhamList;
+        private SanPham sanpham;
         private Random random = new Random();
         private int[] giasai = new int[4];
+        private int[] giatri = new int[4];
         private int j;
-        public Vong_DemNguoc(SanPhamList sanPhamList) : base("Đếm Ngược")
+        //public decimal Thuong;
+        public Vong_DemNguoc(SanPhamList sanPhamList) : base("Dem Nguoc")
         {
             SanPhamList = sanPhamList;
+            //this.Thuong = sanpham.GiaSP;
         }
         public void HienGiaSai(int[] giasai)
         {
@@ -42,7 +48,7 @@ namespace OOP_CLASS_1
         }
         private bool Kiemtra(int[] giasai, int[] giatri)
         {
-            //AmThanh amThanh= new AmThanh();
+            //AmThanh amThanh = new AmThanh();
             Thread demnguoc = new Thread(DemNguocTime);
             demnguoc.Start();
             while (!demnguoc.Join(0))
@@ -80,9 +86,8 @@ namespace OOP_CLASS_1
             }
             return false;
         }
-        public override void Play()
+        public SanPham RandomSanPham()
         {
-            Console.OutputEncoding = Encoding.UTF8;
             List<SanPham> sanPhams = new List<SanPham>();
             foreach (SanPham sanPham in SanPhamList.SanPhams)
             {
@@ -91,25 +96,31 @@ namespace OOP_CLASS_1
                     sanPhams.Add(sanPham);
                 }
             }
-            if (sanPhams.Count > 0)
+            Console.WriteLine("Bạn hãy đoán giá của sản phẩm bằng cách lựa chọn lớn hơn hoặc nhỏ hơn (>/<)\n để so sánh từng đơn vị trong giá của sản phẩm lớn hơn hay nhỏ hơn giá sai mà chương trình đưa ra");
+            // Chọn một sản phẩm ngẫu nhiên từ danh sách sản phẩm thỏa mãn điều kiện
+            int index = random.Next(0, sanPhams.Count);
+            return sanPhams[index];
+
+        }
+        public void DonViSP(SanPham sanpham, int[] giatri)
+        {
+            giatri[0] = (int)sanpham.GiaSP / 1000;
+            giatri[1] = ((int)sanpham.GiaSP - giatri[0] * 1000) / 100;
+            giatri[2] = ((int)sanpham.GiaSP - giatri[0] * 1000 - giatri[1] * 100) / 10;
+            giatri[3] = (int)sanpham.GiaSP - giatri[0] * 1000 - giatri[1] * 100 - giatri[2] * 10;
+        }
+        public override void Play()
+        {
+            sanpham = RandomSanPham();
+            Console.WriteLine($"Sản phẩm bạn cần đoán giá là: \nTên sản phẩm: {sanpham.TenSP}\nMô tả sản phẩm: {sanpham.Mota}");
+            DonViSP(sanpham, giatri);
+            HienGiaSai(giasai);
+            if (Kiemtra(giasai, giatri))
             {
-                Console.WriteLine("Bạn hãy đoán giá của sản phẩm bằng cách lựa chọn lớn hơn hoặc nhỏ hơn (>/<)\n để so sánh từng đơn vị trong giá của sản phẩm lớn hơn hay nhỏ hơn giá sai mà chương trình đưa ra");
-                // Chọn một sản phẩm ngẫu nhiên từ danh sách sản phẩm thỏa mãn điều kiện
-                int index = random.Next(0, sanPhams.Count);
-                SanPham sanPhamNgauNhien = sanPhams[index];
-                Console.WriteLine($"Sản phẩm bạn cần đoán giá là: \nTên sản phẩm: {sanPhamNgauNhien.TenSP}\nMô tả sản phẩm: {sanPhamNgauNhien.Mota}");
-                int a = (int)sanPhamNgauNhien.GiaSP / 1000;
-                int b = ((int)sanPhamNgauNhien.GiaSP - a * 1000) / 100;
-                int c = ((int)sanPhamNgauNhien.GiaSP - a * 1000 - b * 100) / 10;
-                int d = (int)sanPhamNgauNhien.GiaSP - a * 1000 - b * 100 - c * 10;
-                int[] giatri = { a, b, c, d };
-                HienGiaSai(giasai);
-                if (Kiemtra(giasai, giatri))
-                {
-                    this.TienThuong = (int)sanPhamNgauNhien.GiaSP;
-                }
-                else { this.TienThuong = 0; }
+                this.TienThuong = (int)sanpham.GiaSP;
             }
+            else { this.TienThuong = 0; }
+
         }
     }
 }

@@ -164,6 +164,10 @@
     <None Include="Resources\snapedit_1712412497846.jpeg" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\DEM NGUOC\DEM NGUOC\DEM NGUOC\DEM NGUOC.csproj">
+      <Project>{47058f66-7371-4ee9-b7e6-444b7ae8e814}</Project>
+      <Name>DEM NGUOC</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\LỰA CHỌN THÔNG MINH\Vòng 4.csproj">
       <Project>{8da7aad0-c7a1-4143-95c0-5f4198572769}</Project>
       <Name>Vòng 4</Name>

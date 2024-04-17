@@ -89,11 +89,8 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.ValueTuple.xml
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.AssemblyReference.cache
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.ChucMung_DN.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Main_DN.resources
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.SanPham_DN.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Properties.Resources.resources
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Thua.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.GenerateResource.cache
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CopyComplete

@@ -225,10 +225,11 @@
             this.panel_btn.Size = new System.Drawing.Size(272, 361);
             this.panel_btn.TabIndex = 16;
             // 
-            // Form1
+            // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::giaodienhaychongiadung.Properties.Resources.haychongiadungg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(837, 423);
             this.Controls.Add(this.panel_btn);
@@ -239,7 +240,7 @@
             this.Controls.Add(this.label2);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(859, 477);
-            this.Name = "Form1";
+            this.Name = "TrangChu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel_btn.ResumeLayout(false);

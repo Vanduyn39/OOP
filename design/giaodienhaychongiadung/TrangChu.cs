@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Vòng_2;
 using Vòng_4;
+using DEM_NGUOC;
 
 namespace TrangChu
 {
@@ -23,6 +24,9 @@ namespace TrangChu
         }
         private Player currentPlayer;
         private VongChoi vongChoi;
+        private SanPhamList sanPhamList;
+        private SanPham sanPham;
+
         //private void guna2Button1_Click(object sender, EventArgs e)
         //{ 
         //    panel_btn.Visible = false;
@@ -31,6 +35,7 @@ namespace TrangChu
         //    //newf1.Show();
         //}
 
+        
         private void form1_batdau_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -55,27 +60,116 @@ namespace TrangChu
             string Ten = textBox1.Text;
 
             // Add the player to the player list
-            Player currentPlayer = new Player(Ten, vongChoi, 0);
-            playerList.Add(currentPlayer);
+            Player Player = new Player(Ten, vongChoi, 0);
+            playerList.Add(Player);
 
             // Ghi danh sách người chơi vào tệp
             DieuKhien.WriteFile(filePathPlayer, playerList);
 
             // Create instances of other classes and pass the player list
             DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
-
             // Add the player to the game
-            dieuKhien.AddPlayer(playerList);
+            dieuKhien.AddPlayer1(playerList);
+            dieuKhien.AddPlayer2(playerList);
             dieuKhien.AddSanPham(sanPhamList);
+
+            // Start the game for the current player
+            BatDau(playerList, Player);
+
+            //while (true)
+            //{
+            //    string answer = MessageBox.Show("Bạn có muốn tham gia chơi không?", "Chào mừng bạn đến với trò chơi!", MessageBoxButtons.YesNo).ToString();
+            //    if (answer == "Yes")
+            //    {
+            //        Player player = new Player(); // Tạo một người chơi mới
+            //        Console.Write("=========================================\nNhập tên bạn: ");
+            //        player.Ten = Console.ReadLine();
+            //        string playAgain = MessageBox.Show("Bạn có muốn chơi lại không?", "Chào mừng bạn đến với trò chơi!", MessageBoxButtons.YesNo).ToString();
+            //        if (playAgain == "No")
+            //            break;
+            //    }
+            //    else
+            //        break;
+            //}
+            //}
 
             // Set the _username variable in the GuessThePrice form
             //Vòng_2.GuessThePrice GuessThePrice = new Vòng_2.GuessThePrice(sanPhamList, currentPlayer.Ten); // Use currentPlayer.Ten instead of newPlayer.Ten
             //GuessThePrice.ShowDialog();
-            Vòng_4.MainVong4 Form1 = new Vòng_4.MainVong4(sanPhamList, currentPlayer);
-            Form1.ShowDialog();
+            //Vòng_4.MainVong4 Form1 = new Vòng_4.MainVong4(sanPhamList, currentPlayer);
+            //Form1.ShowDialog();
 
+            //// Update the player's bonus reward after round 4
+            //currentPlayer.TienThuong += (int)Form1.LuaChonThongMinh.bonusReward;
+            //// Cộng thêm tiền thưởng của vòng 4
+
+            //// Save the player list to a JSON file after updating the player's data
+            //DieuKhien.WriteFile(filePathPlayer, playerList);
+        }
+
+        public void BatDau(PlayerList playerList, Player player)
+        {
+            SanPhamList sanPhamList = new SanPhamList();
+            SanPham sanPham = new SanPham();
+            //PlayerList playerList = new PlayerList();
+            DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
+            dieuKhien.AddSanPham(sanPhamList);
+            //Vòng 1: Vòng_2.GuessThePrice(sanPhamList, currentPlayer.Ten)
+            //Vòng_2.GuessThePrice guessThePriceForm = new Vòng_2.GuessThePrice(sanPhamList, player.Ten);
+            //guessThePriceForm.ShowDialog();
+            //player.TienThuong += guessThePriceForm.Player.TienThuong;
+
+            //// Hiển thị thông tin về vòng 1
+            //MessageBox.Show($"Thông tin về vòng 1: Tiền thưởng: {guessThePriceForm.Player.TienThuong}");
+
+            //if (player.TienThuong == 0)
+            //{
+            //    // Hiển thị thông báo thua
+            //    MessageBox.Show("Bạn đã thua ở vòng 1. Kết thúc chương trình!");
+            //    playerList.Add(player);
+            //    return; // Dừng chương trình nếu người chơi thua ở vòng 1
+            //}
+
+            // Vòng 2: DEM_NGUOC.SanPham_DN(sanPhamList)
+            DEM_NGUOC.Main_DN main_DN = new DEM_NGUOC.Main_DN(sanPhamList,sanPham);
+            main_DN.ShowDialog();
+            player.TienThuong += (int)main_DN.demNguoc.TienThuong;
+            // Hiển thị thông tin về vòng 2
+            //MessageBox.Show($"Thông tin về vòng 2: Tiền thưởng: {player.TienThuong}");
+
+            if (player.TienThuong == 0)
+            {
+                // Hiển thị thông báo thua
+                MessageBox.Show("Bạn đã thua ở vòng 2. Kết thúc chương trình!");
+                playerList.Add(player);
+                return; // Dừng chương trình nếu người chơi thua ở vòng 2.
+            }
+
+            // Vòng 3: Vòng_4.MainVong4(sanPhamList, currentPlayer)
+            Vòng_4.MainVong4 mainVong4Form = new Vòng_4.MainVong4(sanPhamList, player);
+            mainVong4Form.ShowDialog();
+            //player.TienThuong += mainVong4Form.Player.TienThuong;
+            player.TienThuong += (int)mainVong4Form.LuaChonThongMinh.bonusReward;
+
+            // Hiển thị thông tin về vòng 3
+            MessageBox.Show($"Thông tin về vòng 3: Tiền thưởng: {mainVong4Form.LuaChonThongMinh.bonusReward}");
+
+            if (player.TienThuong == 0)
+            {
+                // Hiển thị thông báo thua
+                MessageBox.Show("Bạn đã thua ở vòng 3. Kết thúc chương trình!");
+                playerList.Add(player);
+                return; // Dừng chương trình nếu người chơi thua ở vòng 3.
+            }
+
+            playerList.Add(player);
+
+            // Hiển thị thông báo hoàn thành tất cả các vòng chơi
+            MessageBox.Show("Chúc mừng! Bạn đã hoàn thành tất cả các vòng chơi.");
+            string filePathPlayer = "Player.json";
             // Update the player's bonus reward after round 4
-            currentPlayer.TienThuong += (int)Form1.LuaChonThongMinh.bonusReward;
+            player.TienThuong += (int)mainVong4Form.LuaChonThongMinh.bonusReward;
+            // Cộng thêm tiền thưởng của vòng 4
 
             // Save the player list to a JSON file after updating the player's data
             DieuKhien.WriteFile(filePathPlayer, playerList);

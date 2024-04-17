@@ -22,12 +22,13 @@ namespace DEM_NGUOC
         static void Main(string[] args)
         {
             SanPhamList sanPhamList = new SanPhamList();
+            SanPham sanPham = new SanPham();
             PlayerList playerList = new PlayerList();
             DieuKhien dieuKhien=new DieuKhien(playerList,sanPhamList);
             dieuKhien.AddSanPham(sanPhamList);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SanPham_DN(sanPhamList));
+            Application.Run(new Main_DN(sanPhamList,sanPham));
             //dieuKhien.AddPlayer(playerList);
         }
     }

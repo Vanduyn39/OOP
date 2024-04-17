@@ -10,22 +10,24 @@ namespace Vòng_4
         public Vong_LuaChonThongMinh LuaChonThongMinh { get; private set; }
         private SanPhamList sanPhamList;
         private bool daChon;
+        private Player player;
         private bool[] btnClicked = new bool[3]; // Theo dõi số lần nhấp vào nút
-        private Player currentPlayer; // Add this line at the class level
+        public Player Player; // Add this line at the class level
 
-        public MainVong4(SanPhamList sanPhamList, Player currentPlayer)
+        public MainVong4(SanPhamList sanPhamList, Player player)
         {
             InitializeComponent();
             this.sanPhamList = sanPhamList;
-            this.LuaChonThongMinh = new Vong_LuaChonThongMinh(sanPhamList, currentPlayer); // Pass currentPlayer to LuaChonThongMinh constructor
+            this.LuaChonThongMinh = new Vong_LuaChonThongMinh(sanPhamList); // Pass sanPhamList only
             this.daChon = false;
-            this.currentPlayer = currentPlayer; // Assign the currentPlayer parameter to the currentPlayer field
+            this.player = player; // Assign the player parameter to the player field
             HienTenSP();
             // Vô hiệu hóa các nút lựa chọn ban đầu
             btn_S1.Enabled = false;
             btn_S2.Enabled = false;
             btn_S3.Enabled = false;
         }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -44,15 +46,14 @@ namespace Vòng_4
         // Chọn sản phẩm có giá cao nhất
         //private Player currentPlayer; // Add this line at the class level
 
-        private void ChonSPGiaCao(int index)
+        private void ChonSPGiaCao(int index, Player player)
         {
             if (index >= 0 && index < sanPhamList.SanPhams.Count)
             {
                 SanPham sanPhamChon = sanPhamList.SanPhams[index];
 
-                decimal maxPrice = decimal.MinValue; // Khởi tạo maxPrice với giá trị nhỏ nhất
+                decimal maxPrice = decimal.MinValue;
 
-                // Lặp lại danh sách sản phẩm để tìm giá cao nhất
                 foreach (SanPham sp in sanPhamList.SanPhams)
                 {
                     if (sp.GiaSP > maxPrice)
@@ -63,17 +64,16 @@ namespace Vòng_4
 
                 if (sanPhamChon.GiaSP == maxPrice)
                 {
-                    // Chúc mừng người dùng đã chọn đúng sản phẩm có giá cao nhất
                     MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP);
                     MessageBox.Show("Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + LuaChonThongMinh.bonusReward);
-                    currentPlayer.TienThuong += (int)LuaChonThongMinh.bonusReward; // Use currentPlayer.TienThuong instead of this.TienThuong
-                    MessageBox.Show("Tiền thưởng: " + currentPlayer.TienThuong);
-
-                    Application.Exit();
+                    LuaChonThongMinh.TienThuong += (int)LuaChonThongMinh.bonusReward;
+                    //this.TienThuong += (int)bonusReward;
+                    MessageBox.Show("Tiền thưởng: " + LuaChonThongMinh.TienThuong);
+                    this.Hide();
+                    //Application.Exit();
                 }
                 else
                 {
-                    // Thông báo cho người dùng lựa chọn sai và kết thúc chương trình nếu tất cả các lựa chọn đều sai
                     SanPham GiaSPCaoNhat = null;
                     foreach (SanPham sp in sanPhamList.SanPhams)
                     {
@@ -88,16 +88,15 @@ namespace Vòng_4
                     if (daChon)
                     {
                         MessageBox.Show("Bạn đã chọn sai, chương trình kết thúc!");
-                        // Phát âm thanh trlsai.wav
-                        //SoundPlayer soundPlayer = new SoundPlayer("trlsai.wav");
-                        //soundPlayer.Play();
-                        Application.Exit();
+                        this.Hide();
+                        //Application.Exit();
                     }
                 }
 
                 HienTenSP();
             }
         }
+
 
         // Hiển thị tên sản phẩm
         private void HienTenSP()
@@ -151,19 +150,19 @@ namespace Vòng_4
         // Trình xử lý sự kiện cho nút chọn 1 cú nhấp chuột
         private void btn_S1_Click_1(object sender, EventArgs e)
         {
-            ChonSPGiaCao(0);
+            ChonSPGiaCao(0, Player);
         }
 
         // Trình xử lý sự kiện cho nút chọn 2 lần nhấp
         private void btn_S2_Click_1(object sender, EventArgs e)
         {
-            ChonSPGiaCao(1);
+            ChonSPGiaCao(1, Player);
         }
 
         // Trình xử lý sự kiện cho nút chọn 3 lần nhấp
         private void btn_S3_Click_1(object sender, EventArgs e)
         {
-            ChonSPGiaCao(2);
+            ChonSPGiaCao(2, Player);
         }
     }
 }
