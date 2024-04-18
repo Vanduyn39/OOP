@@ -156,20 +156,20 @@ namespace TrangChu
 
         private void btn_caidat_Click(object sender, EventArgs e)
         {
-            this.Hide();
             SETTING setting = new SETTING();
             setting.ShowDialog();
         }
 
         private void btn_xephang_Click(object sender, EventArgs e)
         {
-            this.Hide();
             XepHang mn = new XepHang();
             mn.ShowDialog();
         }
 
         private void TrangChu_Load(object sender, EventArgs e)
         {
+            AmThanh amThanh = new AmThanh();
+            amThanh.PlayMoGameSound();
         }
 
         private void btn_huongdan_Click(object sender, EventArgs e)
