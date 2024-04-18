@@ -61,10 +61,10 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.csproj.AssemblyReference.cache
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.csproj.SuggestedBindingRedirects.cache
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.exe.config
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.Form1.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.Properties.Resources.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.csproj.GenerateResource.cache
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.csproj.CopyComplete
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.exe
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KetThucGame\obj\Debug\KetThucGame.ENDGAME.resources

@@ -44,7 +44,6 @@ D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.CoreCompileInputs.cache
 D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.Up2Date
 D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.exe
 D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.pdb
-D:\OOP_15\Vòng 2\obj\Debug\Vòng_2.PunchABunch.resources
 D:\OOP_15\Vòng 2\obj\Debug\Vòng_2.GuessThePrice.resources
 D:\OOP_15\Vòng 2\bin\Debug\Newtonsoft.Json.dll
 D:\OOP_15\Vòng 2\bin\Debug\Newtonsoft.Json.xml

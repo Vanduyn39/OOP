@@ -10,18 +10,15 @@ namespace Vòng_4
     {
         public Vong_LuaChonThongMinh LuaChonThongMinh { get; private set; }
         private SanPhamList sanPhamList;
-        private bool daChon;
-        //private Player player;
+        private bool DaChon;
         private bool[] btnClicked = new bool[3]; // Theo dõi số lần nhấp vào nút
-        /*public Player Player;*/ // Add this line at the class level
 
         public MainVong4(SanPhamList sanPhamList)
         {
             InitializeComponent();
             this.sanPhamList = sanPhamList;
             this.LuaChonThongMinh = new Vong_LuaChonThongMinh(sanPhamList); // Pass sanPhamList only
-            this.daChon = false;
-            /*this.player = player;*/ // Assign the player parameter to the player field
+            this.DaChon = false;
             HienTenSP();
             // Vô hiệu hóa các nút lựa chọn ban đầu
             btn_S1.Enabled = false;
@@ -44,9 +41,6 @@ namespace Vòng_4
             }
         }
 
-        // Chọn sản phẩm có giá cao nhất
-        //private Player currentPlayer; // Add this line at the class level
-
         private void ChonSPGiaCao(int index)
         {
             if (index >= 0 && index < sanPhamList.SanPhams.Count)
@@ -67,8 +61,8 @@ namespace Vòng_4
 
                 if (sanPhamChon.GiaSP == maxPrice)
                 {
-                    MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP + " Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + LuaChonThongMinh.bonusReward);
-                    LuaChonThongMinh.TienThuong += (int)LuaChonThongMinh.bonusReward;
+                    MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP + " Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + LuaChonThongMinh.TongTienThuong);
+                    LuaChonThongMinh.TienThuong += (int)LuaChonThongMinh.TongTienThuong;
                     MessageBox.Show("Tiền thưởng: " + LuaChonThongMinh.TienThuong);
                     this.Hide();
                 }
@@ -78,8 +72,8 @@ namespace Vòng_4
                     PlayErrorSound();
 
                     MessageBox.Show("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + GiaSPCaoNhat.TenSP);
-                    daChon = true;
-                    if (daChon)
+                    DaChon = true;
+                    if (DaChon)
                     {
                         MessageBox.Show("Bạn đã chọn sai, chương trình kết thúc!");
                         this.Hide();
@@ -94,7 +88,7 @@ namespace Vòng_4
         {
             try
             {
-                // Load the sound file from the Vòng_4 project
+                // Load the sound file from the LUACHONTHONGMINH project
                 SoundPlayer player = new SoundPlayer(@"Resources\trlsai.wav.wav");
 
                 // Play the sound asynchronously
@@ -106,9 +100,6 @@ namespace Vòng_4
                 Console.WriteLine("Error playing sound: " + ex.Message);
             }
         }
-
-
-
 
         // Hiển thị tên sản phẩm
         private void HienTenSP()

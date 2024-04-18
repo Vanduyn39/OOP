@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnl_Game = new System.Windows.Forms.Panel();
             this.btn_LH = new System.Windows.Forms.Button();
             this.btn_NH = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pnl_Result = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lbl_Result = new System.Windows.Forms.Label();
             this.pnl_PAB = new System.Windows.Forms.Panel();
             this.btn_Result = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
@@ -86,15 +89,17 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button51 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.lbl_Result = new System.Windows.Forms.Label();
             this.btn_Start = new System.Windows.Forms.Button();
             this.pnl_Start = new System.Windows.Forms.Panel();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.pnl_info = new System.Windows.Forms.Panel();
+            this.lbl_info = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnl_Game.SuspendLayout();
             this.pnl_Result.SuspendLayout();
             this.pnl_PAB.SuspendLayout();
             this.pnl_Start.SuspendLayout();
+            this.pnl_info.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -117,7 +122,7 @@
             this.pnl_Game.Controls.Add(this.btn_NH);
             this.pnl_Game.Controls.Add(this.label1);
             this.pnl_Game.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pnl_Game.Location = new System.Drawing.Point(208, 129);
+            this.pnl_Game.Location = new System.Drawing.Point(210, 163);
             this.pnl_Game.Name = "pnl_Game";
             this.pnl_Game.Size = new System.Drawing.Size(559, 304);
             this.pnl_Game.TabIndex = 1;
@@ -162,11 +167,35 @@
             this.pnl_Result.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.pnl_Result.Controls.Add(this.button1);
             this.pnl_Result.Controls.Add(this.lbl_Result);
-            this.pnl_Result.Location = new System.Drawing.Point(208, 132);
+            this.pnl_Result.Location = new System.Drawing.Point(213, 150);
             this.pnl_Result.Name = "pnl_Result";
             this.pnl_Result.Size = new System.Drawing.Size(559, 298);
             this.pnl_Result.TabIndex = 7;
             this.pnl_Result.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(227, 205);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(96, 40);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Ok";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lbl_Result
+            // 
+            this.lbl_Result.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_Result.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.lbl_Result.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lbl_Result.Location = new System.Drawing.Point(69, 71);
+            this.lbl_Result.Name = "lbl_Result";
+            this.lbl_Result.Size = new System.Drawing.Size(416, 100);
+            this.lbl_Result.TabIndex = 6;
+            this.lbl_Result.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pnl_PAB
             // 
@@ -226,12 +255,11 @@
             this.pnl_PAB.Controls.Add(this.button2);
             this.pnl_PAB.Controls.Add(this.button51);
             this.pnl_PAB.Enabled = false;
-            this.pnl_PAB.Location = new System.Drawing.Point(313, 116);
+            this.pnl_PAB.Location = new System.Drawing.Point(299, 131);
             this.pnl_PAB.Name = "pnl_PAB";
             this.pnl_PAB.Size = new System.Drawing.Size(380, 311);
             this.pnl_PAB.TabIndex = 8;
             this.pnl_PAB.Visible = false;
-            
             // 
             // btn_Result
             // 
@@ -795,30 +823,6 @@
             this.button51.UseVisualStyleBackColor = true;
             this.button51.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnl_PAB_MouseClick);
             // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(227, 205);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 40);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Ok";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // lbl_Result
-            // 
-            this.lbl_Result.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_Result.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.lbl_Result.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lbl_Result.Location = new System.Drawing.Point(69, 71);
-            this.lbl_Result.Name = "lbl_Result";
-            this.lbl_Result.Size = new System.Drawing.Size(416, 100);
-            this.lbl_Result.TabIndex = 6;
-            this.lbl_Result.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // btn_Start
             // 
             this.btn_Start.Location = new System.Drawing.Point(55, 174);
@@ -839,6 +843,34 @@
             this.pnl_Start.Size = new System.Drawing.Size(190, 240);
             this.pnl_Start.TabIndex = 5;
             // 
+            // timer
+            // 
+            this.timer.Enabled = true;
+            this.timer.Interval = 22000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // pnl_info
+            // 
+            this.pnl_info.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.pnl_info.Controls.Add(this.lbl_info);
+            this.pnl_info.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnl_info.ForeColor = System.Drawing.Color.MediumBlue;
+            this.pnl_info.Location = new System.Drawing.Point(210, 153);
+            this.pnl_info.Name = "pnl_info";
+            this.pnl_info.Size = new System.Drawing.Size(562, 311);
+            this.pnl_info.TabIndex = 10;
+            this.pnl_info.Visible = false;
+            // 
+            // lbl_info
+            // 
+            this.lbl_info.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_info.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lbl_info.Location = new System.Drawing.Point(18, 14);
+            this.lbl_info.Name = "lbl_info";
+            this.lbl_info.Size = new System.Drawing.Size(522, 281);
+            this.lbl_info.TabIndex = 0;
+            this.lbl_info.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // GuessThePrice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -846,10 +878,11 @@
             this.BackgroundImage = global::Vòng_2.Properties.Resources.snapedit_1712216454656;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(978, 544);
-            this.Controls.Add(this.pnl_PAB);
+            this.Controls.Add(this.pnl_info);
             this.Controls.Add(this.pnl_Result);
             this.Controls.Add(this.pnl_Game);
             this.Controls.Add(this.pnl_Start);
+            this.Controls.Add(this.pnl_PAB);
             this.DoubleBuffered = true;
             this.Name = "GuessThePrice";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -859,6 +892,7 @@
             this.pnl_Result.ResumeLayout(false);
             this.pnl_PAB.ResumeLayout(false);
             this.pnl_Start.ResumeLayout(false);
+            this.pnl_info.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -927,6 +961,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button51;
+        private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Panel pnl_info;
+        private System.Windows.Forms.Label lbl_info;
     }
 }
 

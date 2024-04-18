@@ -103,6 +103,13 @@ namespace Vòng_2
 
         private void btn_Start_Click(object sender, EventArgs e)
         {
+            timer.Start();
+            pnl_info.Visible = true;
+            lbl_info.Text = "Người chơi sẽ trả lời 4 câu hỏi, mỗi có hỏi sẽ đưa ra số lượng sản phẩm, tên sản phẩm, mô tả và giá sai. Nhiệm vụ của người chơi là đoán giá đúng của số lượng những sản phẩm đó." +
+                " Mỗi lần đoán đúng người chơi sẽ có được 1 lượt đấm, 1 lượt chọn ô may mắn." +
+                " Có tất cả 50 ô với các giá trị giải thưởng như sau: \n2 tấm séc trị giá 15.000 đồng.\n3 tấm séc trị giá 5.000 đồng.\n5 tấm séc trị giá 1.000 đồng.\n40 tấm séc với các giá trị khác nhau: 500, 250, 100 và 50 đồng." +
+                "\nKhi hoàn thành đấm ô may mắn, thì người chơi sẽ nhận được số tiền thưởng tương ứng.";
+            pnl_info.BringToFront();
             pnl_Start.Visible = false;
             pnl_Game.Visible = true;
             displayedProducts = 0;
@@ -153,6 +160,14 @@ namespace Vòng_2
                     btn_Result.Visible = true;
                 }
             
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            // Dừng Timer
+            timer.Stop();
+            // Ẩn label
+            pnl_info.Visible = false;
         }
     }
 }

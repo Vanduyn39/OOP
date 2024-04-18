@@ -1,37 +1,29 @@
-using OOP_CLASS_1;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OOP_CLASS_1
 {
     public class Vong_LuaChonThongMinh : VongChoi
     {
         public SanPhamList SanPhamList;
-        public decimal bonusReward;
-        //private List<SanPham> lichSuSanPham; // Lịch sử sản phẩm đã chọn
-        // Tạo phương thức GetSanPhamList để trả về giá trị của thuộc tính SanPhamList
+        public decimal TongTienThuong;
 
-        public Vong_LuaChonThongMinh(SanPhamList sanPhamList/*, Player player*/) : base("LuaChonThongMinh")
+        public Vong_LuaChonThongMinh(SanPhamList sanPhamList) : base("LuaChonThongMinh")
         {
-            //// Khởi tạo lịch sử sản phẩm
-            //lichSuSanPham = new List<SanPham>();
             SanPhamList = sanPhamList;
             // Sắp xếp các sản phẩm theo giá
             List<SanPham> sortedSanPhams = new List<SanPham>(SanPhamList.SanPhams); // Sao chép danh sách sản phẩm
-            sortedSanPhams.Sort(CompareSanPhamByGiaSP);
+            sortedSanPhams.Sort(SoSanhSPByGia);
 
             // Lấy ra tất cả các bộ 3 sản phẩm có giá cách nhau ít nhất 50
-            List<List<SanPham>> allValidTriplets = GetFilteredSanPhams(sortedSanPhams);
+            List<List<SanPham>> TatCaBoBa = LocSanPham(sortedSanPhams);
             // Lấy ngẫu nhiên một bộ 3 sản phẩm từ tất cả các bộ 3 đã tìm được
             List<SanPham> randomTriplet = null;
-            if (allValidTriplets.Count > 0)
+            if (TatCaBoBa.Count > 0)
             {
                 Random random = new Random();
-                int randomIndex = random.Next(0, allValidTriplets.Count);
-                randomTriplet = allValidTriplets[randomIndex];
+                int randomIndex = random.Next(0, TatCaBoBa.Count);
+                randomTriplet = TatCaBoBa[randomIndex];
             }
 
             // Đảo ngược thứ tự của các sản phẩm trong bộ 3
@@ -48,15 +40,8 @@ namespace OOP_CLASS_1
             // Lưu danh sách sản phẩm đã lọc
             SanPhamList.SanPhams = randomTriplet;
 
-            //// In ra danh sách sản phẩm đã lọc
-            //for (int i = 0; i < SanPhamList.SanPhams.Count; i++)
-            //{
-            //    SanPham sp = GetSanPham(i);
-            //    Console.WriteLine(sp.ToString());
-            //}
-
             // Tính giá trị thưởng tối đa (tổng giá 3 sản phẩm)
-            this.bonusReward = randomTriplet[0].GiaSP + randomTriplet[1].GiaSP + randomTriplet[2].GiaSP;
+            this.TongTienThuong = randomTriplet[0].GiaSP + randomTriplet[1].GiaSP + randomTriplet[2].GiaSP;
         }
 
         // Hàm swap để hoán đổi vị trí giữa hai phần tử trong một List
@@ -66,23 +51,16 @@ namespace OOP_CLASS_1
             list[indexA] = list[indexB];
             list[indexB] = temp;
         }
-        //// Phương thức hoán đổi hai phần tử trong danh sách
-        //private void Swap(List<SanPham> list, int index1, int index2)
-        //{
-        //    SanPham temp = list[index1];
-        //    list[index1] = list[index2];
-        //    list[index2] = temp;
-        //}
         // Phương thức so sánh dựa trên thuộc tính GiaSP
-        public int CompareSanPhamByGiaSP(SanPham sp1, SanPham sp2)
+        public int SoSanhSPByGia(SanPham sp1, SanPham sp2)
         {
             return sp1.GiaSP.CompareTo(sp2.GiaSP);
         }
 
         // Phương pháp được sửa đổi để tìm tất cả các bộ ba hợp lệ có chênh lệch giá từ 1 đến 50
-        public List<List<SanPham>> GetFilteredSanPhams(List<SanPham> sortedSanPhams)
+        public List<List<SanPham>> LocSanPham(List<SanPham> sortedSanPhams)
         {
-            List<List<SanPham>> allValidTriplets = new List<List<SanPham>>();
+            List<List<SanPham>> TatCaBoBa = new List<List<SanPham>>();
 
             for (int i = 0; i < sortedSanPhams.Count - 2; i++)
             {
@@ -96,11 +74,10 @@ namespace OOP_CLASS_1
                     triplet.Add(sanPham1);
                     triplet.Add(sanPham2);
                     triplet.Add(sanPham3);
-                    allValidTriplets.Add(triplet);
+                    TatCaBoBa.Add(triplet);
                 }
             }
-
-            return allValidTriplets;
+            return TatCaBoBa;
         }
         public override void Play()
         {
@@ -113,17 +90,6 @@ namespace OOP_CLASS_1
                 Console.WriteLine(i + ". " + sp.TenSP + " - " + sp.Mota);
                 i++;
             }
-            //// Lựa chọn sản phẩm
-            //SanPham sanPhamChon;
-            //do
-            //{
-            //    Console.WriteLine("Lựa chọn sản phẩm có giá cao nhất:");
-            //    int sanPhamChonNumber = int.Parse(Console.ReadLine());
-            //    sanPhamChon = SanPhamList.SanPhams[sanPhamChonNumber - 1];
-            //} while (LichSuSanPham(sanPhamChon)); // Kiểm tra xem sản phẩm đã chọn có trong lịch sử không
-
-            //// Thêm sản phẩm mới vào lịch sử
-            //lichSuSanPham.Add(sanPhamChon);
             Console.WriteLine("Lựa chọn sản phẩm có giá cao nhất:");
             int sanPhamChonNumber = int.Parse(Console.ReadLine());
             while (sanPhamChonNumber < 1 || sanPhamChonNumber > 3)
@@ -138,23 +104,25 @@ namespace OOP_CLASS_1
             if (sanPhamChon.GiaSP == maxPrice)
             {
                 Console.WriteLine("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP);
-                Console.WriteLine("Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + bonusReward);
-                this.TienThuong += (int)bonusReward;
+                Console.WriteLine("Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + TongTienThuong);
+                this.TienThuong += (int)TongTienThuong;
                 Console.WriteLine("Tiền thưởng: " + this.TienThuong);
             }
             else
             {
                 // In ra thông báo nếu lựa chọn không chính xác
-                SanPham maxPriceSanPham = SanPhamList.SanPhams.Find(delegate (SanPham sp) { return sp.GiaSP == maxPrice; });
+                SanPham maxPriceSanPham = null;
+                foreach (SanPham sp in SanPhamList.SanPhams)
+                {
+                    if (sp.GiaSP == maxPrice)
+                    {
+                        maxPriceSanPham = sp;
+                        break;
+                    }
+                }
                 Console.WriteLine("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + maxPriceSanPham.TenSP);
             }
         }
-        // Phương thức kiểm tra xem một sản phẩm có trong lịch sử hay không
-        //private bool LichSuSanPham(SanPham sanPham)
-        //{
-        //    return lichSuSanPham.Any(sp => sp.Equals(sanPham));
-        //}
-        // Phương thức giả lập lấy giá sản phẩm cao nhất
         public decimal GetMaxPrice()
         {
             decimal maxPrice = 0;
@@ -167,23 +135,5 @@ namespace OOP_CLASS_1
             }
             return maxPrice;
         }
-        //public SanPham GetSanPham(int index)
-        //{
-        //    // Kiểm tra xem chỉ mục có nằm trong phạm vi hợp lệ không
-        //    if (index >= 0 && index < SanPhamList.SanPhams.Count)
-        //    {
-        //        // Nhận sản phẩm tại chỉ mục được chỉ định
-        //        SanPham product = SanPhamList.SanPhams[index];
-
-        //        // Trả lại sản phẩm
-        //        return product;
-        //    }
-        //    else
-        //    {
-        //        // Nếu chỉ mục không hợp lệ, hãy ném ArgumentOutOfRangeException
-        //        throw new ArgumentOutOfRangeException("index", "Invalid index provided.");
-        //    }
-        //}
-
     }
 }

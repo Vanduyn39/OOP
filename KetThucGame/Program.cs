@@ -18,7 +18,7 @@ namespace KetThucGame
             Player player = new Player();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(player));
+            Application.Run(new ENDGAME(player));
         }
     }
 }

@@ -32,7 +32,6 @@ namespace TrangChu
 
         private void form1_batdau_Click(object sender, EventArgs e)
         {
-            //this.Hide();
             panel_btn.Visible = true;
             SanPhamList sanPhamList = new SanPhamList();
             PlayerList playerList;
@@ -51,30 +50,28 @@ namespace TrangChu
                 playerList = new PlayerList();
             }
 
-            // Get the player name from the textbox
+            // Lấy tên người chơi từ textBox1
             string Ten = textBox1.Text;
 
-            // Add the player to the player list
+            // Thêm người chơi vào danh sách người chơi
             Player Player = new Player(Ten, vongChoi, 0);
             playerList.Add(Player);
 
             BatDau(playerList, Player);
 
-            // Save the player list to a JSON file after updating the player's data
+            // Lưu danh sách người chơi vào tệp JSON sau khi cập nhật dữ liệu của người chơi
             DieuKhien.WriteFile(filePathPlayer, playerList);
-            
-
         }
 
-        public void BatDau(PlayerList playerList, Player player)
+        private void BatDau(PlayerList playerList, Player player)
         {
             SanPhamList sanPhamList = new SanPhamList();
             SanPham sanPham = new SanPham();
             DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
             dieuKhien.AddSanPham(sanPhamList);
-            KetThucGame.Form1 form1 = new KetThucGame.Form1(player);
+            KetThucGame.ENDGAME ENDGAME = new KetThucGame.ENDGAME(player);
 
-            // Vòng 1: Vòng_2.GuessThePrice(sanPhamList)
+            // Vòng 1: BÀN TAY VÀNG
             Vòng_2.GuessThePrice guessThePriceForm = new Vòng_2.GuessThePrice(sanPhamList);
             guessThePriceForm.ShowDialog();
             player.TienThuong += guessThePriceForm.TienThuong;
@@ -82,56 +79,58 @@ namespace TrangChu
             if (player.TienThuong == 0)
             {
                 MessageBox.Show("Bạn đã thua ở vòng 1. Kết thúc chương trình!");
+                //player.Vongchoidachoi = "Bàn tay vàng";
                 playerList.Add(player);
+                ENDGAME.Show();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 1
             }
 
-            // Vòng 2: 
+            // Vòng 2: ĐẾM NGƯỢC 
             DEM_NGUOC.Main_DN main_DN = new DEM_NGUOC.Main_DN(sanPhamList, sanPham);
             main_DN.ShowDialog();
             player.TienThuong += (int)main_DN.demNguoc.TienThuong;
 
-            if (player.TienThuong == 0)
+            if (main_DN.demNguoc.TienThuong == 0)
             {
                 // Hiển thị thông báo thua
                 MessageBox.Show("Bạn đã thua ở vòng 2. Kết thúc chương trình!");
                 playerList.Add(player);
-                form1.Show();
+                ENDGAME.Show();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 2.
             }
 
-            // Vòng 3: 
+            // Vòng 3: KHÔNG MÀ CÓ
             designkhongmaco.MainKMC form = new designkhongmaco.MainKMC(sanPhamList, sanPham);
             form.ShowDialog();
 
             player.TienThuong += (int)form.TienThuong;
 
-            if (player.TienThuong == 0)
+            if (form.TienThuong == 0)
             {
                 // Hiển thị thông báo thua
                 MessageBox.Show("Bạn đã thua ở vòng 3. Kết thúc chương trình!");
                 playerList.Add(player);
+                ENDGAME.Show();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 3.
             }
 
-            // Vòng 4: 
-            Vòng_4.MainVong4 mainVong4Form = new Vòng_4.MainVong4(sanPhamList);
-            mainVong4Form.ShowDialog();
-            player.TienThuong += (int)mainVong4Form.LuaChonThongMinh.TienThuong;
+            // Vòng 4: LỰA CHỌN THÔNG MINH
+            Vòng_4.MainVong4 MainVong4 = new Vòng_4.MainVong4(sanPhamList);
+            MainVong4.ShowDialog();
+            player.TienThuong += (int)MainVong4.LuaChonThongMinh.TienThuong;
 
-            if (player.TienThuong == 0)
+            if (MainVong4.LuaChonThongMinh.TienThuong == 0)
             {
                 // Hiển thị thông báo thua
                 MessageBox.Show("Bạn đã thua ở vòng 4. Kết thúc chương trình!");
                 playerList.Add(player);
-                form1.Show();
+                ENDGAME.Show();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 4.
             }
 
-
             // Hiển thị thông báo hoàn thành tất cả các vòng chơi
             MessageBox.Show("Chúc mừng! Bạn đã hoàn thành tất cả các vòng chơi.");
-            form1.Show();
+            ENDGAME.Show();
         }
 
         private void form_thoat_Click(object sender, EventArgs e)
