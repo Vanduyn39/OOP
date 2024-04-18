@@ -6,74 +6,97 @@ namespace OOP_CLASS_1
 {
     public class Vong_KhongMaCo : VongChoi
     {
-        private SanPhamList SanPhamList;
-        private List<int> ChosenProductIndexes = new List<int>();
-        private List<SanPham> LastDisplayedProducts = new List<SanPham>();
+        private SanPhamList DanhSachSanPham;
+        private List<int> CacChiSoSanPhamDaChon = new List<int>();
+        private List<SanPham> SanPhamDaHienThiTruoc = new List<SanPham>();
 
-        public Vong_KhongMaCo(SanPhamList sanPhamList) : base("Khong Ma Co")
+        public Vong_KhongMaCo(SanPhamList danhSachSanPham) : base("Khong Ma Co")
         {
-            SanPhamList = sanPhamList;
+            DanhSachSanPham = danhSachSanPham;
         }
 
         public override void Play()
         {
             Console.OutputEncoding = Encoding.UTF8;
+            int gia = TaoGiaNgauNhien();
 
+            List<SanPham> sanPham = ChonSanPham();
+
+            HienThiSanPham(sanPham);
+
+            int[] cacSanPhamDaChon = ChonSanPhamCuaNguoiDung(sanPham);
+
+            CapNhatCacSanPhamDaChon(cacSanPhamDaChon);
+
+            HienThiSanPhamDaChonVaDung(cacSanPhamDaChon, sanPham, gia);
+        }
+
+        private int TaoGiaNgauNhien()
+        {
             Random random = new Random();
-            int price = random.Next(55, 76) * 100;
+            return random.Next(55, 76) * 100;
+        }
 
-            List<SanPham> products = new List<SanPham>();
-            foreach (SanPham product in SanPhamList.SanPhams)
+        private List<SanPham> ChonSanPham()
+        {
+            List<SanPham> sanPham = new List<SanPham>();
+            foreach (SanPham sp in DanhSachSanPham.SanPhams)
             {
-                bool chosen = false;
-                for (int i = 0; i < ChosenProductIndexes.Count; i++)
+                bool daChon = false;
+                for (int i = 0; i < CacChiSoSanPhamDaChon.Count; i++)
                 {
-                    if (ChosenProductIndexes[i] == products.Count)
+                    if (CacChiSoSanPhamDaChon[i] == sanPham.Count)
                     {
-                        chosen = true;
+                        daChon = true;
                         break;
                     }
                 }
-                if (!chosen)
-                    products.Add(product);
+                if (!daChon)
+                    sanPham.Add(sp);
 
-                if (products.Count >= 6)
+                if (sanPham.Count >= 6)
                     break;
             }
+            return sanPham;
+        }
 
-            Console.WriteLine("Xin chào! Hãy chọn 4 sản phẩm có giá thấp hơn {0}:", price);
+        private void HienThiSanPham(List<SanPham> sanPham)
+        {
+            Console.WriteLine("Xin chào! Hãy chọn 4 sản phẩm:");
             Console.WriteLine();
 
-            // Sử dụng lại danh sách sản phẩm đã được in ra trước đó khi đoán lại
-            List<SanPham> displayProducts = (LastDisplayedProducts.Count > 0) ? LastDisplayedProducts : products;
+            List<SanPham> sanPhamHienThi = (SanPhamDaHienThiTruoc.Count > 0) ? SanPhamDaHienThiTruoc : sanPham;
 
-            for (int i = 0; i < displayProducts.Count; i++)
+            for (int i = 0; i < sanPhamHienThi.Count; i++)
             {
-                Console.WriteLine("{0}. {1}", i + 1, displayProducts[i].TenSP);
+                Console.WriteLine("{0}. {1}", i + 1, sanPhamHienThi[i].TenSP);
             }
+        }
 
-            int count = 0;
-            int[] chosenProducts = new int[4];
-            while (count < 4)
+        private int[] ChonSanPhamCuaNguoiDung(List<SanPham> sanPham)
+        {
+            int dem = 0;
+            int[] cacSanPhamDaChon = new int[4];
+            while (dem < 4)
             {
-                Console.Write("Chọn sản phẩm thứ {0}: ", count + 1);
-                int choice;
-                if (int.TryParse(Console.ReadLine(), out choice) && choice >= 1 && choice <= displayProducts.Count)
+                Console.Write("Chọn sản phẩm thứ {0}: ", dem + 1);
+                int luaChon;
+                if (int.TryParse(Console.ReadLine(), out luaChon) && luaChon >= 1 && luaChon <= sanPham.Count)
                 {
-                    bool alreadyChosen = false;
-                    for (int i = 0; i < count; i++)
+                    bool daChonTruoc = false;
+                    for (int i = 0; i < dem; i++)
                     {
-                        if (chosenProducts[i] == choice)
+                        if (cacSanPhamDaChon[i] == luaChon)
                         {
-                            alreadyChosen = true;
+                            daChonTruoc = true;
                             break;
                         }
                     }
 
-                    if (!alreadyChosen)
+                    if (!daChonTruoc)
                     {
-                        chosenProducts[count] = choice;
-                        count++;
+                        cacSanPhamDaChon[dem] = luaChon;
+                        dem++;
                     }
                     else
                     {
@@ -85,36 +108,42 @@ namespace OOP_CLASS_1
                     Console.WriteLine("Lựa chọn không hợp lệ. Hãy chọn lại!");
                 }
             }
+            return cacSanPhamDaChon;
+        }
 
-            ChosenProductIndexes.AddRange(chosenProducts);
+        private void CapNhatCacSanPhamDaChon(int[] cacSanPhamDaChon)
+        {
+            CacChiSoSanPhamDaChon.AddRange(cacSanPhamDaChon);
+        }
 
+        private void HienThiSanPhamDaChonVaDung(int[] cacSanPhamDaChon, List<SanPham> sanPham, int gia)
+        {
             Console.WriteLine();
             Console.WriteLine("Các sản phẩm bạn đã chọn và đoán đúng:");
-            decimal totalPrize = 0;
-            int correctCount = 0;
-            foreach (int choice in chosenProducts)
+            decimal tongThuong = 0;
+            int soLuongDung = 0;
+            foreach (int luaChon in cacSanPhamDaChon)
             {
-                int index = choice;
-                if (index > 0 && index <= displayProducts.Count && displayProducts[index - 1].GiaSP < price)
+                int chiSo = luaChon;
+                if (chiSo > 0 && chiSo <= sanPham.Count && sanPham[chiSo - 1].GiaSP < gia)
                 {
-                    Console.WriteLine("{0} - Giá: {1}", displayProducts[index - 1].TenSP, displayProducts[index - 1].GiaSP);
-                    totalPrize += displayProducts[index - 1].GiaSP;
-                    correctCount++;
+                    Console.WriteLine("{0} - Giá: {1}", sanPham[chiSo - 1].TenSP, sanPham[chiSo - 1].GiaSP);
+                    tongThuong += sanPham[chiSo - 1].GiaSP;
+                    soLuongDung++;
                 }
             }
 
-            if (correctCount <= 2) // Nếu số sản phẩm đoán đúng ít hơn hoặc bằng 2 thì thua và đoán lại
+            if (soLuongDung <= 2)
             {
                 Console.WriteLine("Bạn đã đoán đúng dưới 2 sản phẩm, xin mời đoán lại!");
                 Console.ReadKey();
-                LastDisplayedProducts = products; // Lưu lại danh sách sản phẩm đã được in ra
-                Play(); // Gọi lại phương thức Play để người chơi đoán lại
+                SanPhamDaHienThiTruoc = sanPham;
+                Play();
                 return;
             }
 
-            Console.WriteLine("Tiền thưởng của vòng hiện tại: {0}", totalPrize);
+            Console.WriteLine("Tiền thưởng của vòng hiện tại: {0}", tongThuong);
             Console.ReadKey();
         }
     }
 }
-
