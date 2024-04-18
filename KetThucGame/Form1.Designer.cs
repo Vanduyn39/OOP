@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.TenNguoichoi = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lbl_tienthuong = new System.Windows.Forms.Label();
             this.btn_tieptuc = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel_choilai = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_choilai = new Guna.UI2.WinForms.Guna2Button();
             this.btn_thoat = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.lbl_tienthuong = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.TenNguoichoi = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             this.panel_choilai.SuspendLayout();
             this.SuspendLayout();
@@ -60,6 +60,50 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(392, 227);
             this.guna2Panel1.TabIndex = 0;
+            // 
+            // TenNguoichoi
+            // 
+            this.TenNguoichoi.AutoSize = true;
+            this.TenNguoichoi.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TenNguoichoi.ForeColor = System.Drawing.Color.Red;
+            this.TenNguoichoi.Location = new System.Drawing.Point(176, 89);
+            this.TenNguoichoi.Name = "TenNguoichoi";
+            this.TenNguoichoi.Size = new System.Drawing.Size(40, 26);
+            this.TenNguoichoi.TabIndex = 5;
+            this.TenNguoichoi.Text = "ten";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Location = new System.Drawing.Point(19, 89);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 26);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Tên: ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(19, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(136, 26);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Tiền thưởng: ";
+            // 
+            // lbl_tienthuong
+            // 
+            this.lbl_tienthuong.AutoSize = true;
+            this.lbl_tienthuong.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tienthuong.ForeColor = System.Drawing.Color.Red;
+            this.lbl_tienthuong.Location = new System.Drawing.Point(176, 126);
+            this.lbl_tienthuong.Name = "lbl_tienthuong";
+            this.lbl_tienthuong.Size = new System.Drawing.Size(118, 26);
+            this.lbl_tienthuong.TabIndex = 2;
+            this.lbl_tienthuong.Text = "Tienthuong";
             // 
             // btn_tieptuc
             // 
@@ -153,50 +197,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "BẠN CÓ MUỐN CHƠI LẠI KHÔNG? ";
             // 
-            // lbl_tienthuong
-            // 
-            this.lbl_tienthuong.AutoSize = true;
-            this.lbl_tienthuong.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tienthuong.ForeColor = System.Drawing.Color.Red;
-            this.lbl_tienthuong.Location = new System.Drawing.Point(176, 126);
-            this.lbl_tienthuong.Name = "lbl_tienthuong";
-            this.lbl_tienthuong.Size = new System.Drawing.Size(118, 26);
-            this.lbl_tienthuong.TabIndex = 2;
-            this.lbl_tienthuong.Text = "Tienthuong";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(19, 126);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 26);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Tiền thưởng: ";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(19, 89);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 26);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Tên: ";
-            // 
-            // TenNguoichoi
-            // 
-            this.TenNguoichoi.AutoSize = true;
-            this.TenNguoichoi.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TenNguoichoi.ForeColor = System.Drawing.Color.Red;
-            this.TenNguoichoi.Location = new System.Drawing.Point(176, 89);
-            this.TenNguoichoi.Name = "TenNguoichoi";
-            this.TenNguoichoi.Size = new System.Drawing.Size(40, 26);
-            this.TenNguoichoi.TabIndex = 5;
-            this.TenNguoichoi.Text = "ten";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -210,6 +210,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.guna2Panel1.ResumeLayout(false);

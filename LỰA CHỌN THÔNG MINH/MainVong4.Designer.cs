@@ -239,7 +239,7 @@
             this.label4.TabIndex = 1;
             this.label4.Text = resources.GetString("label4.Text");
             // 
-            // Form1
+            // MainVong4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -258,7 +258,8 @@
             this.Controls.Add(this.btn_1);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.SystemColors.Control;
-            this.Name = "Form1";
+            this.Name = "MainVong4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "background_4";
             this.pnl_huongdan.ResumeLayout(false);
             this.ResumeLayout(false);

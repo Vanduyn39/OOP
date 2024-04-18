@@ -73,17 +73,18 @@ namespace TrangChu
             DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
             dieuKhien.AddSanPham(sanPhamList);
             KetThucGame.Form1 form1 = new KetThucGame.Form1(player);
-            
-            //// Vòng 1: Vòng_2.GuessThePrice(sanPhamList)
-            //Vòng_2.GuessThePrice guessThePriceForm = new Vòng_2.GuessThePrice(sanPhamList);
-            //guessThePriceForm.ShowDialog();
-            //player.TienThuong += (int)Vòng_2.PunchABunch.btn_Result_Click.totalPrize;
-            //if (player.TienThuong == 0)
-            //{
-            //    MessageBox.Show("Bạn đã thua ở vòng 1. Kết thúc chương trình!");
-            //    playerList.Add(player);
-            //    return; // Dừng chương trình nếu người chơi thua ở vòng 1
-            //}
+
+            // Vòng 1: Vòng_2.GuessThePrice(sanPhamList)
+            Vòng_2.GuessThePrice guessThePriceForm = new Vòng_2.GuessThePrice(sanPhamList);
+            guessThePriceForm.ShowDialog();
+            player.TienThuong += guessThePriceForm.TienThuong;
+
+            if (player.TienThuong == 0)
+            {
+                MessageBox.Show("Bạn đã thua ở vòng 1. Kết thúc chương trình!");
+                playerList.Add(player);
+                return; // Dừng chương trình nếu người chơi thua ở vòng 1
+            }
 
             // Vòng 2: 
             DEM_NGUOC.Main_DN main_DN = new DEM_NGUOC.Main_DN(sanPhamList, sanPham);
@@ -103,7 +104,7 @@ namespace TrangChu
             designkhongmaco.MainKMC form = new designkhongmaco.MainKMC(sanPhamList, sanPham);
             form.ShowDialog();
 
-            player.TienThuong += form.TienThuong;
+            player.TienThuong += (int)form.TienThuong;
 
             if (player.TienThuong == 0)
             {

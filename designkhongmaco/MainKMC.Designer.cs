@@ -35,7 +35,7 @@
             // 
             this.giarandom.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.giarandom.Location = new System.Drawing.Point(396, 271);
-            this.giarandom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.giarandom.Margin = new System.Windows.Forms.Padding(4);
             this.giarandom.Multiline = true;
             this.giarandom.Name = "giarandom";
             this.giarandom.Size = new System.Drawing.Size(103, 42);
@@ -44,7 +44,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(91, 31);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(124, 164);
@@ -53,7 +53,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(295, 32);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(140, 163);
@@ -62,7 +62,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(689, 32);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(125, 164);
@@ -71,7 +71,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(124, 246);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(132, 164);
@@ -80,7 +80,7 @@
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(652, 246);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(132, 164);
@@ -89,7 +89,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(500, 33);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.MaximumSize = new System.Drawing.Size(905, 516);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
@@ -101,7 +101,7 @@
             this.doan.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.doan.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.doan.Location = new System.Drawing.Point(377, 382);
-            this.doan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.doan.Margin = new System.Windows.Forms.Padding(4);
             this.doan.Name = "doan";
             this.doan.Size = new System.Drawing.Size(139, 52);
             this.doan.TabIndex = 15;
@@ -171,7 +171,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Chào mừng bạn đến với vòng chơi \"Không mà có\" vòng này sẽ có 6 sản phẩm và ";
             // 
-            // Form2
+            // MainKMC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -188,9 +188,10 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.giarandom);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(901, 506);
-            this.Name = "Form2";
+            this.Name = "MainKMC";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.guna2Panel1.ResumeLayout(false);
