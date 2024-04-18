@@ -53,6 +53,10 @@ namespace OOP_CLASS_1
         {
             Nhac_mogame.Play();
         }
+        public void StopMoGameSound()
+        {
+            Nhac_mogame.Stop();
+        }
 
         public void PlayBackgroundMusic()
         {
