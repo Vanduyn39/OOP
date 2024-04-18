@@ -96,7 +96,6 @@ namespace OOP_CLASS_1
             }
             else
             {
-                amThanh.PlayIncorrectSound();
                 Console.WriteLine("Bạn đã đoán sai.");
                 Console.WriteLine($"Giá đúng là: {correctPrice}");
             }
