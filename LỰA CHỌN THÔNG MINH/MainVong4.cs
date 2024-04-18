@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Media;
 using System.Windows.Forms;
 using OOP_CLASS_1;
@@ -17,7 +17,7 @@ namespace Vòng_4
         {
             InitializeComponent();
             this.sanPhamList = sanPhamList;
-            this.LuaChonThongMinh = new Vong_LuaChonThongMinh(sanPhamList); // Pass sanPhamList only
+            this.LuaChonThongMinh = new Vong_LuaChonThongMinh(sanPhamList); 
             this.DaChon = false;
             HienTenSP();
             // Vô hiệu hóa các nút lựa chọn ban đầu
@@ -25,7 +25,6 @@ namespace Vòng_4
             btn_S2.Enabled = false;
             btn_S3.Enabled = false;
         }
-
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -38,49 +37,6 @@ namespace Vòng_4
             {
                 SanPham sanPhamChon = sanPhamList.SanPhams[index];
                 MessageBox.Show(sanPhamChon.Mota, "Mô tả sản phẩm");
-            }
-        }
-
-        private void ChonSPGiaCao(int index)
-        {
-            AmThanh amThanh = new AmThanh();
-            if (index >= 0 && index < sanPhamList.SanPhams.Count)
-            {
-                SanPham sanPhamChon = sanPhamList.SanPhams[index];
-
-                decimal maxPrice = decimal.MinValue;
-                SanPham GiaSPCaoNhat = null;
-
-                foreach (SanPham sp in sanPhamList.SanPhams)
-                {
-                    if (sp.GiaSP > maxPrice)
-                    {
-                        maxPrice = sp.GiaSP;
-                        GiaSPCaoNhat = sp;
-                    }
-                }
-
-                if (sanPhamChon.GiaSP == maxPrice)
-                {
-                    amThanh.PlayCorrectSound();
-                    MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP + " Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + LuaChonThongMinh.TongTienThuong);
-                    LuaChonThongMinh.TienThuong += (int)LuaChonThongMinh.TongTienThuong;
-                    MessageBox.Show("Tiền thưởng: " + LuaChonThongMinh.TienThuong);
-                    this.Hide();
-                }
-                else
-                {
-                    amThanh.PlayIncorrectSound();
-                    MessageBox.Show("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + GiaSPCaoNhat.TenSP);
-                    DaChon = true;
-                    if (DaChon)
-                    {
-                        MessageBox.Show("Bạn đã chọn sai, chương trình kết thúc!");
-                        this.Hide();
-                    }
-                }
-
-                HienTenSP();
             }
         }
 
@@ -133,19 +89,59 @@ namespace Vòng_4
             pnl_huongdan.Visible = false;
         }
 
-        // Trình xử lý sự kiện cho nút chọn 1 cú nhấp chuột
+        private void ChonSPGiaCao(int index)
+        {
+            AmThanh amThanh = new AmThanh();
+            if (index >= 0 && index < sanPhamList.SanPhams.Count)
+            {
+                SanPham sanPhamChon = sanPhamList.SanPhams[index];
+
+                decimal maxPrice = decimal.MinValue;
+                SanPham GiaSPCaoNhat = null;
+
+                foreach (SanPham sp in sanPhamList.SanPhams)
+                {
+                    if (sp.GiaSP > maxPrice)
+                    {
+                        maxPrice = sp.GiaSP;
+                        GiaSPCaoNhat = sp;
+                    }
+                }
+
+                if (sanPhamChon.GiaSP == maxPrice)
+                {
+                    amThanh.PlayCorrectSound();
+                    MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP + " Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + LuaChonThongMinh.TongTienThuong);
+                    LuaChonThongMinh.TienThuong += (int)LuaChonThongMinh.TongTienThuong;
+                    MessageBox.Show("Tiền thưởng: " + LuaChonThongMinh.TienThuong);
+                    this.Hide();
+                }
+                else
+                {
+                    amThanh.PlayIncorrectSound();
+                    MessageBox.Show("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + GiaSPCaoNhat.TenSP);
+                    DaChon = true;
+                    if (DaChon)
+                    {
+                        MessageBox.Show("Bạn đã chọn sai, chương trình kết thúc!");
+                        this.Hide();
+                    }
+                }
+
+                HienTenSP();
+            }
+        }
+        // Xử lý sự kiện Chọn
         private void btn_S1_Click_1(object sender, EventArgs e)
         {
             ChonSPGiaCao(0);
         }
 
-        // Trình xử lý sự kiện cho nút chọn 2 lần nhấp
         private void btn_S2_Click_1(object sender, EventArgs e)
         {
             ChonSPGiaCao(1);
         }
 
-        // Trình xử lý sự kiện cho nút chọn 3 lần nhấp
         private void btn_S3_Click_1(object sender, EventArgs e)
         {
             ChonSPGiaCao(2);
