@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Windows.Forms;
 using OOP_CLASS_1;
 using System.IO;
@@ -21,7 +21,6 @@ namespace TrangChu
 
         private void XepHang_Load(object sender, EventArgs e)
         {
-
         }
 
         private void menu_FormClosed(object sender, FormClosedEventArgs e)
@@ -54,16 +53,15 @@ namespace TrangChu
                 }
                 else
                 {
-                    MessageBox.Show("Player data file does not exist.");
+                    MessageBox.Show("File rỗng.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred: " + ex.Message);
+                MessageBox.Show("Lỗi: " + ex.Message);
             }
             return null;
         }
-
 
         public int SoSanhPlayerByTien(Player p1, Player p2)
         {
@@ -110,7 +108,7 @@ namespace TrangChu
             }
             else
             {
-                MessageBox.Show("Error occurred while reading the file.");
+                MessageBox.Show("Lỗi đọc file.");
             }
         }
     }
