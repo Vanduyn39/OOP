@@ -11,13 +11,9 @@ namespace OOP_CLASS_1
         public Vong_LuaChonThongMinh(SanPhamList sanPhamList) : base("LuaChonThongMinh")
         {
             SanPhamList = sanPhamList;
-            // Sắp xếp các sản phẩm theo giá
-            List<SanPham> sortedSanPhams = new List<SanPham>(SanPhamList.SanPhams); // Sao chép danh sách sản phẩm
+            List<SanPham> sortedSanPhams = new List<SanPham>(SanPhamList.SanPhams);
             sortedSanPhams.Sort(SoSanhSPByGia);
-
-            // Lấy ra tất cả các bộ 3 sản phẩm có giá cách nhau nhiều nhất là 1.000.000
             List<List<SanPham>> TatCaBoBa = LocSanPham(sortedSanPhams);
-            // Lấy ngẫu nhiên một bộ 3 sản phẩm từ tất cả các bộ 3 đã tìm được
             List<SanPham> randomTriplet = null;
             if (TatCaBoBa.Count > 0)
             {
@@ -26,7 +22,6 @@ namespace OOP_CLASS_1
                 randomTriplet = TatCaBoBa[randomIndex];
             }
 
-            // Đảo ngược thứ tự của các sản phẩm trong bộ 3
             if (randomTriplet != null)
             {
                 Random random = new Random();
@@ -37,28 +32,25 @@ namespace OOP_CLASS_1
                     Swap<SanPham>(randomTriplet, i, j);
                 }
             }
-            // Lưu danh sách sản phẩm đã lọc
+
             SanPhamList.SanPhams = randomTriplet;
 
-            // Tính giá trị thưởng tối đa (tổng giá 3 sản phẩm)
             this.TongTienThuong = randomTriplet[0].GiaSP + randomTriplet[1].GiaSP + randomTriplet[2].GiaSP;
         }
 
-        // Hàm swap để hoán đổi vị trí giữa hai phần tử trong một List
-        public void Swap<T>(List<T> list, int indexA, int indexB)
+        private void Swap<T>(List<T> list, int indexA, int indexB)
         {
             T temp = list[indexA];
             list[indexA] = list[indexB];
             list[indexB] = temp;
         }
-        // Phương thức so sánh dựa trên thuộc tính GiaSP
-        public int SoSanhSPByGia(SanPham sp1, SanPham sp2)
+
+        private int SoSanhSPByGia(SanPham sp1, SanPham sp2)
         {
             return sp1.GiaSP.CompareTo(sp2.GiaSP);
         }
 
-        // Phương pháp được sửa đổi để tìm tất cả các bộ ba hợp lệ có chênh lệch giá từ 1 đến 50
-        public List<List<SanPham>> LocSanPham(List<SanPham> sortedSanPhams)
+        private List<List<SanPham>> LocSanPham(List<SanPham> sortedSanPhams)
         {
             List<List<SanPham>> TatCaBoBa = new List<List<SanPham>>();
 
@@ -79,11 +71,11 @@ namespace OOP_CLASS_1
             }
             return TatCaBoBa;
         }
+
         public override void Play()
         {
             Console.WriteLine("Lựa chọn thông minh:");
             Console.WriteLine("Danh sách sản phẩm:");
-            // In ra danh sách sản phẩm
             int i = 1;
             foreach (SanPham sp in SanPhamList.SanPhams)
             {
@@ -101,7 +93,6 @@ namespace OOP_CLASS_1
             decimal maxPrice = GetMaxPrice();
             AmThanh amThanh = new AmThanh();
 
-            // Kiểm tra lựa chọn của người chơi
             if (sanPhamChon.GiaSP == maxPrice)
             {
                 amThanh.PlayCorrectSound();
@@ -113,30 +104,30 @@ namespace OOP_CLASS_1
             else
             {
                 amThanh.PlayIncorrectSound();
-                // In ra thông báo nếu lựa chọn không chính xác
-                SanPham maxPriceSanPham = null;
+                SanPham SPGiaCao = null;
                 foreach (SanPham sp in SanPhamList.SanPhams)
                 {
                     if (sp.GiaSP == maxPrice)
                     {
-                        maxPriceSanPham = sp;
+                        SPGiaCao = sp;
                         break;
                     }
                 }
-                Console.WriteLine("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + maxPriceSanPham.TenSP);
+                Console.WriteLine("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + SPGiaCao.TenSP);
             }
         }
-        public decimal GetMaxPrice()
+
+        private decimal GetMaxPrice()
         {
-            decimal maxPrice = 0;
+            decimal Gia = 0;
             foreach (SanPham sp in SanPhamList.SanPhams)
             {
-                if (sp.GiaSP > maxPrice)
+                if (sp.GiaSP > Gia)
                 {
-                    maxPrice = sp.GiaSP;
+                    Gia = sp.GiaSP;
                 }
             }
-            return maxPrice;
+            return Gia;
         }
     }
 }
