@@ -18,7 +18,6 @@ namespace OOP_CLASS_1
         private int[] giasai = new int[4];
         private int[] giatri = new int[4];
         private int j;
-        //public decimal Thuong;
         public Vong_DemNguoc(SanPhamList sanPhamList) : base("Dem Nguoc")
         {
             SanPhamList = sanPhamList;
@@ -97,7 +96,6 @@ namespace OOP_CLASS_1
                 }
             }
             Console.WriteLine("Bạn hãy đoán giá của sản phẩm bằng cách lựa chọn lớn hơn hoặc nhỏ hơn (>/<)\n để so sánh từng đơn vị trong giá của sản phẩm lớn hơn hay nhỏ hơn giá sai mà chương trình đưa ra");
-            // Chọn một sản phẩm ngẫu nhiên từ danh sách sản phẩm thỏa mãn điều kiện
             int index = random.Next(0, sanPhams.Count);
             return sanPhams[index];
 
