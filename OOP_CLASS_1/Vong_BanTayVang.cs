@@ -18,19 +18,16 @@ namespace OOP_CLASS_1
         public List<SanPham> displayedProductsHistory;
         public Vong_BanTayVang(SanPhamList sanPhamList) : base("Ban Tay Vang")
         {
-            // Khởi tạo các thuộc tính khác
-
             random = new Random();
             correctGuesses = 0;
             totalPrizeMoney = 0;
             chosenBoxes = new List<int>();
             bonusPunches = new List<int>();
             prizeValues = new List<int>();
-            this.sanPhamList = sanPhamList; // Gán giá trị cho sanPhamList
-            displayedProducts = new List<SanPham>(); // Khởi tạo danh sách sản phẩm hiển thị
+            this.sanPhamList = sanPhamList;
+            displayedProducts = new List<SanPham>(); 
             InitializePrizeValues();
 
-            // Lấy 4 sản phẩm ngẫu nhiên từ danh sách
             for (int i = 0; i < maxDisplayedProducts; i++)
             {
                 SanPham nextProduct = GetNextProduct();
@@ -41,7 +38,6 @@ namespace OOP_CLASS_1
             }
         }
 
-        // Khởi tạo danh sách giá trị giải thưởng
         public void InitializePrizeValues()
         {
             int[] values = { 15000, 15000, 5000, 5000, 5000,
@@ -59,46 +55,35 @@ namespace OOP_CLASS_1
             prizeValues.AddRange(values);
         }
 
-        // Lấy 4 sản phẩm ngẫu nhiên từ danh sách sản phẩm
         public SanPham GetNextProduct()
         {
             if (sanPhamList.SanPhams.Count == 0)
             {
-                // Trả về null nếu danh sách sản phẩm đã rỗng
                 return null;
             }
 
-            // Lấy một số ngẫu nhiên từ 0 đến số lượng sản phẩm còn lại trong danh sách
             int index = random.Next(0, sanPhamList.SanPhams.Count);
-
-            // Lấy sản phẩm tại vị trí được chọn ngẫu nhiên
             SanPham nextProduct = sanPhamList.SanPhams[index];
-
-            // Loại bỏ sản phẩm đã lấy khỏi danh sách
             sanPhamList.SanPhams.RemoveAt(index);
 
             return nextProduct;
         }
 
-        // Lấy số lượng sản phẩm từ 1 đến 10
         public int GetNumberOfProducts()
         {
             return random.Next(1, 11);
         }
 
-        // Lấy giá ẩn của sản phẩm
         public decimal GetHiddenPrice()
         {
             return Math.Round(random.Next(400, 30000) * 1m / 1000) * 1000;
         }
 
-        // Lấy giá đúng của sản phẩm
         public decimal GetCorrectPrice(SanPham sanPham, int num)
         {
             return sanPham.GiaSP * num;
         }
 
-        // Đoán giá của sản phẩm
         public void Guess(string guess, decimal hiddenPrice, decimal correctPrice)
         {
             AmThanh amThanh = new AmThanh();
@@ -117,7 +102,6 @@ namespace OOP_CLASS_1
             }
         }
 
-        // Tính tổng giải thưởng
         public decimal CalculateTotalPrizeMoney()
         {
             decimal total = 0;
@@ -127,8 +111,6 @@ namespace OOP_CLASS_1
             }
             return total;
         }
-
-        // Lấy giá trị giải thưởng tại ô đấm
         public int GetPrizeValue(int chosenBox)
         {
             if (chosenBox > prizeValues.Count)
@@ -138,17 +120,15 @@ namespace OOP_CLASS_1
             return prizeValues[chosenBox - 1];
         }
 
-        // Thêm giải thưởng mới
         public void AddPrize(int prizeValue)
         {
             prizeValues.Add(prizeValue);
             totalPrizeMoney += prizeValue;
         }
-        // Override phương thức Play để bắt đầu vòng chơi
         public override void Play()
         {
             Console.WriteLine($"Chào mừng bạn đến vòng chơi '{TenVongChoi}'!");
-            int displayedCount = 0; // Số lượng sản phẩm đã được trưng bày
+            int displayedCount = 0; 
             foreach (SanPham product in displayedProducts)
             {
                 displayedCount++;
@@ -157,7 +137,6 @@ namespace OOP_CLASS_1
                 decimal correctPrice = GetCorrectPrice(product, numberOfProducts);
                 if (hiddenPrice != correctPrice)
                 {
-                    // Hiển thị thông tin sản phẩm và yêu cầu người chơi đoán giá
                     Console.WriteLine("-------------------------------------------------------");
                     Console.WriteLine($"Trưng bày {numberOfProducts} sản phẩm được trưng bày cho bạn.");
                     Console.WriteLine($"Sản phẩm: {product.TenSP}");
@@ -198,7 +177,7 @@ namespace OOP_CLASS_1
                 {
                     if (!chosenBoxes.Contains(chosenBox))
                     {
-                        if (GetPrizeValue(chosenBox) > 0) // Chỉ tính giải thưởng nếu ô có giá trị
+                        if (GetPrizeValue(chosenBox) > 0) 
                         {
                             chosenBoxes.Add(chosenBox);
                             punchCount--;
@@ -212,7 +191,7 @@ namespace OOP_CLASS_1
                         }
                         else
                         {
-                            correctGuesses++; // Nếu không có giá trị, thêm lượt đấm
+                            correctGuesses++; 
                             Console.WriteLine("Bạn đã nhận được thêm 1 lượt đấm.");
                         }
                     }
