@@ -24,15 +24,12 @@ namespace Vòng_2
 
         }
 
-        // Trong phương thức Guess:
         private void Guess(string guess)
         {
-            // Lấy giá trị hiddenPrice và correctPrice từ class
             decimal hiddenPrice = vongBanTayVang.GetHiddenPrice();
             decimal correctPrice = vongBanTayVang.GetCorrectPrice(nextProducts, numberOfProducts);
             correctGuesses = vongBanTayVang.correctGuesses;
 
-            // Hiển thị kết quả đoán giá thông qua Label
             if ((guess == "l" && correctPrice < hiddenPrice) || (guess == "h" && correctPrice > hiddenPrice))
             {
                 pnl_Result.BringToFront();
@@ -46,14 +43,10 @@ namespace Vòng_2
                 pnl_Result.Visible = true;
                 lbl_Result.Text = $"Bạn đã đoán sai!  \nGiá đúng là: {correctPrice} VND.";
             }
-
-            // Gọi phương thức Guess từ class để cập nhật trạng thái
             vongBanTayVang.Guess(guess, hiddenPrice, correctPrice);
-            // Hiển thị sản phẩm tiếp theo
             DisplayProduct();
         }
 
-        // Trong phương thức DisplayProduct:
         private void DisplayProduct()
         {
             AmThanh amThanh = new AmThanh();
@@ -154,7 +147,7 @@ namespace Vòng_2
                         correctGuesses--;
                         MessageBox.Show($"Giải thưởng của ô là: {prizeValue} VND.\nBạn còn {correctGuesses} cơ hội!");
                         clickedButton.Visible = false;
-                        vongBanTayVang.AddPrize(prizeValue); // Add the prize value to the Vong_BanTayVang object
+                        vongBanTayVang.AddPrize(prizeValue); 
                     }
                 }
 
@@ -167,9 +160,7 @@ namespace Vòng_2
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            // Dừng Timer
             timer.Stop();
-            // Ẩn label
             pnl_info.Visible = false;
         }
     }
