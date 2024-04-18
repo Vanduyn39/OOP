@@ -99,10 +99,12 @@ namespace OOP_CLASS_1
             }
             SanPham sanPhamChon = SanPhamList.SanPhams[sanPhamChonNumber - 1];
             decimal maxPrice = GetMaxPrice();
+            AmThanh amThanh = new AmThanh();
 
             // Kiểm tra lựa chọn của người chơi
             if (sanPhamChon.GiaSP == maxPrice)
             {
+                amThanh.PlayCorrectSound();
                 Console.WriteLine("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP);
                 Console.WriteLine("Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + TongTienThuong);
                 this.TienThuong += (int)TongTienThuong;
@@ -110,6 +112,7 @@ namespace OOP_CLASS_1
             }
             else
             {
+                amThanh.PlayIncorrectSound();
                 // In ra thông báo nếu lựa chọn không chính xác
                 SanPham maxPriceSanPham = null;
                 foreach (SanPham sp in SanPhamList.SanPhams)

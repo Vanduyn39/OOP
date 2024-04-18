@@ -2,7 +2,6 @@
 using System.IO;
 using System.Reflection;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Media;
@@ -14,13 +13,30 @@ namespace OOP_CLASS_1
         private SoundPlayer AmThanhGame;
         private SoundPlayer Nhac_trldung;
         private SoundPlayer Nhac_trlsai;
+        private SoundPlayer Nhac_ketthuc;
+        private SoundPlayer Nhac_mogame;
+        private SoundPlayer Nhac_background;
+        private SoundPlayer Nhac_win;
 
         public AmThanh()
         {
             string Nhac = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
             AmThanhGame = new SoundPlayer(Path.Combine(Nhac, @"Game.wav"));
-            Nhac_trldung = new SoundPlayer(Path.Combine(Nhac, @"Dung.wav"));
+            Nhac_trldung = new SoundPlayer(Path.Combine(Nhac, @"Win.wav"));
             Nhac_trlsai = new SoundPlayer(Path.Combine(Nhac, @"Sai.wav"));
+            Nhac_mogame = new SoundPlayer(Path.Combine(Nhac, @"End.wav"));
+            Nhac_background = new SoundPlayer(Path.Combine(Nhac, @"Choi.wav"));
+            Nhac_win = new SoundPlayer(Path.Combine(Nhac, @"Dung.wav"));
+        }
+
+        public void PlaySound()
+        {
+            AmThanhGame.Play();
+        }
+
+        public void StopSound()
+        {
+            AmThanhGame.Stop();
         }
 
         public void PlayCorrectSound()
@@ -33,14 +49,18 @@ namespace OOP_CLASS_1
             Nhac_trlsai.Play();
         }
 
-        public void PlaySound()
+        public void PlayMoGameSound()
         {
-            AmThanhGame.Play();
+            Nhac_mogame.Play();
         }
 
-        public void StopSound()
+        public void PlayBackgroundMusic()
         {
-            AmThanhGame.Stop();
+            Nhac_background.Play();
+        }
+        public void PlayWinMusic()
+        {
+            Nhac_win.Play();
         }
     }
 }

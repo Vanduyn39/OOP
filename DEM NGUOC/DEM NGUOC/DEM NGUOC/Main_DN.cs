@@ -65,7 +65,7 @@ namespace DEM_NGUOC
         private void btn_kiemtra_Click(object sender, EventArgs e)
         {
             int i = 0;
-            //AmThanh amThanh = new AmThanh();
+            AmThanh amThanh = new AmThanh();
             demNguoc.DonViSP(sanpham, giatri);
             if ((giatri[0] >= giasai[0] && rdb_lonhon_nghin.Checked) || (giatri[0] < giasai[0] && rdb_nhohon_nghin.Checked))
                 i += 0;
@@ -89,22 +89,17 @@ namespace DEM_NGUOC
                 PlayerList playerList = new PlayerList();
                 DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
                 dieuKhien.AddSanPham(sanPhamList);
-                // Get the player name from the textbox
-                //string playerName = textBox1.Text;
-                // Add the player to the player list
-                //Player newPlayer = new Player(playerName, null, 0);
-                //playerList.Add(newPlayer);
                 dieuKhien.AddPlayer1(playerList);
                 dieuKhien.AddPlayer2(playerList);
                 timerCount.Stop();
                 demNguoc.TienThuong = (int)sanpham.GiaSP;
                 MessageBox.Show($"Chúc mừng bạn vượt qua vòng Đếm Ngược!!!\nTiền thưởng: {demNguoc.TienThuong}");
-                //amThanh.PlayCorrectSound();
+                amThanh.PlayCorrectSound();
                 this.Close();
             }
             else
             {
-                //amThanh.PlayIncorrectSound();
+                amThanh.PlayIncorrectSound();
             }
 
         }

@@ -101,14 +101,17 @@ namespace OOP_CLASS_1
         // Đoán giá của sản phẩm
         public void Guess(string guess, decimal hiddenPrice, decimal correctPrice)
         {
+            AmThanh amThanh = new AmThanh();
             if ((guess == "h" && correctPrice > hiddenPrice) || (guess == "l" && correctPrice < hiddenPrice))
             {
+                amThanh.PlayCorrectSound();
                 Console.WriteLine("Bạn đã đoán đúng!");
                 Console.WriteLine($"Giá đúng là: {correctPrice}");
                 correctGuesses++;
             }
             else
             {
+                amThanh.PlayIncorrectSound();
                 Console.WriteLine("Bạn đã đoán sai.");
                 Console.WriteLine($"Giá đúng là: {correctPrice}");
             }

@@ -56,6 +56,7 @@ namespace Vòng_2
         // Trong phương thức DisplayProduct:
         private void DisplayProduct()
         {
+            AmThanh amThanh = new AmThanh();
             if (displayedProducts < 4)
             {
                 decimal hiddenPrice = vongBanTayVang.GetHiddenPrice();
@@ -72,6 +73,7 @@ namespace Vòng_2
                 int correctGuess = vongBanTayVang.correctGuesses;
                 if (correctGuess > 0)
                 {
+                    amThanh.PlayCorrectSound();
                     MessageBox.Show($"Bạn đã đoán đúng {correctGuess} trên tổng số {displayedProducts} câu.");
                     correctGuess = vongBanTayVang.correctGuesses;
                     pnl_PAB.Visible = true;
@@ -84,6 +86,7 @@ namespace Vòng_2
                 }
                 else
                 {
+                    amThanh.PlayIncorrectSound();
                     MessageBox.Show("Bạn đã thua cuộc!");
                     this.Close();
                 }

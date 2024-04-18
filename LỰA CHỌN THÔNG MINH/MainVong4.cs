@@ -43,6 +43,7 @@ namespace Vòng_4
 
         private void ChonSPGiaCao(int index)
         {
+            AmThanh amThanh = new AmThanh();
             if (index >= 0 && index < sanPhamList.SanPhams.Count)
             {
                 SanPham sanPhamChon = sanPhamList.SanPhams[index];
@@ -61,6 +62,7 @@ namespace Vòng_4
 
                 if (sanPhamChon.GiaSP == maxPrice)
                 {
+                    amThanh.PlayCorrectSound();
                     MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP + " Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + LuaChonThongMinh.TongTienThuong);
                     LuaChonThongMinh.TienThuong += (int)LuaChonThongMinh.TongTienThuong;
                     MessageBox.Show("Tiền thưởng: " + LuaChonThongMinh.TienThuong);
@@ -68,9 +70,7 @@ namespace Vòng_4
                 }
                 else
                 {
-                    // Play the error sound
-                    PlayErrorSound();
-
+                    amThanh.PlayIncorrectSound();
                     MessageBox.Show("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + GiaSPCaoNhat.TenSP);
                     DaChon = true;
                     if (DaChon)
@@ -81,23 +81,6 @@ namespace Vòng_4
                 }
 
                 HienTenSP();
-            }
-        }
-
-        private void PlayErrorSound()
-        {
-            try
-            {
-                // Load the sound file from the LUACHONTHONGMINH project
-                SoundPlayer player = new SoundPlayer(@"Resources\trlsai.wav.wav");
-
-                // Play the sound asynchronously
-                player.Play();
-            }
-            catch (Exception ex)
-            {
-                // Handle any errors while playing the sound
-                Console.WriteLine("Error playing sound: " + ex.Message);
             }
         }
 

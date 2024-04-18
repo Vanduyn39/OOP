@@ -121,6 +121,7 @@ namespace designkhongmaco
         // Sự kiện click cho nút đoán
         private void doan_Click(object sender, EventArgs e)
         {
+            AmThanh amThanh = new AmThanh();
             // Kiểm tra xem giá ngẫu nhiên có phải là một số nguyên hợp lệ không
             if (!int.TryParse(giarandom.Text, out int giaNgauNhien))
             {
@@ -162,17 +163,18 @@ namespace designkhongmaco
                 soLuongDoanDung++; // Tăng số lượng đoán đúng lên 1
                 tongGiaiThuong += TrichXuatGia(textBox7.Text); // Thêm giá sản phẩm vào tổng giải thưởng
             }
-            //TienThuong = (int)tongGiaiThuong;
             // Giới hạn số lượng đoán đúng là tối đa 4
             soLuongDoanDung = Math.Min(soLuongDoanDung, 4);
             // Kiểm tra xem số lượng đoán đúng có lớn hơn 2 không
             if (soLuongDoanDung > 2)
             {
+                amThanh.PlayCorrectSound();
                 // Hiển thị MessageBox thông báo số sản phẩm đoán đúng và tiền thưởng
                 MessageBox.Show($"Bạn đã đoán đúng {soLuongDoanDung} sản phẩm.\nTiền thưởng của bạn: {tongGiaiThuong} ", "Chúc mừng", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (soLuongDoanDung <= 2)
             {
+                amThanh.PlayIncorrectSound();
                 MessageBox.Show($"Bạn chỉ đoán đúng được {soLuongDoanDung} sản phẩm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             TienThuong = (int)tongGiaiThuong;
