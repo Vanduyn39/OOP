@@ -9,6 +9,8 @@ namespace designkhongmaco
 {
     public class Program
     {
+        private static SanPham sanPham;
+
         [STAThread]
         static void Main(string[] args)
         {
@@ -20,7 +22,7 @@ namespace designkhongmaco
             // Chạy Form1 trước
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(sanPhamList));
+            Application.Run(new MainKMC(sanPhamList, sanPham));
         }
     }
 }

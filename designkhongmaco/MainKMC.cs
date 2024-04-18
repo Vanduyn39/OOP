@@ -8,7 +8,7 @@ using OOP_CLASS_1;
 
 namespace designkhongmaco
 {
-    public partial class Form2 : Form
+    public partial class MainKMC : Form
     {
         public Random random = new Random();
         public SanPhamList sanPhamList;
@@ -16,7 +16,9 @@ namespace designkhongmaco
         public List<TextBox> displayedProducts = new List<TextBox>();
         public List<int> selectedPrices = new List<int>();
 
-        public Form2(SanPhamList sanPhamList, SanPham sanPham)
+        public int TienThuong { get; private set; }
+
+        public MainKMC(SanPhamList sanPhamList, SanPham sanPham)
         {
             InitializeComponent();
             this.sanPhamList = sanPhamList;
@@ -104,7 +106,7 @@ namespace designkhongmaco
                 selectedPrices.Remove(TrichXuatGia(clickedTextBox.Text)); // Loại bỏ giá sản phẩm khỏi danh sách đã chọn
             }
 
-
+            
         }
 
         // Phương thức trợ giúp để trích xuất giá từ thông tin sản phẩm
@@ -160,35 +162,32 @@ namespace designkhongmaco
                 soLuongDoanDung++; // Tăng số lượng đoán đúng lên 1
                 tongGiaiThuong += TrichXuatGia(textBox7.Text); // Thêm giá sản phẩm vào tổng giải thưởng
             }
-
+            TienThuong = (int)tongGiaiThuong;
             // Giới hạn số lượng đoán đúng là tối đa 4
             soLuongDoanDung = Math.Min(soLuongDoanDung, 4);
-
+            // Kiểm tra xem số lượng đoán đúng có lớn hơn 2 không
             if (soLuongDoanDung > 2)
             {
-                // Tạo một thể hiện mới của form chucmung
-                chucmung chucmungForm = new chucmung();
-                // Thiết lập số lượng đoán đúng và tổng giải thưởng cho form chucmung
-                chucmungForm.SetCorrectGuessCount(soLuongDoanDung);
-                chucmungForm.SetTienThuong(tongGiaiThuong);
-                // Hiển thị form chucmung
-                chucmungForm.Show();
+                // Hiển thị MessageBox thông báo số sản phẩm đoán đúng và tiền thưởng
+                MessageBox.Show($"Bạn đã đoán đúng {soLuongDoanDung} sản phẩm.\nTiền thưởng của bạn: {tongGiaiThuong} ", "Chúc mừng", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else
+            else if (soLuongDoanDung <= 2)
             {
-                thua thuaForm = new thua(sanPhamList);
-                thuaForm.SetCorrectGuessCount(soLuongDoanDung); // Thiết lập số lượng sản phẩm đoán trúng
-                thuaForm.Show();
+                MessageBox.Show($"Bạn chỉ đoán đúng được {soLuongDoanDung} sản phẩm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            this.Hide();
 
-            // Đóng Form2
-            this.Close();
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+           
             HienThiDanhSachSanPham();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            guna2Panel1.Visible = false;
         }
     }
 }

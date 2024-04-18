@@ -90,7 +90,7 @@ namespace OOP_CLASS_1
                 SanPham sanPham2 = sortedSanPhams[i + 1];
                 SanPham sanPham3 = sortedSanPhams[i + 2];
 
-                if (Math.Abs(sanPham1.GiaSP - sanPham2.GiaSP) <= 50 && Math.Abs(sanPham2.GiaSP - sanPham3.GiaSP) <= 50)
+                if (Math.Abs(sanPham1.GiaSP - sanPham2.GiaSP) <= 1000 && Math.Abs(sanPham2.GiaSP - sanPham3.GiaSP) <= 1000)
                 {
                     List<SanPham> triplet = new List<SanPham>();
                     triplet.Add(sanPham1);

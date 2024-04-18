@@ -83,43 +83,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="chucmung.cs">
+    <Compile Include="MainKMC.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="chucmung.Designer.cs">
-      <DependentUpon>chucmung.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="MainKMC.Designer.cs">
+      <DependentUpon>MainKMC.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="thua.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="thua.Designer.cs">
-      <DependentUpon>thua.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="chucmung.resx">
-      <DependentUpon>chucmung.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.aa-DJ.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="MainKMC.resx">
+      <DependentUpon>MainKMC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -131,9 +104,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="thua.resx">
-      <DependentUpon>thua.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

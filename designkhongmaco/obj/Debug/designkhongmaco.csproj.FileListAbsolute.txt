@@ -119,11 +119,9 @@ D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\Microsoft.Bcl.AsyncInt
 D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Text.Encodings.Web.xml
 D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Text.Json.xml
 D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.AssemblyReference.cache
-D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.chucmung.resources
 D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.resources
 D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form2.resources
 D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Properties.Resources.resources
-D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.thua.resources
 D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.aa-DJ.resources
 D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.GenerateResource.cache
 D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.CoreCompileInputs.cache
@@ -134,7 +132,6 @@ D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.pdb
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\designkhongmaco.exe.config
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\designkhongmaco.exe
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\designkhongmaco.pdb
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\aa-DJ\designkhongmaco.resources.dll
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\OOP_CLASS_1.exe
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Buffers.dll
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Memory.dll
@@ -149,15 +146,10 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Text.Json.xml
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.csproj.AssemblyReference.cache
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.chucmung.resources
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.Form1.resources
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.Form2.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.Properties.Resources.resources
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.thua.resources
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.Form1.aa-DJ.resources
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.csproj.GenerateResource.cache
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\aa-DJ\designkhongmaco.resources.dll
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.csproj.CopyComplete
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.exe
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.MainKMC.resources

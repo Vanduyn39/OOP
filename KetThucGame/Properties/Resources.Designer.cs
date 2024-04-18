@@ -69,5 +69,24 @@ namespace KetThucGame.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream trlsai_wav {
+            get {
+                return ResourceManager.GetStream("trlsai_wav", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] WinterFluteVersion_VA_4b4y5 {
+            get {
+                object obj = ResourceManager.GetObject("WinterFluteVersion_VA_4b4y5", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

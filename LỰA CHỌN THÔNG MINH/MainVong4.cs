@@ -2,6 +2,7 @@
 using System.Media;
 using System.Windows.Forms;
 using OOP_CLASS_1;
+using KetThucGame;
 
 namespace Vòng_4
 {
@@ -66,27 +67,46 @@ namespace Vòng_4
 
                 if (sanPhamChon.GiaSP == maxPrice)
                 {
-                    MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP + "Bạn đã nhận được tất cả 3 sản phẩm với giá trị" + LuaChonThongMinh.bonusReward);
+                    MessageBox.Show("Chúc mừng! Bạn đã chọn đúng sản phẩm có giá cao nhất: " + sanPhamChon.TenSP + " Bạn đã nhận được tất cả 3 sản phẩm với giá trị " + LuaChonThongMinh.bonusReward);
                     LuaChonThongMinh.TienThuong += (int)LuaChonThongMinh.bonusReward;
                     MessageBox.Show("Tiền thưởng: " + LuaChonThongMinh.TienThuong);
                     this.Hide();
-                    //Application.Exit();
                 }
                 else
                 {
+                    // Play the error sound
+                    PlayErrorSound();
+
                     MessageBox.Show("Xin lỗi! Bạn đã chọn sai, sản phẩm có giá cao nhất là: " + GiaSPCaoNhat.TenSP);
                     daChon = true;
                     if (daChon)
                     {
                         MessageBox.Show("Bạn đã chọn sai, chương trình kết thúc!");
                         this.Hide();
-                        //Application.Exit();
                     }
                 }
 
                 HienTenSP();
             }
         }
+
+        private void PlayErrorSound()
+        {
+            try
+            {
+                // Load the sound file from the Vòng_4 project
+                SoundPlayer player = new SoundPlayer(@"Resources\trlsai.wav.wav");
+
+                // Play the sound asynchronously
+                player.Play();
+            }
+            catch (Exception ex)
+            {
+                // Handle any errors while playing the sound
+                Console.WriteLine("Error playing sound: " + ex.Message);
+            }
+        }
+
 
 
 

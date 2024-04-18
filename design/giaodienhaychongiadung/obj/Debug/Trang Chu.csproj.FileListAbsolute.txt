@@ -45,4 +45,6 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\designkhongmaco.exe
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\designkhongmaco.pdb
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\designkhongmaco.exe.config
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\aa-DJ\designkhongmaco.resources.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\KetThucGame.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\KetThucGame.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\design\giaodienhaychongiadung\bin\Debug\KetThucGame.exe.config
