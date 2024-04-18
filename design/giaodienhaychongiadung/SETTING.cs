@@ -1,4 +1,5 @@
-﻿using System;
+using OOP_CLASS_1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,31 +13,28 @@ namespace TrangChu
 {
     public partial class SETTING : Form
     {
+        private AmThanh amThanh=new AmThanh();
         public SETTING()
         {
             InitializeComponent();
         }
 
-        private void trackBar1_ValueChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void SETTING_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void SETTING_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Hide();
-            TrangChu f1 = new TrangChu();
-            f1.ShowDialog();
+        }
+
+        private void rdb_bat_CheckedChanged(object sender, EventArgs e)
+        {
+            if(rdb_bat.Checked)
+            {
+                amThanh.PlayMoGameSound();
+            }
+        }
+
+        private void rdb_tat_CheckedChanged(object sender, EventArgs e)
+        {
+            amThanh.StopMoGameSound();
         }
     }
 }
