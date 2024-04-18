@@ -1,4 +1,4 @@
-﻿namespace TrangChu
+namespace TrangChu
 {
     partial class SETTING
     {
@@ -55,6 +55,7 @@
             this.rdb_bat.TabStop = true;
             this.rdb_bat.Text = "Bật";
             this.rdb_bat.UseVisualStyleBackColor = true;
+            this.rdb_bat.CheckedChanged += new System.EventHandler(this.rdb_bat_CheckedChanged);
             // 
             // rdb_tat
             // 
@@ -67,6 +68,7 @@
             this.rdb_tat.TabStop = true;
             this.rdb_tat.Text = "Tắt";
             this.rdb_tat.UseVisualStyleBackColor = true;
+            this.rdb_tat.CheckedChanged += new System.EventHandler(this.rdb_tat_CheckedChanged);
             // 
             // SETTING
             // 
@@ -77,13 +79,12 @@
             this.Controls.Add(this.rdb_tat);
             this.Controls.Add(this.rdb_bat);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(439, 282);
             this.Name = "SETTING";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SETTING";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SETTING_FormClosed);
-            this.Load += new System.EventHandler(this.SETTING_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
