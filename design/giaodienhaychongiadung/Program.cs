@@ -19,11 +19,6 @@ namespace TrangChu
             PlayerList playerList = new PlayerList();
             DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
             dieuKhien.AddSanPham(sanPhamList);
-            ////dieuKhien.AddVongChoi(new Vong_BanTayVang(sanPhamList));
-            ////dieuKhien.AddVongChoi(new Vong_DemNguoc(sanPhamList));
-            ////dieuKhien.AddVongChoi(new Vong_KhongMaCo(sanPhamList));
-            ////dieuKhien.AddVongChoi(new Vong_LuaChonThongMinh(sanPhamList));
-            //dieuKhien.AddPlayer(playerList);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new TrangChu());

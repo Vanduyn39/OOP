@@ -81,6 +81,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SoundMusic.cs" />
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +199,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\WinterFluteVersion-VA_4b4y5.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y2mate.com-GIVEAWAY-Nhạc-chiến-thắng-trong-Hãy-chọn-giá-đúng.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y2mate.com-Nhạc-kết-thúc-gameshow-Hãy-Chọn-Giá-Đúng.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y2mate.com-GIVEAWAY-Nhạc-thua-cuộc-trong-Hãy-chọn-giá-đúng.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

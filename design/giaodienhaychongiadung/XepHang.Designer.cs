@@ -73,6 +73,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "XẾP HẠNG";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.menu_FormClosed);
+            this.Load += new System.EventHandler(this.XepHang_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

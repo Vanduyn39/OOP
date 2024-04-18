@@ -15,6 +15,7 @@ using DEM_NGUOC;
 using designkhongmaco;
 using System.Numerics;
 using KetThucGame;
+using System.Media;
 
 namespace TrangChu
 {
@@ -23,8 +24,8 @@ namespace TrangChu
         public TrangChu()
         {
             InitializeComponent();
+            
         }
-        private Player currentPlayer;
         private VongChoi vongChoi;
         private SanPhamList sanPhamList;
         private SanPham sanPham;
@@ -71,33 +72,33 @@ namespace TrangChu
             dieuKhien.AddSanPham(sanPhamList);
             KetThucGame.ENDGAME ENDGAME = new KetThucGame.ENDGAME(player);
 
-            // Vòng 1: BÀN TAY VÀNG
-            Vòng_2.GuessThePrice guessThePriceForm = new Vòng_2.GuessThePrice(sanPhamList);
-            guessThePriceForm.ShowDialog();
-            player.TienThuong += guessThePriceForm.TienThuong;
+            //// Vòng 1: BÀN TAY VÀNG
+            //Vòng_2.GuessThePrice guessThePriceForm = new Vòng_2.GuessThePrice(sanPhamList);
+            //guessThePriceForm.ShowDialog();
+            //player.TienThuong += guessThePriceForm.TienThuong;
 
-            if (player.TienThuong == 0)
-            {
-                MessageBox.Show("Bạn đã thua ở vòng 1. Kết thúc chương trình!");
-                //player.Vongchoidachoi = "Bàn tay vàng";
-                playerList.Add(player);
-                ENDGAME.Show();
-                return; // Dừng chương trình nếu người chơi thua ở vòng 1
-            }
+            //if (player.TienThuong == 0)
+            //{
+            //    MessageBox.Show("Bạn đã thua ở vòng 1. Kết thúc chương trình!");
+            //    //player.Vongchoidachoi = "Bàn tay vàng";
+            //    playerList.Add(player);
+            //    ENDGAME.Show();
+            //    return; // Dừng chương trình nếu người chơi thua ở vòng 1
+            //}
 
-            // Vòng 2: ĐẾM NGƯỢC 
-            DEM_NGUOC.Main_DN main_DN = new DEM_NGUOC.Main_DN(sanPhamList, sanPham);
-            main_DN.ShowDialog();
-            player.TienThuong += (int)main_DN.demNguoc.TienThuong;
+            //// Vòng 2: ĐẾM NGƯỢC 
+            //DEM_NGUOC.Main_DN main_DN = new DEM_NGUOC.Main_DN(sanPhamList, sanPham);
+            //main_DN.ShowDialog();
+            //player.TienThuong += (int)main_DN.demNguoc.TienThuong;
 
-            if (main_DN.demNguoc.TienThuong == 0)
-            {
-                // Hiển thị thông báo thua
-                MessageBox.Show("Bạn đã thua ở vòng 2. Kết thúc chương trình!");
-                playerList.Add(player);
-                ENDGAME.Show();
-                return; // Dừng chương trình nếu người chơi thua ở vòng 2.
-            }
+            //if (main_DN.demNguoc.TienThuong == 0)
+            //{
+            //    // Hiển thị thông báo thua
+            //    MessageBox.Show("Bạn đã thua ở vòng 2. Kết thúc chương trình!");
+            //    playerList.Add(player);
+            //    ENDGAME.Show();
+            //    return; // Dừng chương trình nếu người chơi thua ở vòng 2.
+            //}
 
             // Vòng 3: KHÔNG MÀ CÓ
             designkhongmaco.MainKMC form = new designkhongmaco.MainKMC(sanPhamList, sanPham);
@@ -130,12 +131,26 @@ namespace TrangChu
 
             // Hiển thị thông báo hoàn thành tất cả các vòng chơi
             MessageBox.Show("Chúc mừng! Bạn đã hoàn thành tất cả các vòng chơi.");
+            string Nhac = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string filePath = Path.Combine(Nhac, @"y2mate.com-GIVEAWAY-Nhạc-chiến-thắng-trong-Hãy-chọn-giá-đúng.wav");
+
+            if (File.Exists(filePath))
+            {
+                // Nếu tệp tồn tại, phát nó
+                SoundPlayer soundPlayer1 = new SoundPlayer();
+                soundPlayer1.SoundLocation = filePath;
+                soundPlayer1.Play();
+            }
+            else
+            {
+                MessageBox.Show("Tệp audio đã chỉ định không tồn tại.");
+            }
             ENDGAME.Show();
         }
 
         private void form_thoat_Click(object sender, EventArgs e)
         {
-            panel_btn.Visible   =true ;
+            panel_btn.Visible = true;
         }
 
         private void btn_choi_Click(object sender, EventArgs e)
@@ -161,5 +176,29 @@ namespace TrangChu
             XepHang mn = new XepHang();
             mn.ShowDialog();
         }
+
+        private void TrangChu_Load(object sender, EventArgs e)
+        {
+            // Lấy thư mục đang chạy ứng dụng
+            string Nhac = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+
+            // Ghép đường dẫn với tên tệp tin
+            string filePath = Path.Combine(Nhac, @"y2mate.com-Nhạc-kết-thúc-gameshow-Hãy-Chọn-Giá-Đúng.wav");
+
+            // Kiểm tra xem tệp tồn tại hay không trước khi phát
+            if (File.Exists(filePath))
+            {
+                // Nếu tệp tồn tại, phát nó
+                SoundPlayer soundPlayer1 = new SoundPlayer();
+                soundPlayer1.SoundLocation = filePath;
+                soundPlayer1.Play();
+            }
+            else
+            {
+                // Nếu tệp không tồn tại, hiển thị thông báo lỗi hoặc xử lý theo cách thích hợp
+                MessageBox.Show("Tệp audio đã chỉ định không tồn tại.");
+            }
+        }
+
     }
 }

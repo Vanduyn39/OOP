@@ -15,7 +15,7 @@ namespace OOP_CLASS_1
             List<SanPham> sortedSanPhams = new List<SanPham>(SanPhamList.SanPhams); // Sao chép danh sách sản phẩm
             sortedSanPhams.Sort(SoSanhSPByGia);
 
-            // Lấy ra tất cả các bộ 3 sản phẩm có giá cách nhau ít nhất 50
+            // Lấy ra tất cả các bộ 3 sản phẩm có giá cách nhau nhiều nhất là 1.000.000
             List<List<SanPham>> TatCaBoBa = LocSanPham(sortedSanPhams);
             // Lấy ngẫu nhiên một bộ 3 sản phẩm từ tất cả các bộ 3 đã tìm được
             List<SanPham> randomTriplet = null;

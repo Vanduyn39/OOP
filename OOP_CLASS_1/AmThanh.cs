@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Media;
+using System.Windows.Forms;
 namespace OOP_CLASS_1
 {
     public class AmThanh
@@ -16,16 +17,10 @@ namespace OOP_CLASS_1
 
         public AmThanh()
         {
-            string basePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            string soundFolderPath = Path.Combine(basePath, "Sounds");
-
-            string amThanhGamePath = Path.Combine(soundFolderPath, "WinterFluteVersion-VA_4b4y5.wav");
-            string nhacTrldungPath = Path.Combine(soundFolderPath, "Am-thanh-chuc-mung-chien-thang-www_tiengdong_com.wav");
-            string nhacTrlsaiPath = Path.Combine(soundFolderPath, "trlsai.wav.wav");
-
-            AmThanhGame = new SoundPlayer(amThanhGamePath);
-            Nhac_trldung = new SoundPlayer(nhacTrldungPath);
-            Nhac_trlsai = new SoundPlayer(nhacTrlsaiPath);
+            string Nhac = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            AmThanhGame = new SoundPlayer(Path.Combine(Nhac, @"Game.wav"));
+            Nhac_trldung = new SoundPlayer(Path.Combine(Nhac, @"Dung.wav"));
+            Nhac_trlsai = new SoundPlayer(Path.Combine(Nhac, @"Sai.wav"));
         }
 
         public void PlayCorrectSound()

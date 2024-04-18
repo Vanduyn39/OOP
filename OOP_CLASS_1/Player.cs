@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace OOP_CLASS_1
 {
-    public class Player : ISerializable
+    public class Player : ISerializable, IComparable<Player>
     {
         public string Ten { get; set; }
         public VongChoi Vongchoidachoi { get; set; }
@@ -67,6 +67,9 @@ namespace OOP_CLASS_1
         {
             return $"Nguoi choi: Ten nguoi choi: {Ten},Vong Choi Da Choi: {Vongchoidachoi.GetType().Name}, Tien Thuong: {TienThuong}";
         }
-
+        public int CompareTo(Player other)
+        {
+            return TienThuong.CompareTo(other.TienThuong);
+        }
     }
 }

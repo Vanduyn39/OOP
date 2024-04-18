@@ -81,6 +81,15 @@ namespace giaodienhaychongiadung.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Game {
+            get {
+                return ResourceManager.GetStream("Game", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap haychongia {
@@ -170,12 +179,30 @@ namespace giaodienhaychongiadung.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Win {
+            get {
+                return ResourceManager.GetStream("Win", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] WinterFluteVersion_VA_4b4y5 {
             get {
                 object obj = ResourceManager.GetObject("WinterFluteVersion_VA_4b4y5", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream y2mate_com_GIVEAWAY_Nhạc_thua_cuộc_trong_Hãy_chọn_giá_đúng {
+            get {
+                return ResourceManager.GetStream("y2mate_com_GIVEAWAY_Nhạc_thua_cuộc_trong_Hãy_chọn_giá_đúng", resourceCulture);
             }
         }
     }

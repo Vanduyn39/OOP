@@ -243,6 +243,7 @@
             this.Name = "TrangChu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.TrangChu_Load);
             this.panel_btn.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

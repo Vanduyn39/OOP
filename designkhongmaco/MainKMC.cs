@@ -106,7 +106,7 @@ namespace designkhongmaco
                 selectedPrices.Remove(TrichXuatGia(clickedTextBox.Text)); // Loại bỏ giá sản phẩm khỏi danh sách đã chọn
             }
 
-            
+
         }
 
         // Phương thức trợ giúp để trích xuất giá từ thông tin sản phẩm
@@ -162,7 +162,7 @@ namespace designkhongmaco
                 soLuongDoanDung++; // Tăng số lượng đoán đúng lên 1
                 tongGiaiThuong += TrichXuatGia(textBox7.Text); // Thêm giá sản phẩm vào tổng giải thưởng
             }
-            TienThuong = (int)tongGiaiThuong;
+            //TienThuong = (int)tongGiaiThuong;
             // Giới hạn số lượng đoán đúng là tối đa 4
             soLuongDoanDung = Math.Min(soLuongDoanDung, 4);
             // Kiểm tra xem số lượng đoán đúng có lớn hơn 2 không
@@ -175,13 +175,14 @@ namespace designkhongmaco
             {
                 MessageBox.Show($"Bạn chỉ đoán đúng được {soLuongDoanDung} sản phẩm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            TienThuong = (int)tongGiaiThuong;
             this.Hide();
 
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-           
+
             HienThiDanhSachSanPham();
         }
 
