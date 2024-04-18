@@ -18,7 +18,7 @@ Our team consists of 4 members:
 - Đoàn Hoàng Lợi Nguyên - MSSV: 31221026394
 
 ## Project Timeline
-- Start Date: 00/00/2024
+- Start Date: 04/03/2024
 - End Date: 19/04/2024
 
 ## Main Features
