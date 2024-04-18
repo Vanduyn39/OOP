@@ -30,4 +30,4 @@ Please refer to the final report for detailed features.
 - UI Design: Figma
 
 ## View Final Report
-You can view the final report [here](link_to_final_report).
+You can view the final report [here](https://docs.google.com/document/d/1-q8jO6MRRaLOZUqEQUXvA_R8jgBTol8hyXG42ue-nFc/edit).
