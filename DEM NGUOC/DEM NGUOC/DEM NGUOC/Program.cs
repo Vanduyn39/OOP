@@ -9,12 +9,8 @@ using System.IO;
 
 namespace DEM_NGUOC
 {
-    public /*abstract*/  class Program/*: VongChoi */
+    public  class Program
     {
-        //public string TenVongChoi { get; set; }
-        //public int TienThuong { get; set; }
-        //public override void Play() { }
-        //public Program (SanPhamList sanPhamList): base("Dem Nguoc") { }
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -29,7 +25,6 @@ namespace DEM_NGUOC
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Main_DN(sanPhamList,sanPham));
-            //dieuKhien.AddPlayer(playerList);
         }
     }
 }
