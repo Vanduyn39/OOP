@@ -52,7 +52,6 @@ namespace OOP_CLASS_1
             string jsonFromFile = File.ReadAllText(filePathSanPham);
             SanPhamList deserializedSanPhamList = JsonSerializer.Deserialize<SanPhamList>(json);
         }
-        //Phương thức ghi  file Player
         public static void WriteFile(string filePathPlayer, PlayerList list)
         {
             try
@@ -65,7 +64,6 @@ namespace OOP_CLASS_1
                 Console.WriteLine(ex.ToString());
             }
         }
-        //Phương thức đọc  file Player
         public static PlayerList ReadFile(string filePathPlayer)
         {
             try
