@@ -27,9 +27,6 @@ namespace TrangChu
             InitializeComponent();
         }
         private VongChoi vongChoi;
-        private SanPhamList sanPhamList;
-        private SanPham sanPham;
-        private Player player;
 
         private void form1_batdau_Click(object sender, EventArgs e)
         {
@@ -42,9 +39,7 @@ namespace TrangChu
                 return;
             }
 
-            SanPhamList sanPhamList = new SanPhamList();
             PlayerList playerList;
-
             string filePathPlayer = "Player.json";
 
             // Kiểm tra xem tệp JSON có tồn tại hay không
@@ -66,6 +61,7 @@ namespace TrangChu
             Player Player = new Player(Ten, vongChoi, 0);
             playerList.Add(Player);
 
+            //Gọi các vòng chơi
             BatDau(playerList, Player);
 
             // Lưu danh sách người chơi vào tệp JSON sau khi cập nhật dữ liệu của người chơi
@@ -109,7 +105,6 @@ namespace TrangChu
             // Vòng 3: KHÔNG MÀ CÓ
             designkhongmaco.MainKMC form = new designkhongmaco.MainKMC(sanPhamList, sanPham);
             form.ShowDialog();
-
             player.TienThuong += (int)form.TienThuong;
 
             if (form.TienThuong == 0)
@@ -156,26 +151,25 @@ namespace TrangChu
 
         private void btn_caidat_Click(object sender, EventArgs e)
         {
+            this.Hide();
             SETTING setting = new SETTING();
             setting.ShowDialog();
         }
 
         private void btn_xephang_Click(object sender, EventArgs e)
         {
+            this.Hide();
             XepHang mn = new XepHang();
             mn.ShowDialog();
         }
 
         private void TrangChu_Load(object sender, EventArgs e)
         {
-            AmThanh amThanh = new AmThanh();
-            amThanh.PlayMoGameSound();
         }
 
         private void btn_huongdan_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hãy chuẩn bị chơi trò chơi Hãy chọn giá đúng và trở thành đối tác tri thức tuyệt vời! Đây là cách chơi:\n1.Vòng Bàn Tay Vàng\n2.Vòng Đếm Ngược\n3.Không Mà Có\n4.Vòng Lựa Chọn Thông Minh");
-
         }
     }
 }
