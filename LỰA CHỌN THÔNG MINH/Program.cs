@@ -1,4 +1,4 @@
-﻿using OOP_CLASS_1;
+using OOP_CLASS_1;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +12,7 @@ namespace Vòng_4
 {
     internal static class Program
     {
-        private static Player player;
 
-        // Khai báo biến toàn cục
-        //public static SanPhamList sanPhamList;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -28,7 +25,6 @@ namespace Vòng_4
             dieuKhien.AddSanPham(sanPhamList);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Player currentPlayer = playerList.Players[0];
             Application.Run(new MainVong4(sanPhamList));
         }
     }
