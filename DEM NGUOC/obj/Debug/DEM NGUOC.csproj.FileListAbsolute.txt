@@ -1,0 +1,170 @@
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe.config
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.pdb
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Properties.Resources.resources
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.GenerateResource.cache
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.exe
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.pdb
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\bin\Debug\Guna.UI2.dll
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.Up2Date
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Main_DN.resources
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.SanPham_DN.resources
+\\Mac\Home\Documents\C#\Lập trình hướng đối tượng\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.ChucMung_DN.resources
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe.config
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.pdb
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\Guna.UI2.dll
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.ChucMung_DN.resources
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Main_DN.resources
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.SanPham_DN.resources
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Properties.Resources.resources
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CopyComplete
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.exe
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.pdb
+C:\Users\Administrator\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Thua.resources
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.AssemblyReference.cache
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.ChucMung_DN.resources
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Main_DN.resources
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.SanPham_DN.resources
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Properties.Resources.resources
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Thua.resources
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.GenerateResource.cache
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CoreCompileInputs.cache
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.exe
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.pdb
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe.config
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.pdb
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\Guna.UI2.dll
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\OOP_CLASS_1.exe
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Json.dll
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Memory.dll
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.ValueTuple.dll
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Buffers.dll
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Json.xml
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Memory.xml
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.ValueTuple.xml
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Buffers.xml
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dell\Downloads\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.Up2Date
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Memory.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Main_DN.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.pdb
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe.config
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.exe
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\DEM NGUOC.pdb
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\Guna.UI2.dll
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\OOP_CLASS_1.exe
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Buffers.dll
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Memory.dll
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Json.dll
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.ValueTuple.dll
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\Vòng 2.exe
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\Vòng 2.pdb
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\Vòng 2.exe.config
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Buffers.xml
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Memory.xml
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Text.Json.xml
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\bin\Debug\System.ValueTuple.xml
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.AssemblyReference.cache
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.ChucMung_DN.resources
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Main_DN.resources
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.SanPham_DN.resources
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Properties.Resources.resources
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM_NGUOC.Thua.resources
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.GenerateResource.cache
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CoreCompileInputs.cache
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.Up2Date
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.exe
+C:\Users\dell\Downloads\OOP_15-main\DEM NGUOC\DEM NGUOC\DEM NGUOC\obj\Debug\DEM NGUOC.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\DEM NGUOC.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\DEM NGUOC.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\DEM NGUOC.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Memory.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\obj\Debug\DEM_NGUOC.Main_DN.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\obj\Debug\DEM_NGUOC.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\obj\Debug\DEM NGUOC.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\obj\Debug\DEM NGUOC.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\DEM NGUOC\obj\Debug\DEM NGUOC.pdb

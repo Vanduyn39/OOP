@@ -2,7 +2,6 @@ using System;
 using System.Media;
 using System.Windows.Forms;
 using OOP_CLASS_1;
-using KetThucGame;
 
 namespace Vòng_4
 {

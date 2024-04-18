@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67FD1220-E2E2-41BB-B698-A3FF465148DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>giaodienhaychongiadung</RootNamespace>
+    <AssemblyName>giaodienhaychongiadung</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=8.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Text.Json.8.0.3\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SoundMusic.cs" />
+    <Compile Include="TrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrangChu.Designer.cs">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XepHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XepHang.Designer.cs">
+      <DependentUpon>XepHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SETTING.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SETTING.Designer.cs">
+      <DependentUpon>SETTING.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TrangChu.resx">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XepHang.resx">
+      <DependentUpon>XepHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SETTING.resx">
+      <DependentUpon>SETTING.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haychongia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhbia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haychongiadungg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haychongiadungg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snapedit_1712412497846.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DEM NGUOC\DEM NGUOC.csproj">
+      <Project>{47058f66-7371-4ee9-b7e6-444b7ae8e814}</Project>
+      <Name>DEM NGUOC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KHONG MA CO\designkhongmaco.csproj">
+      <Project>{89acc616-afb2-4bc6-a550-02783684ad75}</Project>
+      <Name>designkhongmaco</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KET THUC\KetThucGame.csproj">
+      <Project>{6dc52a09-a161-4e3c-a435-611fc2715ffb}</Project>
+      <Name>KetThucGame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LỰA CHỌN THÔNG MINH\Vòng 4.csproj">
+      <Project>{8da7aad0-c7a1-4143-95c0-5f4198572769}</Project>
+      <Name>Vòng 4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OOP_CLASS_1\OOP_CLASS_1.csproj">
+      <Project>{17c3e6b4-9a19-40d2-a5e2-f1866d24c17a}</Project>
+      <Name>OOP_CLASS_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BAN TAY VANG\Vòng 2.csproj">
+      <Project>{ea44b66b-2b52-47d4-82ed-3c9737d781cc}</Project>
+      <Name>Vòng 2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trlsai.wav.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Am-thanh-chuc-mung-chien-thang-www_tiengdong_com.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WinterFluteVersion-VA_4b4y5.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y2mate.com-GIVEAWAY-Nhạc-chiến-thắng-trong-Hãy-chọn-giá-đúng.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y2mate.com-Nhạc-kết-thúc-gameshow-Hãy-Chọn-Giá-Đúng.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y2mate.com-GIVEAWAY-Nhạc-thua-cuộc-trong-Hãy-chọn-giá-đúng.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

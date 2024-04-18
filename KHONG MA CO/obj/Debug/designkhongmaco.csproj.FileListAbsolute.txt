@@ -1,0 +1,179 @@
+D:\designkhongmaco\designkhongmaco\bin\Debug\designkhongmaco.exe.config
+D:\designkhongmaco\designkhongmaco\bin\Debug\designkhongmaco.exe
+D:\designkhongmaco\designkhongmaco\bin\Debug\designkhongmaco.pdb
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.AssemblyReference.cache
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.resources
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.Properties.Resources.resources
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.GenerateResource.cache
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.CoreCompileInputs.cache
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.exe
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.pdb
+D:\designkhongmaco\designkhongmaco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\designkhongmaco\designkhongmaco\bin\Debug\Newtonsoft.Json.dll
+D:\designkhongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.exe
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Buffers.dll
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Memory.dll
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Numerics.Vectors.dll
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Text.Encodings.Web.dll
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Text.Json.dll
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.ValueTuple.dll
+D:\designkhongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.pdb
+D:\designkhongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.exe.config
+D:\designkhongmaco\designkhongmaco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\designkhongmaco\designkhongmaco\bin\Debug\Newtonsoft.Json.xml
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Buffers.xml
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Memory.xml
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Numerics.Vectors.xml
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Text.Encodings.Web.xml
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Text.Json.xml
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\designkhongmaco\designkhongmaco\bin\Debug\System.ValueTuple.xml
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.CopyComplete
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form2.resources
+D:\designkhongmaco\designkhongmaco\bin\Debug\aa-DJ\designkhongmaco.resources.dll
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.aa-DJ.resources
+D:\designkhongmaco\designkhongmaco\obj\Debug\aa-DJ\designkhongmaco.resources.dll
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.chucmung.resources
+D:\designkhongmaco\designkhongmaco\bin\Debug\Guna.UI2.dll
+D:\designkhongmaco\designkhongmaco\obj\Debug\designkhongmaco.thua.resources
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.exe.config
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.exe
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.pdb
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\aa-DJ\designkhongmaco.resources.dll
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.exe
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Buffers.dll
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Memory.dll
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.ValueTuple.dll
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Text.Json.xml
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.AssemblyReference.cache
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.chucmung.resources
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.resources
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form2.resources
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Properties.Resources.resources
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.thua.resources
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.aa-DJ.resources
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.GenerateResource.cache
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.CoreCompileInputs.cache
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\aa-DJ\designkhongmaco.resources.dll
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkh.C7D91E57.Up2Date
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.exe
+C:\Users\dell\Downloads\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\aa-DJ\designkhongmaco.resources.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.chucmung.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form2.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.thua.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.aa-DJ.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\aa-DJ\designkhongmaco.resources.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.pdb
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.exe.config
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.exe
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\designkhongmaco.pdb
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\aa-DJ\designkhongmaco.resources.dll
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\Newtonsoft.Json.dll
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.exe
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Buffers.dll
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Memory.dll
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Numerics.Vectors.dll
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Text.Json.dll
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.ValueTuple.dll
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.pdb
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\OOP_CLASS_1.exe.config
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Text.Encodings.Web.xml
+D:\update\OOP_15-main\khongmaco\designkhongmaco\bin\Debug\System.Text.Json.xml
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.AssemblyReference.cache
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.resources
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form2.resources
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Properties.Resources.resources
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.Form1.aa-DJ.resources
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.GenerateResource.cache
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.CoreCompileInputs.cache
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\aa-DJ\designkhongmaco.resources.dll
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.csproj.CopyComplete
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.exe
+D:\update\OOP_15-main\khongmaco\designkhongmaco\obj\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\designkhongmaco.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\designkhongmaco\obj\Debug\designkhongmaco.MainKMC.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\designkhongmaco.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.MainKMC.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.pdb

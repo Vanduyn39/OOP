@@ -116,6 +116,3 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.exe
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15 3\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng 4.pdb
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\obj\Debug\Vòng_4.MainVong4.resources
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\bin\Debug\KetThucGame.exe
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\bin\Debug\KetThucGame.pdb
-C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\LỰA CHỌN THÔNG MINH\bin\Debug\KetThucGame.exe.config

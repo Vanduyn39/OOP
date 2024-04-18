@@ -1,0 +1,117 @@
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\bin\Debug\Vòng 2.exe.config
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\bin\Debug\Vòng 2.exe
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\bin\Debug\Vòng 2.pdb
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\obj\Debug\Vòng 2.csproj.AssemblyReference.cache
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\obj\Debug\Vòng_2.Form1.resources
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\obj\Debug\Vòng_2.Properties.Resources.resources
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\obj\Debug\Vòng 2.csproj.GenerateResource.cache
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\obj\Debug\Vòng 2.csproj.CoreCompileInputs.cache
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\obj\Debug\Vòng 2.exe
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\obj\Debug\Vòng 2.pdb
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\bin\Debug\Trang Chủ.exe
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\bin\Debug\Trang Chủ.pdb
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\bin\Debug\Trang Chủ.exe.config
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\obj\Debug\Vòng 2.csproj.Up2Date
+C:\Users\nhoih\Downloads\OOP_15-main\Vòng 2\obj\Debug\Trang_Chủ.EndGame.resources
+D:\OOP_15\Vòng 2\bin\Debug\Vòng 2.exe.config
+D:\OOP_15\Vòng 2\bin\Debug\Vòng 2.exe
+D:\OOP_15\Vòng 2\bin\Debug\Vòng 2.pdb
+D:\OOP_15\Vòng 2\bin\Debug\OOP_CLASS_1.exe
+D:\OOP_15\Vòng 2\bin\Debug\System.Text.Json.dll
+D:\OOP_15\Vòng 2\bin\Debug\System.Memory.dll
+D:\OOP_15\Vòng 2\bin\Debug\System.ValueTuple.dll
+D:\OOP_15\Vòng 2\bin\Debug\System.Text.Encodings.Web.dll
+D:\OOP_15\Vòng 2\bin\Debug\System.Numerics.Vectors.dll
+D:\OOP_15\Vòng 2\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\OOP_15\Vòng 2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OOP_15\Vòng 2\bin\Debug\System.Buffers.dll
+D:\OOP_15\Vòng 2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\OOP_15\Vòng 2\bin\Debug\OOP_CLASS_1.pdb
+D:\OOP_15\Vòng 2\bin\Debug\OOP_CLASS_1.exe.config
+D:\OOP_15\Vòng 2\bin\Debug\System.Text.Json.xml
+D:\OOP_15\Vòng 2\bin\Debug\System.Memory.xml
+D:\OOP_15\Vòng 2\bin\Debug\System.ValueTuple.xml
+D:\OOP_15\Vòng 2\bin\Debug\System.Text.Encodings.Web.xml
+D:\OOP_15\Vòng 2\bin\Debug\System.Numerics.Vectors.xml
+D:\OOP_15\Vòng 2\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\OOP_15\Vòng 2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\OOP_15\Vòng 2\bin\Debug\System.Buffers.xml
+D:\OOP_15\Vòng 2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.AssemblyReference.cache
+D:\OOP_15\Vòng 2\obj\Debug\Vòng_2.Properties.Resources.resources
+D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.GenerateResource.cache
+D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.CoreCompileInputs.cache
+D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.Up2Date
+D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.exe
+D:\OOP_15\Vòng 2\obj\Debug\Vòng 2.pdb
+D:\OOP_15\Vòng 2\obj\Debug\Vòng_2.GuessThePrice.resources
+D:\OOP_15\Vòng 2\bin\Debug\Newtonsoft.Json.dll
+D:\OOP_15\Vòng 2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Vòng 2.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Vòng 2.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Vòng 2.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Memory.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng_2.GuessThePrice.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng_2.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\Vòng 2\obj\Debug\Vòng 2.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\Vòng 2.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\Vòng 2.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\Vòng 2.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Memory.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\obj\Debug\Vòng 2.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\obj\Debug\Vòng_2.GuessThePrice.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\obj\Debug\Vòng_2.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\obj\Debug\Vòng 2.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\obj\Debug\Vòng 2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\obj\Debug\Vòng 2.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\obj\Debug\Vòng 2.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\BAN TAY VANG\obj\Debug\Vòng 2.pdb

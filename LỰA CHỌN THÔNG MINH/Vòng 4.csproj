@@ -147,10 +147,6 @@
     <None Include="Resources\snapedit_1711233610675.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KetThucGame\KetThucGame.csproj">
-      <Project>{6dc52a09-a161-4e3c-a435-611fc2715ffb}</Project>
-      <Name>KetThucGame</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OOP_CLASS_1\OOP_CLASS_1.csproj">
       <Project>{17c3e6b4-9a19-40d2-a5e2-f1866d24c17a}</Project>
       <Name>OOP_CLASS_1</Name>
