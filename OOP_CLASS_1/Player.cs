@@ -21,38 +21,6 @@ namespace OOP_CLASS_1
             this.Vongchoidachoi = vongChoi;
             this.TienThuong = tienthuong;
         }
-        public string GetTen()
-        { return Ten; }
-        public VongChoi GetVongChoi()
-        { return Vongchoidachoi; }
-        public int GetTienThuong()
-        { return TienThuong; }
-        public delegate int CompareTienThuong(Player player1, Player player2);
-        public static int CompareByTienThuong(Player player1, Player player2)
-        {
-            if (player1.GetTienThuong() > player2.GetTienThuong())
-                return 1;
-            else if (player1.GetTienThuong() == player2.GetTienThuong())
-                return 0;
-            else
-                return -1;
-        }
-        private static void Swap(Player[] players, int i, int j)
-        {
-            Player player = players[i];
-            players[i] = players[j];
-            players[j] = player;
-        }
-        public static void Sort(Player[] players, CompareTienThuong compareTienThuong)
-        {
-            for (int i = 0; i < players.Length - 1; i++)
-                for (int j = players.Length - 1; j > i; j--)
-                    if (compareTienThuong(players[j], players[j - 1]) > 0)
-                    {
-                        Swap(players, j, j - 1);
-                    }
-        }
-
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
             info.AddValue("Ten nguoi choi", Ten); info.AddValue("Vong choi da choi", Vongchoidachoi.GetType().Name); info.AddValue("Giai Thuong", TienThuong);
