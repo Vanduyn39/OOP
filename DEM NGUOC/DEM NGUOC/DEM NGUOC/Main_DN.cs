@@ -48,11 +48,6 @@ namespace DEM_NGUOC
                 PlayerList playerList = new PlayerList();
                 DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
                 dieuKhien.AddSanPham(sanPhamList);
-                // Get the player name from the textbox
-                //string playerName = textBox1.Text;
-                // Add the player to the player list
-                //Player newPlayer = new Player(playerName, null, 0);
-                //playerList.Add(newPlayer);
                 dieuKhien.AddPlayer1(playerList);
                 dieuKhien.AddPlayer2(playerList);
 
