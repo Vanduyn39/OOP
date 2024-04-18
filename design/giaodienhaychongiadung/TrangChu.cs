@@ -1,4 +1,4 @@
-﻿using OOP_CLASS_1;
+using OOP_CLASS_1;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +16,7 @@ using designkhongmaco;
 using System.Numerics;
 using KetThucGame;
 using System.Media;
+using TrangChu;
 
 namespace TrangChu
 {
@@ -24,7 +25,6 @@ namespace TrangChu
         public TrangChu()
         {
             InitializeComponent();
-            
         }
         private VongChoi vongChoi;
         private SanPhamList sanPhamList;
@@ -34,6 +34,14 @@ namespace TrangChu
         private void form1_batdau_Click(object sender, EventArgs e)
         {
             panel_btn.Visible = true;
+
+            // Kiểm tra xem textBox1 có rỗng hay không
+            if (string.IsNullOrEmpty(textBox1.Text))
+            {
+                MessageBox.Show("Vui lòng nhập tên người chơi!");
+                return;
+            }
+
             SanPhamList sanPhamList = new SanPhamList();
             PlayerList playerList;
 
@@ -66,7 +74,6 @@ namespace TrangChu
 
         private void BatDau(PlayerList playerList, Player player)
         {
-            AmThanh amThanh = new AmThanh();
             SanPhamList sanPhamList = new SanPhamList();
             SanPham sanPham = new SanPham();
             DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
@@ -74,7 +81,6 @@ namespace TrangChu
             KetThucGame.ENDGAME ENDGAME = new KetThucGame.ENDGAME(player);
 
             // Vòng 1: BÀN TAY VÀNG
-            amThanh.PlayBackgroundMusic();
             Vòng_2.GuessThePrice guessThePriceForm = new Vòng_2.GuessThePrice(sanPhamList);
             guessThePriceForm.ShowDialog();
             player.TienThuong += guessThePriceForm.TienThuong;
@@ -87,7 +93,6 @@ namespace TrangChu
                 ENDGAME.Show();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 1
             }
-            amThanh.PlayBackgroundMusic();
             // Vòng 2: ĐẾM NGƯỢC 
             DEM_NGUOC.Main_DN main_DN = new DEM_NGUOC.Main_DN(sanPhamList, sanPham);
             main_DN.ShowDialog();
@@ -101,7 +106,6 @@ namespace TrangChu
                 ENDGAME.Show();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 2.
             }
-            amThanh.PlayBackgroundMusic();
             // Vòng 3: KHÔNG MÀ CÓ
             designkhongmaco.MainKMC form = new designkhongmaco.MainKMC(sanPhamList, sanPham);
             form.ShowDialog();
@@ -116,7 +120,6 @@ namespace TrangChu
                 ENDGAME.Show();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 3.
             }
-            amThanh.PlayBackgroundMusic();
             // Vòng 4: LỰA CHỌN THÔNG MINH
             Vòng_4.MainVong4 MainVong4 = new Vòng_4.MainVong4(sanPhamList);
             MainVong4.ShowDialog();
@@ -167,9 +170,12 @@ namespace TrangChu
 
         private void TrangChu_Load(object sender, EventArgs e)
         {
-            AmThanh amThanh = new AmThanh();
-            amThanh.PlayMoGameSound();
         }
 
+        private void btn_huongdan_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hãy chuẩn bị chơi trò chơi Hãy chọn giá đúng và trở thành đối tác tri thức tuyệt vời! Đây là cách chơi:\n1.Vòng Bàn Tay Vàng\n2.Vòng Đếm Ngược\n3.Không Mà Có\n4.Vòng Lựa Chọn Thông Minh");
+
+        }
     }
 }
