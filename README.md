@@ -1,6 +1,4 @@
-# Final Project: OOP Development Method
-
-This repository contains a report on the final project for the subject OOP Development Method.
+# Final Project: OOP Game "Hãy chọn giá đúng"
 
 ## Table of Contents
 - [Team](#team)
