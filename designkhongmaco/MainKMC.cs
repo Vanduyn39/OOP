@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -25,40 +25,40 @@ namespace designkhongmaco
             this.sanpham = sanPham;
             HienThiDanhSachSanPham();
 
-            
+
             giarandom.ReadOnly = true;
-            giarandom.TabStop = false; 
+            giarandom.TabStop = false;
             giarandom.Enter += (sender, e) => { this.ActiveControl = doan; };
         }
 
-       
+
         private void HienThiDanhSachSanPham()
         {
             for (int i = 0; i < Math.Min(6, sanPhamList.SanPhams.Count); i++)
             {
                 string tenTextBox = "textBox" + (i + 2);
-                TextBox textBox = TimTextBox(tenTextBox); 
+                TextBox textBox = TimTextBox(tenTextBox);
                 if (textBox != null)
                 {
                     textBox.Text = $"{sanPhamList.SanPhams[i].TenSP} - Giá: {sanPhamList.SanPhams[i].GiaSP} - {sanPhamList.SanPhams[i].Mota}";
-                    textBox.ReadOnly = true; 
+                    textBox.ReadOnly = true;
                     displayedProducts.Add(textBox);
-                
+
                     textBox.Click += TextBox_Click;
                 }
                 else
-                {                    
+                {
                     MessageBox.Show($"Không tìm thấy TextBox với tên {tenTextBox}.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
 
-          
-            int giaNgauNhien = random.Next(60, 100) * 100; 
+
+            int giaNgauNhien = random.Next(60, 100) * 100;
             giarandom.Text = giaNgauNhien.ToString();
         }
 
 
-        
+
         private TextBox TimTextBox(string ten)
         {
             foreach (Control control in this.Controls)
@@ -71,108 +71,106 @@ namespace designkhongmaco
             return null;
         }
 
-        
+
         private void TextBox_Click(object sender, EventArgs e)
         {
             TextBox clickedTextBox = (TextBox)sender;
 
-          
+
             foreach (TextBox textBox in displayedProducts)
             {
                 if (textBox == clickedTextBox)
                 {
-                    textBox.BackColor = Color.LightBlue; 
-                    textBox.BorderStyle = BorderStyle.FixedSingle; 
+                    textBox.BackColor = Color.LightBlue;
+                    textBox.BorderStyle = BorderStyle.FixedSingle;
                 }
                 else
                 {
                     textBox.BackColor = Color.White;
-                    textBox.BorderStyle = BorderStyle.None; 
+                    textBox.BorderStyle = BorderStyle.None;
                 }
             }
 
-            
+
             if (!displayedProducts.Contains(clickedTextBox))
             {
                 displayedProducts.Add(clickedTextBox);
-                selectedPrices.Add(TrichXuatGia(clickedTextBox.Text)); 
+                selectedPrices.Add(TrichXuatGia(clickedTextBox.Text));
             }
             else
             {
                 displayedProducts.Remove(clickedTextBox);
-                selectedPrices.Remove(TrichXuatGia(clickedTextBox.Text)); 
+                selectedPrices.Remove(TrichXuatGia(clickedTextBox.Text));
             }
 
 
         }
 
-       
+
         private int TrichXuatGia(string thongTinSanPham)
         {
-            int viTriBatDau = thongTinSanPham.IndexOf("Giá:") + 5; 
-            int viTriKetThuc = thongTinSanPham.IndexOf("-", viTriBatDau); 
-            string chuoiGia = thongTinSanPham.Substring(viTriBatDau, viTriKetThuc - viTriBatDau).Trim(); 
+            int viTriBatDau = thongTinSanPham.IndexOf("Giá:") + 5;
+            int viTriKetThuc = thongTinSanPham.IndexOf("-", viTriBatDau);
+            string chuoiGia = thongTinSanPham.Substring(viTriBatDau, viTriKetThuc - viTriBatDau).Trim();
             return int.Parse(chuoiGia);
         }
 
-        
+
         private void doan_Click(object sender, EventArgs e)
         {
             AmThanh amThanh = new AmThanh();
-            
+
             if (!int.TryParse(giarandom.Text, out int giaNgauNhien))
             {
                 MessageBox.Show("Giá nhập không hợp lệ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            int soLuongDoanDung = 0; 
-            int tongGiaiThuong = 0; 
+            int soLuongDoanDung = 0;
+            int tongGiaiThuong = 0;
 
-          
+
             if (textBox2.BorderStyle == BorderStyle.FixedSingle && TrichXuatGia(textBox2.Text) < giaNgauNhien)
             {
                 soLuongDoanDung++;
-                tongGiaiThuong += TrichXuatGia(textBox2.Text); 
+                tongGiaiThuong += TrichXuatGia(textBox2.Text);
             }
             if (textBox3.BorderStyle == BorderStyle.FixedSingle && TrichXuatGia(textBox3.Text) < giaNgauNhien)
             {
-                soLuongDoanDung++; 
-                tongGiaiThuong += TrichXuatGia(textBox3.Text); 
+                soLuongDoanDung++;
+                tongGiaiThuong += TrichXuatGia(textBox3.Text);
             }
             if (textBox4.BorderStyle == BorderStyle.FixedSingle && TrichXuatGia(textBox4.Text) < giaNgauNhien)
             {
-                soLuongDoanDung++; 
-                tongGiaiThuong += TrichXuatGia(textBox4.Text); 
+                soLuongDoanDung++;
+                tongGiaiThuong += TrichXuatGia(textBox4.Text);
             }
             if (textBox5.BorderStyle == BorderStyle.FixedSingle && TrichXuatGia(textBox5.Text) < giaNgauNhien)
             {
-                soLuongDoanDung++; 
-                tongGiaiThuong += TrichXuatGia(textBox5.Text); 
+                soLuongDoanDung++;
+                tongGiaiThuong += TrichXuatGia(textBox5.Text);
             }
             if (textBox6.BorderStyle == BorderStyle.FixedSingle && TrichXuatGia(textBox6.Text) < giaNgauNhien)
             {
-                soLuongDoanDung++; 
+                soLuongDoanDung++;
                 tongGiaiThuong += TrichXuatGia(textBox6.Text);
             }
             if (textBox7.BorderStyle == BorderStyle.FixedSingle && TrichXuatGia(textBox7.Text) < giaNgauNhien)
             {
-                soLuongDoanDung++; 
-                tongGiaiThuong += TrichXuatGia(textBox7.Text); 
+                soLuongDoanDung++;
+                tongGiaiThuong += TrichXuatGia(textBox7.Text);
             }
-            
+
             soLuongDoanDung = Math.Min(soLuongDoanDung, 4);
-            
-            if (soLuongDoanDung > 2)
+            if (soLuongDoanDung == 4)
             {
-                amThanh.PlayCorrectSound();
-                
+                // Hiển thị MessageBox thông báo số sản phẩm đoán đúng và tiền thưởng
                 MessageBox.Show($"Bạn đã đoán đúng {soLuongDoanDung} sản phẩm.\nTiền thưởng của bạn: {tongGiaiThuong} ", "Chúc mừng", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (soLuongDoanDung <= 2)
+            else if (soLuongDoanDung < 4)
             {
-                amThanh.PlayIncorrectSound();
                 MessageBox.Show($"Bạn chỉ đoán đúng được {soLuongDoanDung} sản phẩm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                tongGiaiThuong = 0;
             }
             TienThuong = (int)tongGiaiThuong;
             this.Hide();
