@@ -13,18 +13,18 @@ namespace OOP_CLASS_1
         private SoundPlayer AmThanhGame;
         private SoundPlayer Nhac_trldung;
         private SoundPlayer Nhac_trlsai;
-        private SoundPlayer Nhac_ketthuc;
         private SoundPlayer Nhac_mogame;
         private SoundPlayer Nhac_background;
         private SoundPlayer Nhac_win;
+        public static AmThanh amThanh;
 
         public AmThanh()
         {
             string Nhac = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
             AmThanhGame = new SoundPlayer(Path.Combine(Nhac, @"Game.wav"));
-            Nhac_trldung = new SoundPlayer(Path.Combine(Nhac, @"Win.wav"));
+            Nhac_trldung = new SoundPlayer(Path.Combine(Nhac, @"Correct.wav"));
             Nhac_trlsai = new SoundPlayer(Path.Combine(Nhac, @"Sai.wav"));
-            Nhac_mogame = new SoundPlayer(Path.Combine(Nhac, @"End.wav"));
+            Nhac_mogame = new SoundPlayer(Path.Combine(Nhac, @"Topic.wav"));
             Nhac_background = new SoundPlayer(Path.Combine(Nhac, @"Choi.wav"));
             Nhac_win = new SoundPlayer(Path.Combine(Nhac, @"Dung.wav"));
         }
@@ -61,6 +61,10 @@ namespace OOP_CLASS_1
         public void PlayBackgroundMusic()
         {
             Nhac_background.Play();
+        }
+        public void StopBackgroundMusic()
+        {
+            Nhac_background.Stop();
         }
         public void PlayWinMusic()
         {

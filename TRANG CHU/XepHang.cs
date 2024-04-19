@@ -4,9 +4,7 @@ using OOP_CLASS_1;
 using System.IO;
 using System.Collections.Generic;
 using System.Text.Json;
-using System.Runtime.InteropServices;
-using System.Security.Policy;
-using System.Web.UI;
+using System.Drawing;
 
 namespace TrangChu
 {
@@ -25,15 +23,11 @@ namespace TrangChu
 
         private void menu_FormClosed(object sender, FormClosedEventArgs e)
         {
-            // Show the main form when this form is closed
             this.Hide();
-            TrangChu f1 = new TrangChu();
-            f1.ShowDialog();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            // Handle cell content click event if needed
         }
 
         private List<Player> XepHangNguoiChoi(string filePathPlayer)
@@ -75,22 +69,33 @@ namespace TrangChu
             if (rankedPlayers != null)
             {
                 dataGridView1.Columns.Clear();
+
+                DataGridViewCellStyle headerCellStyle = new DataGridViewCellStyle();
+                headerCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                headerCellStyle.Font = new Font(dataGridView1.Font, FontStyle.Bold);
+
                 DataGridViewColumn rankColumn = new DataGridViewColumn();
                 rankColumn.HeaderText = "Hạng";
                 rankColumn.Name = "Hạng";
                 rankColumn.CellTemplate = new DataGridViewTextBoxCell();
+                rankColumn.HeaderCell.Style = headerCellStyle;
+                rankColumn.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridView1.Columns.Add(rankColumn);
 
                 DataGridViewColumn playerNameColumn = new DataGridViewColumn();
                 playerNameColumn.HeaderText = "Tên";
                 playerNameColumn.Name = "Tên";
                 playerNameColumn.CellTemplate = new DataGridViewTextBoxCell();
+                playerNameColumn.HeaderCell.Style = headerCellStyle;
+                playerNameColumn.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridView1.Columns.Add(playerNameColumn);
 
                 DataGridViewColumn prizeMoneyColumn = new DataGridViewColumn();
                 prizeMoneyColumn.HeaderText = "Tiền Thưởng";
                 prizeMoneyColumn.Name = "Tiền Thưởng";
                 prizeMoneyColumn.CellTemplate = new DataGridViewTextBoxCell();
+                prizeMoneyColumn.HeaderCell.Style = headerCellStyle;
+                prizeMoneyColumn.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dataGridView1.Columns.Add(prizeMoneyColumn);
 
                 dataGridView1.Rows.Clear();

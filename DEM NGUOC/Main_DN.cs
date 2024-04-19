@@ -89,7 +89,6 @@ namespace DEM_NGUOC
                 timerCount.Stop();
                 demNguoc.TienThuong = (int)sanpham.GiaSP;
                 MessageBox.Show($"Chúc mừng bạn vượt qua vòng Đếm Ngược!!!\nTiền thưởng: {demNguoc.TienThuong}");
-                amThanh.PlayCorrectSound();
                 this.Close();
             }
             else

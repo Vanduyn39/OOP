@@ -40,6 +40,8 @@ namespace KetThucGame
         {
             TenNguoichoi.Text=Player.Ten.ToString();
             lbl_tienthuong.Text = Player.TienThuong.ToString();
+            AmThanh amThanh = new AmThanh();
+            amThanh.PlayMoGameSound();
         }
     }
 }

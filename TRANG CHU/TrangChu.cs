@@ -70,12 +70,13 @@ namespace TrangChu
 
         private void BatDau(PlayerList playerList, Player player)
         {
+            AmThanh amThanh = new AmThanh();
             SanPhamList sanPhamList = new SanPhamList();
             SanPham sanPham = new SanPham();
             DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
             dieuKhien.AddSanPham(sanPhamList);
             KetThucGame.ENDGAME ENDGAME = new KetThucGame.ENDGAME(player);
-
+            amThanh.StopMoGameSound();
             // Vòng 1: BÀN TAY VÀNG
             Vòng_2.GuessThePrice guessThePriceForm = new Vòng_2.GuessThePrice(sanPhamList);
             guessThePriceForm.ShowDialog();
@@ -86,7 +87,7 @@ namespace TrangChu
                 MessageBox.Show("Bạn đã thua ở vòng 1. Kết thúc chương trình!");
                 //player.Vongchoidachoi = "Bàn tay vàng";
                 playerList.Add(player);
-                ENDGAME.Show();
+                ENDGAME.ShowDialog();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 1
             }
             // Vòng 2: ĐẾM NGƯỢC 
@@ -99,7 +100,7 @@ namespace TrangChu
                 // Hiển thị thông báo thua
                 MessageBox.Show("Bạn đã thua ở vòng 2. Kết thúc chương trình!");
                 playerList.Add(player);
-                ENDGAME.Show();
+                ENDGAME.ShowDialog();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 2.
             }
             // Vòng 3: KHÔNG MÀ CÓ
@@ -112,7 +113,7 @@ namespace TrangChu
                 // Hiển thị thông báo thua
                 MessageBox.Show("Bạn đã thua ở vòng 3. Kết thúc chương trình!");
                 playerList.Add(player);
-                ENDGAME.Show();
+                ENDGAME.ShowDialog();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 3.
             }
             // Vòng 4: LỰA CHỌN THÔNG MINH
@@ -125,13 +126,13 @@ namespace TrangChu
                 // Hiển thị thông báo thua
                 MessageBox.Show("Bạn đã thua ở vòng 4. Kết thúc chương trình!");
                 playerList.Add(player);
-                ENDGAME.Show();
+                ENDGAME.ShowDialog();
                 return; // Dừng chương trình nếu người chơi thua ở vòng 4.
             }
 
             // Hiển thị thông báo hoàn thành tất cả các vòng chơi
             MessageBox.Show("Chúc mừng! Bạn đã hoàn thành tất cả các vòng chơi.");
-            ENDGAME.Show();
+            ENDGAME.ShowDialog();
         }
 
         private void form_thoat_Click(object sender, EventArgs e)
@@ -151,23 +152,24 @@ namespace TrangChu
 
         private void btn_caidat_Click(object sender, EventArgs e)
         {
-            this.Hide();
             SETTING setting = new SETTING();
             setting.ShowDialog();
         }
 
         private void btn_xephang_Click(object sender, EventArgs e)
         {
-            this.Hide();
             XepHang mn = new XepHang();
             mn.ShowDialog();
         }
 
         private void TrangChu_Load(object sender, EventArgs e)
         {
+            AmThanh amThanh = new AmThanh();
+            amThanh.PlayMoGameSound();
         }
 
-        private void btn_huongdan_Click(object sender, EventArgs e)
+
+        private void btn_huongdan_Click_1(object sender, EventArgs e)
         {
             MessageBox.Show("Hãy chuẩn bị chơi trò chơi Hãy chọn giá đúng và trở thành đối tác tri thức tuyệt vời! Đây là cách chơi:\n1.Vòng Bàn Tay Vàng\n2.Vòng Đếm Ngược\n3.Không Mà Có\n4.Vòng Lựa Chọn Thông Minh");
         }

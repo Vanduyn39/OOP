@@ -15,7 +15,6 @@ namespace OOP_CLASS_1
         public const int maxDisplayedProducts = 4;
         public List<int> prizeValues;
         public SanPhamList sanPhamList;
-        public List<SanPham> displayedProductsHistory;
         public Vong_BanTayVang(SanPhamList sanPhamList) : base("Ban Tay Vang")
         {
             random = new Random();

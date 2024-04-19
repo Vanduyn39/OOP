@@ -21,7 +21,6 @@ namespace Vòng_2
             InitializeComponent();
             vongBanTayVang = new Vong_BanTayVang(sanPhamList);
             pnl_PAB.MouseClick += pnl_PAB_MouseClick;
-
         }
 
         private void Guess(string guess)
@@ -93,8 +92,6 @@ namespace Vòng_2
         private void btn_LH_Click(object sender, EventArgs e)
         {
             Guess("h");
-
-
         }
 
         private void btn_Start_Click(object sender, EventArgs e)

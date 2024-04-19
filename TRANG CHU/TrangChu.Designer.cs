@@ -170,6 +170,7 @@
             this.btn_huongdan.Size = new System.Drawing.Size(229, 41);
             this.btn_huongdan.TabIndex = 15;
             this.btn_huongdan.Text = "HƯỚNG DẪN";
+            this.btn_huongdan.Click += new System.EventHandler(this.btn_huongdan_Click_1);
             // 
             // btn_thoatform
             // 

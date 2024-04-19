@@ -15,7 +15,6 @@ namespace designkhongmaco
         public SanPham sanpham;
         public List<TextBox> displayedProducts = new List<TextBox>();
         public List<int> selectedPrices = new List<int>();
-
         public int TienThuong { get; private set; }
 
         public MainKMC(SanPhamList sanPhamList, SanPham sanPham)
@@ -24,13 +23,10 @@ namespace designkhongmaco
             this.sanPhamList = sanPhamList;
             this.sanpham = sanPham;
             HienThiDanhSachSanPham();
-
-
             giarandom.ReadOnly = true;
             giarandom.TabStop = false;
-            giarandom.Enter += (sender, e) => { this.ActiveControl = doan; };
+            giarandom.Enter += Giarandom_Enter;
         }
-
 
         private void HienThiDanhSachSanPham()
         {
@@ -43,7 +39,6 @@ namespace designkhongmaco
                     textBox.Text = $"{sanPhamList.SanPhams[i].TenSP} - Giá: {sanPhamList.SanPhams[i].GiaSP} - {sanPhamList.SanPhams[i].Mota}";
                     textBox.ReadOnly = true;
                     displayedProducts.Add(textBox);
-
                     textBox.Click += TextBox_Click;
                 }
                 else
@@ -51,13 +46,9 @@ namespace designkhongmaco
                     MessageBox.Show($"Không tìm thấy TextBox với tên {tenTextBox}.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
-
             int giaNgauNhien = random.Next(60, 100) * 100;
             giarandom.Text = giaNgauNhien.ToString();
         }
-
-
 
         private TextBox TimTextBox(string ten)
         {
@@ -71,12 +62,9 @@ namespace designkhongmaco
             return null;
         }
 
-
         private void TextBox_Click(object sender, EventArgs e)
         {
             TextBox clickedTextBox = (TextBox)sender;
-
-
             foreach (TextBox textBox in displayedProducts)
             {
                 if (textBox == clickedTextBox)
@@ -91,7 +79,6 @@ namespace designkhongmaco
                 }
             }
 
-
             if (!displayedProducts.Contains(clickedTextBox))
             {
                 displayedProducts.Add(clickedTextBox);
@@ -102,10 +89,7 @@ namespace designkhongmaco
                 displayedProducts.Remove(clickedTextBox);
                 selectedPrices.Remove(TrichXuatGia(clickedTextBox.Text));
             }
-
-
         }
-
 
         private int TrichXuatGia(string thongTinSanPham)
         {
@@ -115,21 +99,16 @@ namespace designkhongmaco
             return int.Parse(chuoiGia);
         }
 
-
         private void doan_Click(object sender, EventArgs e)
         {
-            AmThanh amThanh = new AmThanh();
 
             if (!int.TryParse(giarandom.Text, out int giaNgauNhien))
             {
                 MessageBox.Show("Giá nhập không hợp lệ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-
             int soLuongDoanDung = 0;
             int tongGiaiThuong = 0;
-
-
             if (textBox2.BorderStyle == BorderStyle.FixedSingle && TrichXuatGia(textBox2.Text) < giaNgauNhien)
             {
                 soLuongDoanDung++;
@@ -160,7 +139,6 @@ namespace designkhongmaco
                 soLuongDoanDung++;
                 tongGiaiThuong += TrichXuatGia(textBox7.Text);
             }
-
             soLuongDoanDung = Math.Min(soLuongDoanDung, 4);
             if (soLuongDoanDung == 4)
             {
@@ -174,18 +152,20 @@ namespace designkhongmaco
             }
             TienThuong = (int)tongGiaiThuong;
             this.Hide();
-
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
             HienThiDanhSachSanPham();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             guna2Panel1.Visible = false;
+        }
+        private void Giarandom_Enter(object sender, EventArgs e)
+        {
+            this.ActiveControl = doan;
         }
     }
 }

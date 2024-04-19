@@ -11,9 +11,14 @@ namespace OOP_CLASS_1
         public Vong_LuaChonThongMinh(SanPhamList sanPhamList) : base("LuaChonThongMinh")
         {
             SanPhamList = sanPhamList;
+            // Sắp xếp danh sách sản phẩm theo giá tăng dần
             List<SanPham> sortedSanPhams = new List<SanPham>(SanPhamList.SanPhams);
             sortedSanPhams.Sort(SoSanhSPByGia);
+
+            // Lọc các bộ ba sản phẩm có giá cận kề nhau
             List<List<SanPham>> TatCaBoBa = LocSanPham(sortedSanPhams);
+
+            // Chọn ngẫu nhiên một bộ ba sản phẩm từ danh sách các bộ ba
             List<SanPham> randomTriplet = null;
             if (TatCaBoBa.Count > 0)
             {
@@ -22,6 +27,7 @@ namespace OOP_CLASS_1
                 randomTriplet = TatCaBoBa[randomIndex];
             }
 
+            // Hoán đổi vị trí các sản phẩm trong bộ ba ngẫu nhiên
             if (randomTriplet != null)
             {
                 Random random = new Random();
@@ -33,11 +39,13 @@ namespace OOP_CLASS_1
                 }
             }
 
+            // Cập nhật danh sách sản phẩm với bộ ba đã được chọn và xáo trộn
             SanPhamList.SanPhams = randomTriplet;
-
+            // Tính tổng tiền thưởng dựa trên giá của các sản phẩm trong bộ ba
             this.TongTienThuong = randomTriplet[0].GiaSP + randomTriplet[1].GiaSP + randomTriplet[2].GiaSP;
         }
 
+        // Hoán đổi vị trí hai phần tử trong danh sách
         private void Swap<T>(List<T> list, int indexA, int indexB)
         {
             T temp = list[indexA];
@@ -45,21 +53,21 @@ namespace OOP_CLASS_1
             list[indexB] = temp;
         }
 
+        // So sánh hai sản phẩm theo giá
         private int SoSanhSPByGia(SanPham sp1, SanPham sp2)
         {
             return sp1.GiaSP.CompareTo(sp2.GiaSP);
         }
 
+        // Lọc các bộ ba sản phẩm có giá cận kề nhau
         private List<List<SanPham>> LocSanPham(List<SanPham> sortedSanPhams)
         {
             List<List<SanPham>> TatCaBoBa = new List<List<SanPham>>();
-
             for (int i = 0; i < sortedSanPhams.Count - 2; i++)
             {
                 SanPham sanPham1 = sortedSanPhams[i];
                 SanPham sanPham2 = sortedSanPhams[i + 1];
                 SanPham sanPham3 = sortedSanPhams[i + 2];
-
                 if (Math.Abs(sanPham1.GiaSP - sanPham2.GiaSP) <= 1000 && Math.Abs(sanPham2.GiaSP - sanPham3.GiaSP) <= 1000)
                 {
                     List<SanPham> triplet = new List<SanPham>();
@@ -92,7 +100,6 @@ namespace OOP_CLASS_1
             SanPham sanPhamChon = SanPhamList.SanPhams[sanPhamChonNumber - 1];
             decimal maxPrice = GetMaxPrice();
             AmThanh amThanh = new AmThanh();
-
             if (sanPhamChon.GiaSP == maxPrice)
             {
                 amThanh.PlayCorrectSound();
@@ -119,15 +126,15 @@ namespace OOP_CLASS_1
 
         private decimal GetMaxPrice()
         {
-            decimal Gia = 0;
+            decimal maxPrice = 0;
             foreach (SanPham sp in SanPhamList.SanPhams)
             {
-                if (sp.GiaSP > Gia)
+                if (sp.GiaSP > maxPrice)
                 {
-                    Gia = sp.GiaSP;
+                    maxPrice = sp.GiaSP;
                 }
             }
-            return Gia;
+            return maxPrice;
         }
     }
 }

@@ -65,6 +65,7 @@
             // 
             // btn_S1
             // 
+            this.btn_S1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btn_S1.BackColor = System.Drawing.Color.Transparent;
             this.btn_S1.BorderRadius = 10;
             this.btn_S1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -85,6 +86,7 @@
             // 
             // btn_S2
             // 
+            this.btn_S2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btn_S2.BackColor = System.Drawing.Color.Transparent;
             this.btn_S2.BorderRadius = 10;
             this.btn_S2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -105,6 +107,7 @@
             // 
             // btn_2
             // 
+            this.btn_2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btn_2.BackColor = System.Drawing.Color.Transparent;
             this.btn_2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -124,6 +127,7 @@
             // 
             // btn_S3
             // 
+            this.btn_S3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_S3.BackColor = System.Drawing.Color.Transparent;
             this.btn_S3.BorderRadius = 10;
             this.btn_S3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -144,6 +148,7 @@
             // 
             // btn_3
             // 
+            this.btn_3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_3.BackColor = System.Drawing.Color.Transparent;
             this.btn_3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -163,6 +168,8 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(45, 178);
@@ -174,6 +181,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(346, 178);
@@ -185,6 +193,8 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(645, 178);
@@ -196,6 +206,7 @@
             // 
             // btn_tieptuc
             // 
+            this.btn_tieptuc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_tieptuc.BorderColor = System.Drawing.Color.Red;
             this.btn_tieptuc.BorderRadius = 3;
             this.btn_tieptuc.BorderThickness = 2;
@@ -206,7 +217,7 @@
             this.btn_tieptuc.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_tieptuc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_tieptuc.ForeColor = System.Drawing.Color.Black;
-            this.btn_tieptuc.Location = new System.Drawing.Point(465, 124);
+            this.btn_tieptuc.Location = new System.Drawing.Point(465, 135);
             this.btn_tieptuc.Margin = new System.Windows.Forms.Padding(4);
             this.btn_tieptuc.Name = "btn_tieptuc";
             this.btn_tieptuc.Size = new System.Drawing.Size(116, 37);
@@ -216,20 +227,26 @@
             // 
             // pnl_huongdan
             // 
+            this.pnl_huongdan.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnl_huongdan.BorderColor = System.Drawing.Color.Red;
             this.pnl_huongdan.BorderRadius = 3;
             this.pnl_huongdan.BorderThickness = 2;
             this.pnl_huongdan.Controls.Add(this.btn_tieptuc);
             this.pnl_huongdan.Controls.Add(this.label4);
             this.pnl_huongdan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl_huongdan.Location = new System.Drawing.Point(137, 106);
+            this.pnl_huongdan.Location = new System.Drawing.Point(137, 127);
             this.pnl_huongdan.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_huongdan.Name = "pnl_huongdan";
-            this.pnl_huongdan.Size = new System.Drawing.Size(595, 180);
+            this.pnl_huongdan.Size = new System.Drawing.Size(595, 185);
             this.pnl_huongdan.TabIndex = 22;
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(9, 11);
@@ -238,6 +255,7 @@
             this.label4.Size = new System.Drawing.Size(554, 109);
             this.label4.TabIndex = 1;
             this.label4.Text = resources.GetString("label4.Text");
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainVong4
             // 

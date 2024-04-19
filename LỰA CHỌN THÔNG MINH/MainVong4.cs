@@ -29,7 +29,7 @@ namespace Vòng_4
         {
         }
 
-        // Hiển thị mô tả sản phẩm khi nhấp vào nút
+        // Hiển thị mô tả sản phẩm khi nhấp vào nút thứ tự sản phẩm
         private void HienMoTaSP(int index)
         {
             if (index >= 0 && index < sanPhamList.SanPhams.Count)
@@ -39,7 +39,6 @@ namespace Vòng_4
             }
         }
 
-        // Hiển thị tên sản phẩm
         private void HienTenSP()
         {
             label1.Text = LuaChonThongMinh.SanPhamList.SanPhams[0].TenSP;
@@ -47,7 +46,7 @@ namespace Vòng_4
             label3.Text = LuaChonThongMinh.SanPhamList.SanPhams[2].TenSP;
         }
 
-        // Trình xử lý sự kiện cho nút 1 lần nhấp
+        // Xử lý nút thứ tự sản phẩm
         private void btn_1_Click(object sender, EventArgs e)
         {
             HienMoTaSP(0);
@@ -55,7 +54,6 @@ namespace Vòng_4
             KiemTraMoTa();
         }
 
-        // Trình xử lý sự kiện cho nút bấm 2 lần
         private void btn_2_Click(object sender, EventArgs e)
         {
             HienMoTaSP(1);
@@ -63,7 +61,6 @@ namespace Vòng_4
             KiemTraMoTa();
         }
 
-        // Trình xử lý sự kiện cho nút bấm 3
         private void btn_3_Click(object sender, EventArgs e)
         {
             HienMoTaSP(2);
@@ -71,7 +68,7 @@ namespace Vòng_4
             KiemTraMoTa();
         }
 
-        // Bật các nút chọn khi nhấp vào tất cả các nút sản phẩm
+        // Bật các nút chọn Sản Phẩm khi nhấp vào tất cả các nút sản phẩm
         private void KiemTraMoTa()
         {
             if (btnClicked[0] && btnClicked[1] && btnClicked[2])
@@ -106,7 +103,6 @@ namespace Vòng_4
                         GiaSPCaoNhat = sp;
                     }
                 }
-
                 if (sanPhamChon.GiaSP == maxPrice)
                 {
                     amThanh.PlayCorrectSound();
@@ -122,11 +118,9 @@ namespace Vòng_4
                     DaChon = true;
                     if (DaChon)
                     {
-                        MessageBox.Show("Bạn đã chọn sai, chương trình kết thúc!");
                         this.Hide();
                     }
                 }
-
                 HienTenSP();
             }
         }

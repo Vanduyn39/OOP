@@ -1,19 +1,13 @@
 using OOP_CLASS_1;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TrangChu
 {
     public partial class SETTING : Form
     {
-        private AmThanh amThanh=new AmThanh();
+        private AmThanh amThanh = new AmThanh();
+
         public SETTING()
         {
             InitializeComponent();
@@ -24,18 +18,20 @@ namespace TrangChu
             this.Hide();
         }
 
-        private void rdb_bat_CheckedChanged(object sender, EventArgs e)
+        private void SETTING_Load(object sender, EventArgs e)
         {
-            if(rdb_bat.Checked)
-            {
-                amThanh.PlayMoGameSound();
-            }
+            rdb_t.Checked = false; // Không ch?n rdb_bat khi form ???c m?
+            amThanh.StopMoGameSound(); // ??m b?o âm thanh ???c t?t khi form ???c m?
         }
 
-        private void rdb_tat_CheckedChanged(object sender, EventArgs e)
+        private void rdb_t_CheckedChanged(object sender, EventArgs e)
         {
             amThanh.StopMoGameSound();
         }
+
+        private void rdb_b_CheckedChanged(object sender, EventArgs e)
+        {
+            amThanh.PlayMoGameSound();
+        }
     }
 }
-
