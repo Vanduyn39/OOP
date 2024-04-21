@@ -232,7 +232,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::giaodienhaychongiadung.Properties.Resources.haychongiadungg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(837, 423);
+            this.ClientSize = new System.Drawing.Size(841, 430);
             this.Controls.Add(this.panel_btn);
             this.Controls.Add(this.form_thoat);
             this.Controls.Add(this.form1_batdau);

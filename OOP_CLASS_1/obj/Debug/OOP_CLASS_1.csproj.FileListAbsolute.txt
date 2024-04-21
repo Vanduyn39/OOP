@@ -102,3 +102,29 @@ C:\Users\dell\Downloads\OOP_15-main\OOP_CLASS_1\obj\Debug\OOP_CLASS_1.csproj.Cor
 C:\Users\dell\Downloads\OOP_15-main\OOP_CLASS_1\obj\Debug\OOP_CLAS.52AEA879.Up2Date
 C:\Users\dell\Downloads\OOP_15-main\OOP_CLASS_1\obj\Debug\OOP_CLASS_1.exe
 C:\Users\dell\Downloads\OOP_15-main\OOP_CLASS_1\obj\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Memory.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\obj\Debug\OOP_CLASS_1.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\obj\Debug\OOP_CLASS_1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\obj\Debug\OOP_CLASS_1.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\obj\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\OOP_CLASS_1\obj\Debug\OOP_CLASS_1.pdb

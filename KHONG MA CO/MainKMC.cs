@@ -36,7 +36,7 @@ namespace designkhongmaco
                 TextBox textBox = TimTextBox(tenTextBox);
                 if (textBox != null)
                 {
-                    textBox.Text = $"{sanPhamList.SanPhams[i].TenSP} - Giá: {sanPhamList.SanPhams[i].GiaSP} - {sanPhamList.SanPhams[i].Mota}";
+                    textBox.Text = $"{sanPhamList.SanPhams[i].TenSP} - {sanPhamList.SanPhams[i].Mota} - Giá: {sanPhamList.SanPhams[i].GiaSP} -";
                     textBox.ReadOnly = true;
                     displayedProducts.Add(textBox);
                     textBox.Click += TextBox_Click;
@@ -140,12 +140,12 @@ namespace designkhongmaco
                 tongGiaiThuong += TrichXuatGia(textBox7.Text);
             }
             soLuongDoanDung = Math.Min(soLuongDoanDung, 4);
-            if (soLuongDoanDung == 4)
+            if (soLuongDoanDung >= 2)
             {
                 // Hiển thị MessageBox thông báo số sản phẩm đoán đúng và tiền thưởng
                 MessageBox.Show($"Bạn đã đoán đúng {soLuongDoanDung} sản phẩm.\nTiền thưởng của bạn: {tongGiaiThuong} ", "Chúc mừng", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (soLuongDoanDung < 4)
+            else 
             {
                 MessageBox.Show($"Bạn chỉ đoán đúng được {soLuongDoanDung} sản phẩm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 tongGiaiThuong = 0;

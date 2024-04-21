@@ -41,7 +41,7 @@ namespace TrangChu
                     if (playerList != null && playerList.Players != null)
                     {
                         players = playerList.Players;
-                        players.Sort(SoSanhPlayerByTien);
+                        players.Sort(Player.CompareByTienThuong);
                         return players;
                     }
                 }
@@ -57,10 +57,6 @@ namespace TrangChu
             return null;
         }
 
-        public int SoSanhPlayerByTien(Player p1, Player p2)
-        {
-            return -p1.TienThuong.CompareTo(p2.TienThuong);
-        }
 
         private void XepHang_Load_1(object sender, EventArgs e)
         {

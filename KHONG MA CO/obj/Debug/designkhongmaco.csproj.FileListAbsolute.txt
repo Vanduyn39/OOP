@@ -177,3 +177,27 @@ C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\O
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.csproj.CopyComplete
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.exe
 C:\Users\Admin\Documents\Tài liệu\ueh\lập trình hướng đối tượng\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\designkhongmaco.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\designkhongmaco.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\OOP_CLASS_1.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\System.Memory.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\OOP_CLASS_1.pdb
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\OOP_CLASS_1.exe.config
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.MainKMC.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.Properties.Resources.resources
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.csproj.CopyComplete
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.exe
+C:\Users\Admin\Documents\Tài liệu\ueh\OOP_15\KHONG MA CO\obj\Debug\designkhongmaco.pdb

@@ -16,7 +16,7 @@ namespace Vòng_4
         {
             InitializeComponent();
             this.sanPhamList = sanPhamList;
-            this.LuaChonThongMinh = new Vong_LuaChonThongMinh(sanPhamList); 
+            this.LuaChonThongMinh = new Vong_LuaChonThongMinh(sanPhamList);
             this.DaChon = false;
             HienTenSP();
             // Vô hiệu hóa các nút lựa chọn ban đầu

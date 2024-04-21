@@ -33,14 +33,14 @@ namespace Vòng_2
             {
                 pnl_Result.BringToFront();
                 pnl_Result.Visible = true;
-                lbl_Result.Text = $"Bạn đã đoán đúng! \nGiá đúng là: {correctPrice} VND. ";
+                lbl_Result.Text = $"Bạn đã đoán đúng! \nGiá đúng là: {correctPrice} . ";
                 correctGuesses++;
             }
             else
             {
                 pnl_Result.BringToFront();
                 pnl_Result.Visible = true;
-                lbl_Result.Text = $"Bạn đã đoán sai!  \nGiá đúng là: {correctPrice} VND.";
+                lbl_Result.Text = $"Bạn đã đoán sai!  \nGiá đúng là: {correctPrice} .";
             }
             vongBanTayVang.Guess(guess, hiddenPrice, correctPrice);
             DisplayProduct();
@@ -56,7 +56,7 @@ namespace Vòng_2
                 nextProducts = vongBanTayVang.GetNextProduct();
                 if (nextProducts != null)
                 {
-                    label1.Text = $"Trưng bày {numberOfProducts} sản phẩm: {nextProducts.TenSP}\nMô tả: {nextProducts.Mota} \nGiá đưa ra: {hiddenPrice} VND.";
+                    label1.Text = $"Giá đưa ra: {hiddenPrice}\nTrưng bày {numberOfProducts}\n sản phẩm: {nextProducts.TenSP}\nMô tả: {nextProducts.Mota}  .";
                     displayedProducts++;
                 }
             }
@@ -142,7 +142,7 @@ namespace Vòng_2
                         int randomIndex = random.Next(prizeValues.Count);
                         int prizeValue = prizeValues[randomIndex];
                         correctGuesses--;
-                        MessageBox.Show($"Giải thưởng của ô là: {prizeValue} VND.\nBạn còn {correctGuesses} cơ hội!");
+                        MessageBox.Show($"Giải thưởng của ô là: {prizeValue} .\nBạn còn {correctGuesses} cơ hội!");
                         clickedButton.Visible = false;
                         vongBanTayVang.AddPrize(prizeValue); 
                     }

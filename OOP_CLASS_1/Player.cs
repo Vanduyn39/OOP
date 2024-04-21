@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace OOP_CLASS_1
 {
-    public class Player : ISerializable, IComparable<Player>
+    public class Player : ISerializable
     {
         public string Ten { get; set; }
         public VongChoi Vongchoidachoi { get; set; }
@@ -35,9 +35,36 @@ namespace OOP_CLASS_1
         {
             return $"Nguoi choi: Ten nguoi choi: {Ten},Vong Choi Da Choi: {Vongchoidachoi.GetType().Name}, Tien Thuong: {TienThuong}";
         }
-        public int CompareTo(Player other)
+        public string GetTen()
+        { return Ten; }
+        public VongChoi GetVongChoi()
+        { return Vongchoidachoi; }
+        public int GetTienThuong()
+        { return TienThuong; }
+        public delegate int CompareTienThuong(Player player1, Player player2);
+        public static int CompareByTienThuong(Player player1, Player player2)
         {
-            return TienThuong.CompareTo(other.TienThuong);
+            if (player1.GetTienThuong() > player2.GetTienThuong())
+                return -1;
+            else if (player1.GetTienThuong() == player2.GetTienThuong())
+                return 0;
+            else
+                return 1;
+        }
+        private static void Swap(Player[] players, int i, int j)
+        {
+            Player player = players[i];
+            players[i] = players[j];
+            players[j] = player;
+        }
+        public static void Sort(Player[] players, CompareTienThuong compareTienThuong)
+        {
+            for (int i = 0; i < players.Length - 1; i++)
+                for (int j = players.Length - 1; j > i; j--)
+                    if (compareTienThuong(players[j], players[j - 1]) > 0)
+                    {
+                        Swap(players, j, j - 1);
+                    }
         }
     }
 }

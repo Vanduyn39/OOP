@@ -28,6 +28,7 @@ namespace TrangChu
         }
         private VongChoi vongChoi;
 
+
         private void form1_batdau_Click(object sender, EventArgs e)
         {
             panel_btn.Visible = true;
@@ -76,8 +77,7 @@ namespace TrangChu
             DieuKhien dieuKhien = new DieuKhien(playerList, sanPhamList);
             dieuKhien.AddSanPham(sanPhamList);
             KetThucGame.ENDGAME ENDGAME = new KetThucGame.ENDGAME(player);
-            amThanh.StopMoGameSound();
-            // Vòng 1: BÀN TAY VÀNG
+            //Vòng 1: BÀN TAY VÀNG
             Vòng_2.GuessThePrice guessThePriceForm = new Vòng_2.GuessThePrice(sanPhamList);
             guessThePriceForm.ShowDialog();
             player.TienThuong += guessThePriceForm.TienThuong;
